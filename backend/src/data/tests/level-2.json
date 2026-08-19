@@ -1,0 +1,66 @@
+{
+  "id": "food-a1",
+  "title": "Еда и напитки",
+  "description": "Продукты, которые мы едим каждый день.",
+  "level": 1,
+  "difficulty": "easy",
+  "unlockLevel": 1,
+  "timeLimitSeconds": 15,
+  "questions": [
+    {
+      "id": "f1-q1",
+      "question": "Выберите перевод слова 'bread':",
+      "options": [
+        { "id": "a", "text": "молоко" },
+        { "id": "b", "text": "хлеб" },
+        { "id": "c", "text": "сыр" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bread — это хлеб. Milk — молоко, cheese — сыр."
+    },
+    {
+      "id": "f1-q2",
+      "question": "Как будет 'вода' по-английски?",
+      "options": [
+        { "id": "a", "text": "water" },
+        { "id": "b", "text": "juice" },
+        { "id": "c", "text": "tea" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Вода по-английски — water. Juice — сок, tea — чай."
+    },
+    {
+      "id": "f1-q3",
+      "question": "Выберите слово, обозначающее фрукт:",
+      "options": [
+        { "id": "a", "text": "carrot" },
+        { "id": "b", "text": "potato" },
+        { "id": "c", "text": "banana" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Banana — фрукт (банан). Carrot — морковь, potato — картошка, это овощи."
+    },
+    {
+      "id": "f1-q4",
+      "question": "Выберите перевод фразы 'a cup of tea':",
+      "options": [
+        { "id": "a", "text": "чашка чая" },
+        { "id": "b", "text": "стакан воды" },
+        { "id": "c", "text": "бутылка молока" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A cup of tea — чашка чая. Cup — чашка, tea — чай."
+    },
+    {
+      "id": "f1-q5",
+      "question": "Какое слово означает 'завтрак'?",
+      "options": [
+        { "id": "a", "text": "dinner" },
+        { "id": "b", "text": "lunch" },
+        { "id": "c", "text": "breakfast" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Breakfast — завтрак. Lunch — обед, dinner — ужин."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+import { motion } from 'framer-motion';
+import { ArrowLeft, Award, Target, TrendingUp } from 'lucide-react';
+import { Card, Button } from '../components/ui';
+import { useProgressContext } from '../contexts/ProgressContext';
+import { xpForNextLevel } from '../lib/gamification';
+
+export function Profile({ onBack }) {
+  const { progress, achievements } = useProgressContext();
+
+  const totalTests = progress.totalAnswered > 0
+    ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100)
+    : 0;
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, x: 20 }}
+      animate={{ opacity: 1, x: 0 }}
+      className="space-y-4"
+    >
+      <div className="flex items-center gap-3">
+        <Button variant="ghost" size="sm" onClick={onBack} className="!px-3">
+          <ArrowLeft size={20} />
+        </Button>
+        <h2 className="text-xl font-extrabold text-ink">Профиль</h2>
+      </div>
+
+      <Card className="bg-gradient-to-br from-pastel-pink/30 to-pastel-lavender/30">
+        <div className="text-center">
+          <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-pastel-coral to-pastel-peach flex items-center justify-center text-white text-3xl shadow-glow mb-3">
+            👩‍🎓
+          </div>
+          <p className="text-2xl font-extrabold text-ink">Уровень {progress.level}</p>
+          <p className="text-muted">{progress.xp} / {xpForNextLevel(progress.level)} XP</p>
+        </div>
+      </Card>
+
+      <div className="grid grid-cols-2 gap-3">
+        <Card className="text-center">
+          <Target size={24} className="mx-auto text-pastel-coral mb-2" />
+          <p className="text-xl font-extrabold text-ink">{totalTests}%</p>
+          <p className="text-xs text-muted">правильных</p>
+        </Card>
+        <Card className="text-center">
+          <TrendingUp size={24} className="mx-auto text-pastel-softgreen mb-2" />
+          <p className="text-xl font-extrabold text-ink">{progress.bestStreak}</p>
+          <p className="text-xs text-muted">лучшая серия</p>
+        </Card>
+      </div>
+
+      <Card>
+        <div className="flex items-center gap-2 mb-3">
+          <Award size={20} className="text-pastel-coral" />
+          <p className="font-bold text-ink">Награды ({progress.badges.length}/{achievements.length})</p>
+        </div>
+        <div className="space-y-2">
+          {achievements.map((badge) => {
+            const earned = progress.badges.includes(badge.id);
+            return (
+              <div
+                key={badge.id}
+                className={`
+                  flex items-center gap-3 p-3 rounded-2xl transition-colors
+                  ${earned ? 'bg-pastel-lemon/40' : 'bg-gray-50'}
+                `}
+              >
+                <div className={`
+                  w-10 h-10 rounded-xl flex items-center justify-center text-lg
+                  ${earned ? 'bg-white shadow-soft' : 'bg-gray-100'}
+                `}>
+                  {badge.icon === 'star' && '⭐'}
+                  {badge.icon === 'trophy' && '🏆'}
+                  {badge.icon === 'flame' && '🔥'}
+                  {badge.icon === 'zap' && '⚡'}
+                  {badge.icon === 'rocket' && '🚀'}
+                </div>
+                <div className="flex-1">
+                  <p className={`font-bold ${earned ? 'text-ink' : 'text-muted'}`}>{badge.title}</p>
+                  <p className="text-xs text-muted">{badge.description}</p>
+                </div>
+                {earned && <span className="text-pastel-coral font-bold text-sm">✓</span>}
+              </div>
+            );
+          })}
+        </div>
+      </Card>
+    </motion.div>
+  );
+}

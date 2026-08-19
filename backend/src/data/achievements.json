@@ -1,0 +1,32 @@
+[
+  {
+    "id": "first-correct",
+    "title": "Первый шаг",
+    "description": "Первый правильный ответ.",
+    "icon": "star"
+  },
+  {
+    "id": "perfect-test",
+    "title": "Идеальный тест",
+    "description": "Все ответы правильно в одном тесте.",
+    "icon": "trophy"
+  },
+  {
+    "id": "streak-10",
+    "title": "Огонь!",
+    "description": "10 правильных ответов подряд.",
+    "icon": "flame"
+  },
+  {
+    "id": "speed-demon",
+    "title": "Молния",
+    "description": "5 быстрых ответов подряд.",
+    "icon": "zap"
+  },
+  {
+    "id": "level-5",
+    "title": "Уверенный рост",
+    "description": "Достигнуть 5 уровня.",
+    "icon": "rocket"
+  }
+]

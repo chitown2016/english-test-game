@@ -1,0 +1,66 @@
+{
+  "id": "basics-a1",
+  "title": "Базовые слова",
+  "description": "Простые английские слова на каждый день.",
+  "level": 1,
+  "difficulty": "easy",
+  "unlockLevel": 1,
+  "timeLimitSeconds": 15,
+  "questions": [
+    {
+      "id": "b1-q1",
+      "question": "Выберите перевод слова 'apple':",
+      "options": [
+        { "id": "a", "text": "яблоко" },
+        { "id": "b", "text": "груша" },
+        { "id": "c", "text": "банан" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Apple — это яблоко. Груша — pear, а банан — banana."
+    },
+    {
+      "id": "b1-q2",
+      "question": "Как будет 'кошка' по-английски?",
+      "options": [
+        { "id": "a", "text": "dog" },
+        { "id": "b", "text": "cat" },
+        { "id": "c", "text": "mouse" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Кошка по-английски — cat. Dog — собака, mouse — мышь."
+    },
+    {
+      "id": "b1-q3",
+      "question": "Выберите правильный артикль: '___ book'",
+      "options": [
+        { "id": "a", "text": "a" },
+        { "id": "b", "text": "an" },
+        { "id": "c", "text": "the" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Перед словом book (начинается с согласного звука) используем неопределённый артикль a."
+    },
+    {
+      "id": "b1-q4",
+      "question": "Какой ответ правильный: 'How are you?'",
+      "options": [
+        { "id": "a", "text": "I am 25." },
+        { "id": "b", "text": "I am fine, thank you." },
+        { "id": "c", "text": "My name is Anna." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "На вопрос 'How are you?' обычно отвечают 'I am fine, thank you' — 'У меня всё хорошо, спасибо'."
+    },
+    {
+      "id": "b1-q5",
+      "question": "Выберите перевод слова 'sun':",
+      "options": [
+        { "id": "a", "text": "луна" },
+        { "id": "b", "text": "звезда" },
+        { "id": "c", "text": "солнце" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sun — солнце. Moon — луна, star — звезда."
+    }
+  ]
+}

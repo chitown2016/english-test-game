@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-pastel-lavender/30 text-ink font-sans antialiased;
+    margin: 0;
+    min-height: 100svh;
+  }
+
+  #root {
+    @apply min-h-screen w-full max-w-md mx-auto bg-white/80 backdrop-blur-sm;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  }
+}
+
+@layer utilities {
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}

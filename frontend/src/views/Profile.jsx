@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { ArrowLeft, Award, Target, TrendingUp, Volume2, VolumeX } from 'lucide-react';
+import { ArrowLeft, Award, Target, TrendingUp, Volume2, VolumeX, Timer } from 'lucide-react';
 import { Card, Button } from '../components/ui';
 import { useProgressContext } from '../contexts/ProgressContext';
 import { xpForNextLevel } from '../lib/gamification';
 
 export function Profile({ onBack }) {
-  const { progress, achievements, soundEnabled, setSoundEnabled } = useProgressContext();
+  const { progress, achievements, soundEnabled, setSoundEnabled, timerEnabled, setTimerEnabled } = useProgressContext();
 
   const totalTests = progress.totalAnswered > 0
     ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100)
@@ -63,6 +63,25 @@ export function Profile({ onBack }) {
           onClick={() => setSoundEnabled(!soundEnabled)}
         >
           {soundEnabled ? 'Выключить' : 'Включить'}
+        </Button>
+      </Card>
+
+      <Card className="flex items-center justify-between gap-3">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-xl bg-pastel-peach/60 flex items-center justify-center text-ink">
+            <Timer size={20} />
+          </div>
+          <div>
+            <p className="font-bold text-ink">Таймер вопросов</p>
+            <p className="text-xs text-muted">{timerEnabled ? 'Включен' : 'Выключен'}</p>
+          </div>
+        </div>
+        <Button
+          variant={timerEnabled ? 'primary' : 'secondary'}
+          size="sm"
+          onClick={() => setTimerEnabled(!timerEnabled)}
+        >
+          {timerEnabled ? 'Выключить' : 'Включить'}
         </Button>
       </Card>
 

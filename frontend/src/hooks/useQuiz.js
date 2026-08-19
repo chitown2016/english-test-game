@@ -1,6 +1,6 @@
 import { useState, useCallback, useRef } from 'react';
 
-export function useQuiz(test) {
+export function useQuiz(test, { timerEnabled = true } = {}) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [sessionStreak, setSessionStreak] = useState(0);
@@ -14,8 +14,9 @@ export function useQuiz(test) {
   const isLastQuestion = currentQuestionIndex === test.questions.length - 1;
 
   const tick = useCallback((remaining) => {
+    if (!timerEnabled) return;
     setTimeRemainingMs(remaining);
-  }, []);
+  }, [timerEnabled]);
 
   const resetTimer = useCallback(() => {
     setTimeRemainingMs(timeLimitMs);
@@ -27,7 +28,7 @@ export function useQuiz(test) {
 
     const question = currentQuestion;
     const isCorrect = optionId === question.correctOptionId;
-    const timeSpentMs = timeLimitMs - timeRemainingMs;
+    const timeSpentMs = timerEnabled ? timeLimitMs - timeRemainingMs : 0;
 
     const answer = {
       questionId: question.id,
@@ -41,7 +42,7 @@ export function useQuiz(test) {
     setSessionStreak((prev) => (isCorrect ? prev + 1 : 0));
     setScore((prev) => (isCorrect ? prev + 1 : prev));
     setStatus('answered');
-  }, [status, currentQuestion, timeLimitMs, timeRemainingMs]);
+  }, [status, currentQuestion, timeLimitMs, timeRemainingMs, timerEnabled]);
 
   const nextQuestion = useCallback(() => {
     if (isLastQuestion) {
@@ -54,8 +55,9 @@ export function useQuiz(test) {
   }, [isLastQuestion, resetTimer]);
 
   const timeUp = useCallback(() => {
+    if (!timerEnabled) return;
     submitAnswer('__TIME_UP__');
-  }, [submitAnswer]);
+  }, [submitAnswer, timerEnabled]);
 
   return {
     currentQuestion,

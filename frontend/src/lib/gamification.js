@@ -20,12 +20,12 @@ export function getSpeedBonus(timeRemainingMs, timeLimitMs) {
   return 0;
 }
 
-export function calculateQuestionPoints({ isCorrect, difficulty, streak, timeRemainingMs, timeLimitMs }) {
+export function calculateQuestionPoints({ isCorrect, difficulty, streak, timeRemainingMs, timeLimitMs, timerEnabled = true }) {
   if (!isCorrect) return 0;
 
   const difficultyMultiplier = DIFFICULTY_MULTIPLIER[difficulty] || 1;
   const streakMultiplier = getStreakMultiplier(streak);
-  const speedBonus = getSpeedBonus(timeRemainingMs, timeLimitMs);
+  const speedBonus = timerEnabled ? getSpeedBonus(timeRemainingMs, timeLimitMs) : 0;
 
   return Math.round(BASE_XP * difficultyMultiplier * streakMultiplier + speedBonus);
 }

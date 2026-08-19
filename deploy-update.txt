@@ -1,0 +1,5 @@
+cd /opt/engquest
+git pull
+cd frontend
+npm install
+npm run build

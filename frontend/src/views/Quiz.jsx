@@ -20,7 +20,7 @@ import {
 import { playCorrect, playWrong, playLevelUp, playBadge, playComplete } from '../lib/sounds';
 
 export function Quiz({ testId, onFinish, onExit }) {
-  const { progress, saveProgress, achievements } = useProgressContext();
+  const { progress, saveProgress, achievements, timerEnabled } = useProgressContext();
   const [test, setTest] = useState(null);
   const [loading, setLoading] = useState(true);
   const [earnedXp, setEarnedXp] = useState(0);
@@ -129,7 +129,7 @@ export function Quiz({ testId, onFinish, onExit }) {
     });
   }, [progress, testId, saveProgress, onFinish, test]);
 
-  const quiz = useQuiz(test || { timeLimitSeconds: 15, questions: [] });
+  const quiz = useQuiz(test || { timeLimitSeconds: 15, questions: [] }, { timerEnabled });
 
   useEffect(() => {
     if (!test) return;
@@ -162,6 +162,7 @@ export function Quiz({ testId, onFinish, onExit }) {
       streak: newSessionStreak,
       timeRemainingMs: quiz.timeRemainingMs,
       timeLimitMs: quiz.timeLimitMs,
+      timerEnabled,
     });
 
     if (isCorrect) {
@@ -179,7 +180,7 @@ export function Quiz({ testId, onFinish, onExit }) {
           selectedOptionId: optionId,
           isCorrect,
           timeSpentMs: quiz.timeLimitMs - quiz.timeRemainingMs,
-          speedBonus: points > 0 && quiz.timeRemainingMs / quiz.timeLimitMs > 0.4 ? 1 : 0,
+          speedBonus: timerEnabled && points > 0 && quiz.timeRemainingMs / quiz.timeLimitMs > 0.4 ? 1 : 0,
         },
       ],
       sessionStreak: newSessionStreak,
@@ -247,13 +248,15 @@ export function Quiz({ testId, onFinish, onExit }) {
         </div>
       </div>
 
-      <TimerBar
-        timeRemainingMs={quiz.timeRemainingMs}
-        timeLimitMs={quiz.timeLimitMs}
-        status={quiz.status}
-        onTick={handleTick}
-        onTimeUp={handleTimeUp}
-      />
+      {timerEnabled && (
+        <TimerBar
+          timeRemainingMs={quiz.timeRemainingMs}
+          timeLimitMs={quiz.timeLimitMs}
+          status={quiz.status}
+          onTick={handleTick}
+          onTimeUp={handleTimeUp}
+        />
+      )}
 
       <QuestionCard
         question={quiz.currentQuestion}

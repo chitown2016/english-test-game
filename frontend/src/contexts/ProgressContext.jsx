@@ -2,6 +2,7 @@ import { createContext, useContext, useState, useEffect } from 'react';
 import { useDeviceId } from '../hooks/useDeviceId';
 import { useProgress } from '../hooks/useProgress';
 import { useSoundEnabled } from '../hooks/useSoundEnabled';
+import { useTimerEnabled } from '../hooks/useTimerEnabled';
 import { apiService } from '../lib/api';
 import { unlockAudio } from '../lib/sounds';
 
@@ -13,6 +14,7 @@ export function ProgressProvider({ children }) {
   const [achievements, setAchievements] = useState([]);
   const [achievementsLoading, setAchievementsLoading] = useState(true);
   const [soundEnabled, setSoundEnabled] = useSoundEnabled();
+  const [timerEnabled, setTimerEnabled] = useTimerEnabled();
 
   useEffect(() => {
     unlockAudio();
@@ -45,6 +47,8 @@ export function ProgressProvider({ children }) {
     achievementsLoading,
     soundEnabled,
     setSoundEnabled,
+    timerEnabled,
+    setTimerEnabled,
   };
 
   return (

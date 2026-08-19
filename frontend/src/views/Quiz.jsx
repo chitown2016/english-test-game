@@ -78,6 +78,17 @@ export function Quiz({ testId, onFinish, onExit }) {
       leveledUpTo = newLevel;
     }
 
+    const updatedQuestionStats = { ...progress.questionStats };
+    session.answers.forEach((answer) => {
+      const existing = updatedQuestionStats[answer.questionId] || { seen: 0, correct: 0 };
+      updatedQuestionStats[answer.questionId] = {
+        seen: existing.seen + 1,
+        correct: existing.correct + (answer.isCorrect ? 1 : 0),
+        lastCorrect: answer.isCorrect,
+        lastSeenAt: new Date().toISOString(),
+      };
+    });
+
     const finalProgress = {
       ...progress,
       xp: newXp,
@@ -88,6 +99,7 @@ export function Quiz({ testId, onFinish, onExit }) {
       bestStreak: newBestStreak,
       completedTests,
       statsByTest,
+      questionStats: updatedQuestionStats,
       lastVisitDate: new Date().toISOString().split('T')[0],
     };
 

@@ -3,14 +3,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ProgressProvider, useProgressContext } from './contexts/ProgressContext';
 import { AppShell } from './components/layout';
 import { Home } from './views/Home';
-import { TestList } from './views/TestList';
 import { Quiz } from './views/Quiz';
 import { Results } from './views/Results';
 import { Profile } from './views/Profile';
 
 const views = {
   home: 'home',
-  tests: 'tests',
   quiz: 'quiz',
   results: 'results',
   profile: 'profile',
@@ -40,14 +38,26 @@ function AppContent() {
     setView(views.quiz);
   };
 
+  const startGeneral = () => {
+    setSelectedTestId('general');
+    setView(views.quiz);
+  };
+
   const finishTest = (result) => {
     setSessionResult(result);
     setView(views.results);
   };
 
   const goHome = () => setView(views.home);
-  const goTests = () => setView(views.tests);
   const goProfile = () => setView(views.profile);
+
+  const handleRetry = () => {
+    if (selectedTestId === 'general') {
+      startGeneral();
+    } else {
+      startTest(selectedTestId);
+    }
+  };
 
   return (
     <AppShell>
@@ -61,29 +71,22 @@ function AppContent() {
         >
           {view === views.home && (
             <Home
-              onStart={goTests}
+              onStartGeneral={startGeneral}
               onProfile={goProfile}
-            />
-          )}
-          {view === views.tests && (
-            <TestList
-              onSelect={startTest}
-              onBack={goHome}
             />
           )}
           {view === views.quiz && (
             <Quiz
               testId={selectedTestId}
               onFinish={finishTest}
-              onExit={goTests}
+              onExit={goHome}
             />
           )}
           {view === views.results && (
             <Results
               result={sessionResult}
               onHome={goHome}
-              onRetry={() => startTest(selectedTestId)}
-              onTests={goTests}
+              onRetry={handleRetry}
             />
           )}
           {view === views.profile && (

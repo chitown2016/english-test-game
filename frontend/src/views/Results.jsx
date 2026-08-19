@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
-import { Home, RotateCcw, List, Trophy } from 'lucide-react';
+import { Home, RotateCcw, Trophy } from 'lucide-react';
 import { Card, Button } from '../components/ui';
 import { useProgressContext } from '../contexts/ProgressContext';
 
-export function Results({ result, onHome, onRetry, onTests }) {
+export function Results({ result, onHome, onRetry }) {
   const { achievements } = useProgressContext();
   const {
     test,
@@ -91,10 +91,6 @@ export function Results({ result, onHome, onRetry, onTests }) {
         <Button onClick={onRetry} variant="primary" size="lg" className="w-full">
           <RotateCcw size={18} className="mr-2" />
           Пройти ещё раз
-        </Button>
-        <Button onClick={onTests} variant="secondary" size="md" className="w-full">
-          <List size={18} className="mr-2" />
-          Другие тесты
         </Button>
         <Button onClick={onHome} variant="ghost" size="md" className="w-full">
           <Home size={18} className="mr-2" />

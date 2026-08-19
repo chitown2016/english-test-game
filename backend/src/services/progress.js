@@ -10,6 +10,7 @@ const defaultProgress = {
   completed_tests: [],
   badges: [],
   stats_by_test: {},
+  question_stats: {},
   last_visit_date: null,
 };
 
@@ -25,6 +26,7 @@ function rowToProgress(row) {
     completedTests: row.completed_tests,
     badges: row.badges,
     statsByTest: row.stats_by_test,
+    questionStats: row.question_stats,
     lastVisitDate: row.last_visit_date,
   };
 }
@@ -48,6 +50,7 @@ async function upsertProgress(deviceId, progress) {
     completedTests = [],
     badges = [],
     statsByTest = {},
+    questionStats = {},
     lastVisitDate = null,
   } = progress;
 
@@ -55,8 +58,8 @@ async function upsertProgress(deviceId, progress) {
     `
     INSERT INTO progress (
       device_id, xp, level, total_correct, total_answered, streak, best_streak,
-      completed_tests, badges, stats_by_test, last_visit_date, updated_at
-    ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, NOW())
+      completed_tests, badges, stats_by_test, question_stats, last_visit_date, updated_at
+    ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, NOW())
     ON CONFLICT (device_id) DO UPDATE SET
       xp = EXCLUDED.xp,
       level = EXCLUDED.level,
@@ -67,6 +70,7 @@ async function upsertProgress(deviceId, progress) {
       completed_tests = EXCLUDED.completed_tests,
       badges = EXCLUDED.badges,
       stats_by_test = EXCLUDED.stats_by_test,
+      question_stats = EXCLUDED.question_stats,
       last_visit_date = EXCLUDED.last_visit_date,
       updated_at = NOW()
     RETURNING *
@@ -82,6 +86,7 @@ async function upsertProgress(deviceId, progress) {
       completedTests,
       badges,
       JSON.stringify(statsByTest),
+      JSON.stringify(questionStats),
       lastVisitDate,
     ]
   );

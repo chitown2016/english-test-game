@@ -28,6 +28,7 @@ async function api(path, options = {}) {
 export const apiService = {
   getTests: () => api('/tests'),
   getTest: (id) => api(`/tests/${id}`),
+  getGeneralTest: () => api('/tests/general'),
   getAchievements: () => api('/achievements'),
   getProgress: () => api('/progress'),
   saveProgress: (progress) => api('/progress', {

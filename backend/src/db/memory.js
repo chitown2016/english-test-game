@@ -12,6 +12,7 @@ function row(deviceId) {
     completed_tests: [],
     badges: [],
     stats_by_test: {},
+    question_stats: {},
     last_visit_date: null,
     created_at: new Date(),
     updated_at: new Date(),
@@ -41,6 +42,7 @@ async function query(text, params) {
       completedTests,
       badges,
       statsByTestJson,
+      questionStatsJson,
       lastVisitDate,
     ] = params;
 
@@ -56,6 +58,7 @@ async function query(text, params) {
       completed_tests: completedTests,
       badges,
       stats_by_test: JSON.parse(statsByTestJson),
+      question_stats: JSON.parse(questionStatsJson),
       last_visit_date: lastVisitDate,
       updated_at: new Date(),
     };

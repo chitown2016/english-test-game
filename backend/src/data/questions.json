@@ -1,0 +1,564 @@
+{
+  "pool": [
+    {
+      "id": "pool-q-001",
+      "tags": ["greetings", "basics"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как на английском сказать 'Привет'?",
+      "options": [
+        { "id": "a", "text": "Goodbye" },
+        { "id": "b", "text": "Hello" },
+        { "id": "c", "text": "Please" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hello — это привет. Goodbye — до свидания, please — пожалуйста."
+    },
+    {
+      "id": "pool-q-002",
+      "tags": ["greetings", "basics"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'спасибо':",
+      "options": [
+        { "id": "a", "text": "sorry" },
+        { "id": "b", "text": "thanks" },
+        { "id": "c", "text": "hello" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Thanks — это спасибо. Sorry — извините, hello — привет."
+    },
+    {
+      "id": "pool-q-003",
+      "tags": ["numbers"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'пять'?",
+      "options": [
+        { "id": "a", "text": "four" },
+        { "id": "b", "text": "six" },
+        { "id": "c", "text": "five" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Five — это пять. Four — четыре, six — шесть."
+    },
+    {
+      "id": "pool-q-004",
+      "tags": ["numbers"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Сколько будет 7 + 5 по-английски?",
+      "options": [
+        { "id": "a", "text": "eleven" },
+        { "id": "b", "text": "twelve" },
+        { "id": "c", "text": "thirteen" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "7 + 5 = 12, по-английски twelve. Eleven — 11, thirteen — 13."
+    },
+    {
+      "id": "pool-q-005",
+      "tags": ["colors"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Какой цвет 'blue'?",
+      "options": [
+        { "id": "a", "text": "красный" },
+        { "id": "b", "text": "синий" },
+        { "id": "c", "text": "зелёный" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Blue — это синий. Red — красный, green — зелёный."
+    },
+    {
+      "id": "pool-q-006",
+      "tags": ["colors"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'жёлтый':",
+      "options": [
+        { "id": "a", "text": "yellow" },
+        { "id": "b", "text": "orange" },
+        { "id": "c", "text": "pink" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Yellow — это жёлтый. Orange — оранжевый, pink — розовый."
+    },
+    {
+      "id": "pool-q-007",
+      "tags": ["family"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'мама'?",
+      "options": [
+        { "id": "a", "text": "mother" },
+        { "id": "b", "text": "sister" },
+        { "id": "c", "text": "daughter" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mother — это мама. Sister — сестра, daughter — дочь."
+    },
+    {
+      "id": "pool-q-008",
+      "tags": ["family"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'brother':",
+      "options": [
+        { "id": "a", "text": "отец" },
+        { "id": "b", "text": "брат" },
+        { "id": "c", "text": "дедушка" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Brother — это брат. Father — отец, grandfather — дедушка."
+    },
+    {
+      "id": "pool-q-009",
+      "tags": ["food"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'хлеб'?",
+      "options": [
+        { "id": "a", "text": "milk" },
+        { "id": "b", "text": "bread" },
+        { "id": "c", "text": "water" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bread — это хлеб. Milk — молоко, water — вода."
+    },
+    {
+      "id": "pool-q-010",
+      "tags": ["food"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'сок':",
+      "options": [
+        { "id": "a", "text": "juice" },
+        { "id": "b", "text": "tea" },
+        { "id": "c", "text": "coffee" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Juice — это сок. Tea — чай, coffee — кофе."
+    },
+    {
+      "id": "pool-q-011",
+      "tags": ["time"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'утро'?",
+      "options": [
+        { "id": "a", "text": "evening" },
+        { "id": "b", "text": "night" },
+        { "id": "c", "text": "morning" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Morning — это утро. Evening — вечер, night — ночь."
+    },
+    {
+      "id": "pool-q-012",
+      "tags": ["time"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Какой день недели 'Monday'?",
+      "options": [
+        { "id": "a", "text": "вторник" },
+        { "id": "b", "text": "понедельник" },
+        { "id": "c", "text": "среда" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Monday — это понедельник. Tuesday — вторник, Wednesday — среда."
+    },
+    {
+      "id": "pool-q-013",
+      "tags": ["weather"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'солнце'?",
+      "options": [
+        { "id": "a", "text": "sun" },
+        { "id": "b", "text": "rain" },
+        { "id": "c", "text": "snow" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Sun — это солнце. Rain — дождь, snow — снег."
+    },
+    {
+      "id": "pool-q-014",
+      "tags": ["weather"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'cloudy':",
+      "options": [
+        { "id": "a", "text": "ветрено" },
+        { "id": "b", "text": "облачно" },
+        { "id": "c", "text": "ясно" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Cloudy — это облачно. Windy — ветрено, sunny — ясно/солнечно."
+    },
+    {
+      "id": "pool-q-015",
+      "tags": ["house"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'дом'?",
+      "options": [
+        { "id": "a", "text": "room" },
+        { "id": "b", "text": "house" },
+        { "id": "c", "text": "door" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "House — это дом. Room — комната, door — дверь."
+    },
+    {
+      "id": "pool-q-016",
+      "tags": ["house"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'кухня':",
+      "options": [
+        { "id": "a", "text": "kitchen" },
+        { "id": "b", "text": "bedroom" },
+        { "id": "c", "text": "bathroom" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Kitchen — это кухня. Bedroom — спальня, bathroom — ванная."
+    },
+    {
+      "id": "pool-q-017",
+      "tags": ["body"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'голова'?",
+      "options": [
+        { "id": "a", "text": "hand" },
+        { "id": "b", "text": "head" },
+        { "id": "c", "text": "foot" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Head — это голова. Hand — рука, foot — стопа."
+    },
+    {
+      "id": "pool-q-018",
+      "tags": ["body"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'глаз':",
+      "options": [
+        { "id": "a", "text": "ear" },
+        { "id": "b", "text": "nose" },
+        { "id": "c", "text": "eye" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Eye — это глаз. Ear — ухо, nose — нос."
+    },
+    {
+      "id": "pool-q-019",
+      "tags": ["clothes"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'рубашка'?",
+      "options": [
+        { "id": "a", "text": "shirt" },
+        { "id": "b", "text": "skirt" },
+        { "id": "c", "text": "shoe" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Shirt — это рубашка. Skirt — юбка, shoe — туфля/ботинок."
+    },
+    {
+      "id": "pool-q-020",
+      "tags": ["clothes"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'пальто':",
+      "options": [
+        { "id": "a", "text": "jacket" },
+        { "id": "b", "text": "coat" },
+        { "id": "c", "text": "hat" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Coat — это пальто. Jacket — куртка, hat — шляпа/шапка."
+    },
+    {
+      "id": "pool-q-021",
+      "tags": ["animals"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'собака'?",
+      "options": [
+        { "id": "a", "text": "cat" },
+        { "id": "b", "text": "dog" },
+        { "id": "c", "text": "bird" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dog — это собака. Cat — кошка, bird — птица."
+    },
+    {
+      "id": "pool-q-022",
+      "tags": ["animals"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'лошадь':",
+      "options": [
+        { "id": "a", "text": "cow" },
+        { "id": "b", "text": "horse" },
+        { "id": "c", "text": "sheep" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Horse — это лошадь. Cow — корова, sheep — овца."
+    },
+    {
+      "id": "pool-q-023",
+      "tags": ["travel"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'самолёт'?",
+      "options": [
+        { "id": "a", "text": "train" },
+        { "id": "b", "text": "car" },
+        { "id": "c", "text": "plane" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Plane — это самолёт. Train — поезд, car — машина."
+    },
+    {
+      "id": "pool-q-024",
+      "tags": ["travel"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'город':",
+      "options": [
+        { "id": "a", "text": "village" },
+        { "id": "b", "text": "city" },
+        { "id": "c", "text": "street" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "City — это город. Village — деревня, street — улица."
+    },
+    {
+      "id": "pool-q-025",
+      "tags": ["verbs"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'есть' (кушать)?",
+      "options": [
+        { "id": "a", "text": "drink" },
+        { "id": "b", "text": "eat" },
+        { "id": "c", "text": "sleep" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Eat — это есть/кушать. Drink — пить, sleep — спать."
+    },
+    {
+      "id": "pool-q-026",
+      "tags": ["verbs"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'читать':",
+      "options": [
+        { "id": "a", "text": "write" },
+        { "id": "b", "text": "read" },
+        { "id": "c", "text": "speak" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Read — это читать. Write — писать, speak — говорить."
+    },
+    {
+      "id": "pool-q-027",
+      "tags": ["adjectives"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'большой'?",
+      "options": [
+        { "id": "a", "text": "small" },
+        { "id": "b", "text": "big" },
+        { "id": "c", "text": "old" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Big — это большой. Small — маленький, old — старый."
+    },
+    {
+      "id": "pool-q-028",
+      "tags": ["adjectives"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'красивый':",
+      "options": [
+        { "id": "a", "text": "beautiful" },
+        { "id": "b", "text": "ugly" },
+        { "id": "c", "text": "angry" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Beautiful — это красивый. Ugly — уродливый, angry — злой."
+    },
+    {
+      "id": "pool-q-029",
+      "tags": ["prepositions"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Какой предлог переводится как 'в' или 'внутри'?",
+      "options": [
+        { "id": "a", "text": "on" },
+        { "id": "b", "text": "in" },
+        { "id": "c", "text": "under" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "In — это в/внутри. On — на, under — под."
+    },
+    {
+      "id": "pool-q-030",
+      "tags": ["prepositions"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод предлога 'на' (на столе):",
+      "options": [
+        { "id": "a", "text": "under" },
+        { "id": "b", "text": "in" },
+        { "id": "c", "text": "on" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "On — это на (на столе). Under — под, in — в."
+    },
+    {
+      "id": "pool-q-031",
+      "tags": ["food", "restaurant"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'меню'?",
+      "options": [
+        { "id": "a", "text": "menu" },
+        { "id": "b", "text": "bill" },
+        { "id": "c", "text": "plate" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Menu — это меню. Bill — счёт, plate — тарелка."
+    },
+    {
+      "id": "pool-q-032",
+      "tags": ["family", "people"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'ребёнок':",
+      "options": [
+        { "id": "a", "text": "child" },
+        { "id": "b", "text": "parent" },
+        { "id": "c", "text": "friend" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Child — это ребёнок. Parent — родитель, friend — друг."
+    },
+    {
+      "id": "pool-q-033",
+      "tags": ["time", "calendar"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'сегодня'?",
+      "options": [
+        { "id": "a", "text": "tomorrow" },
+        { "id": "b", "text": "today" },
+        { "id": "c", "text": "yesterday" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Today — это сегодня. Tomorrow — завтра, yesterday — вчера."
+    },
+    {
+      "id": "pool-q-034",
+      "tags": ["weather", "seasons"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'зима':",
+      "options": [
+        { "id": "a", "text": "spring" },
+        { "id": "b", "text": "summer" },
+        { "id": "c", "text": "winter" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Winter — это зима. Spring — весна, summer — лето."
+    },
+    {
+      "id": "pool-q-035",
+      "tags": ["house", "furniture"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'стол'?",
+      "options": [
+        { "id": "a", "text": "chair" },
+        { "id": "b", "text": "table" },
+        { "id": "c", "text": "window" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Table — это стол. Chair — стул, window — окно."
+    },
+    {
+      "id": "pool-q-036",
+      "tags": ["travel", "directions"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'вокзал':",
+      "options": [
+        { "id": "a", "text": "station" },
+        { "id": "b", "text": "airport" },
+        { "id": "c", "text": "hotel" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Station — это вокзал/станция. Airport — аэропорт, hotel — отель."
+    },
+    {
+      "id": "pool-q-037",
+      "tags": ["greetings", "politeness"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'до свидания'?",
+      "options": [
+        { "id": "a", "text": "hello" },
+        { "id": "b", "text": "goodbye" },
+        { "id": "c", "text": "good night" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Goodbye — это до свидания. Hello — привет, good night — спокойной ночи."
+    },
+    {
+      "id": "pool-q-038",
+      "tags": ["food", "fruits"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'апельсин':",
+      "options": [
+        { "id": "a", "text": "apple" },
+        { "id": "b", "text": "banana" },
+        { "id": "c", "text": "orange" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Orange — это апельсин. Apple — яблоко, banana — банан."
+    },
+    {
+      "id": "pool-q-039",
+      "tags": ["numbers", "money"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Как по-английски 'сто'?",
+      "options": [
+        { "id": "a", "text": "ten" },
+        { "id": "b", "text": "hundred" },
+        { "id": "c", "text": "thousand" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hundred — это сто. Ten — десять, thousand — тысяча."
+    },
+    {
+      "id": "pool-q-040",
+      "tags": ["body", "health"],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите перевод слова 'рука':",
+      "options": [
+        { "id": "a", "text": "arm" },
+        { "id": "b", "text": "leg" },
+        { "id": "c", "text": "back" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Arm — это рука. Leg — нога, back — спина."
+    }
+  ]
+}

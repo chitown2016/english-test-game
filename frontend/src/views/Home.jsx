@@ -4,7 +4,7 @@ import { Card, Button } from '../components/ui';
 import { useProgressContext } from '../contexts/ProgressContext';
 import { xpForNextLevel } from '../lib/gamification';
 
-export function Home({ onStart, onProfile }) {
+export function Home({ onStartGeneral, onProfile }) {
   const { progress, achievements } = useProgressContext();
 
   const nextLevelXp = xpForNextLevel(progress.level);
@@ -62,8 +62,8 @@ export function Home({ onStart, onProfile }) {
         </Card>
       </div>
 
-      <Button onClick={onStart} size="lg" className="w-full">
-        🎮 Начать играть
+      <Button onClick={onStartGeneral} size="lg" className="w-full">
+        🎮 Начать общий тест
       </Button>
 
       <Button onClick={onProfile} variant="secondary" size="md" className="w-full">

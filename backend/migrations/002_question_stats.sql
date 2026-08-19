@@ -1,0 +1,1 @@
+ALTER TABLE progress ADD COLUMN IF NOT EXISTS question_stats JSONB NOT NULL DEFAULT '{}';

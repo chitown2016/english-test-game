@@ -11,6 +11,7 @@ const DEFAULT_PROGRESS = {
   completedTests: [],
   badges: [],
   statsByTest: {},
+  questionStats: {},
   lastVisitDate: null,
 };
 

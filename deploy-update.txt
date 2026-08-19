@@ -1,5 +1,9 @@
 cd /opt/engquest
 git pull
-cd frontend
+cd backend
+npm install
+npm run migrate
+pm2 restart engquest-backend
+cd ../frontend
 npm install
 npm run build

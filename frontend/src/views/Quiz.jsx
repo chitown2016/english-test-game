@@ -9,6 +9,7 @@ import { ExplanationPanel } from '../components/quiz/ExplanationPanel';
 import { XpBar, StreakFlame } from '../components/gamification/XpBar';
 import { LevelUpModal } from '../components/gamification/LevelUpModal';
 import { BadgeToast } from '../components/gamification/BadgeToast';
+import { ItalianGreyhound } from '../components/gamification/ItalianGreyhound';
 import { useQuiz } from '../hooks/useQuiz';
 import { useProgressContext } from '../contexts/ProgressContext';
 import { apiService } from '../lib/api';
@@ -28,7 +29,9 @@ export function Quiz({ testId, onFinish, onExit }) {
   const [showLevelUp, setShowLevelUp] = useState(false);
   const [levelUpLevel, setLevelUpLevel] = useState(null);
   const [badgeQueue, setBadgeQueue] = useState([]);
+  const [showGreyhound, setShowGreyhound] = useState(false);
   const hasFinishedRef = useRef(false);
+  const greyhoundTimeoutRef = useRef(null);
 
   useEffect(() => {
     const load = async () => {
@@ -42,6 +45,10 @@ export function Quiz({ testId, onFinish, onExit }) {
       }
     };
     load();
+
+    return () => {
+      if (greyhoundTimeoutRef.current) clearTimeout(greyhoundTimeoutRef.current);
+    };
   }, [testId]);
 
   const handleFinish = useCallback((session, points, runningBadges) => {
@@ -180,6 +187,9 @@ export function Quiz({ testId, onFinish, onExit }) {
     if (isCorrect) {
       setEarnedXp((prev) => prev + points);
       playCorrect();
+      setShowGreyhound(true);
+      if (greyhoundTimeoutRef.current) clearTimeout(greyhoundTimeoutRef.current);
+      greyhoundTimeoutRef.current = setTimeout(() => setShowGreyhound(false), 1600);
     } else {
       playWrong();
     }
@@ -313,6 +323,8 @@ export function Quiz({ testId, onFinish, onExit }) {
           );
         })}
       </AnimatePresence>
+
+      <ItalianGreyhound show={showGreyhound} />
     </motion.div>
   );
 }

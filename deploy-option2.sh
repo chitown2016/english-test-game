@@ -53,6 +53,12 @@ if [ ! -d "$PROJECT_DIR" ]; then
   fi
 fi
 
+# Ensure project files are owned by the user who invoked sudo (not root)
+if [ -n "$SUDO_USER" ]; then
+  log "Setting ownership to $SUDO_USER ..."
+  chown -R "$SUDO_USER:$SUDO_USER" "$PROJECT_DIR"
+fi
+
 # Helper to detect IP addresses
 is_ip() {
   local ip="$1"
@@ -106,13 +112,17 @@ else
   log "PM2 already installed"
 fi
 
+warn "If your database password contains special characters (#, $, %, etc.),"
+warn "make sure they are URL-encoded in the connection string."
+warn "For example: # becomes %23, $ becomes %24."
+
 # Backend setup
 log "Setting up backend..."
 cd "$PROJECT_DIR/backend"
 npm install
 
-# Create backend .env
-cat > .env <<EOF
+# Create backend .env (quoted heredoc so $ in passwords is not expanded)
+cat > .env <<'EOF'
 PORT=3000
 DATABASE_URL=$DATABASE_URL
 CORS_ORIGIN=$CORS_ORIGIN
@@ -194,6 +204,12 @@ if [ "$USE_IP" = false ]; then
   fi
   log "Setting up SSL certificate..."
   certbot --nginx -d "$HOST" --non-interactive --agree-tos --no-eff-email -m "admin@$HOST" || true
+fi
+
+# Final ownership fix so the deploying user can manage files later
+if [ -n "$SUDO_USER" ]; then
+  log "Finalizing ownership for $SUDO_USER ..."
+  chown -R "$SUDO_USER:$SUDO_USER" "$PROJECT_DIR"
 fi
 
 log "Deployment complete!"

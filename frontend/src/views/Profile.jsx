@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { ArrowLeft, Award, Target, TrendingUp } from 'lucide-react';
+import { ArrowLeft, Award, Target, TrendingUp, Volume2, VolumeX } from 'lucide-react';
 import { Card, Button } from '../components/ui';
 import { useProgressContext } from '../contexts/ProgressContext';
 import { xpForNextLevel } from '../lib/gamification';
 
 export function Profile({ onBack }) {
-  const { progress, achievements } = useProgressContext();
+  const { progress, achievements, soundEnabled, setSoundEnabled } = useProgressContext();
 
   const totalTests = progress.totalAnswered > 0
     ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100)
@@ -46,6 +46,25 @@ export function Profile({ onBack }) {
           <p className="text-xs text-muted">лучшая серия</p>
         </Card>
       </div>
+
+      <Card className="flex items-center justify-between gap-3">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-xl bg-pastel-lavender/60 flex items-center justify-center text-ink">
+            {soundEnabled ? <Volume2 size={20} /> : <VolumeX size={20} />}
+          </div>
+          <div>
+            <p className="font-bold text-ink">Звуковые эффекты</p>
+            <p className="text-xs text-muted">{soundEnabled ? 'Включены' : 'Выключены'}</p>
+          </div>
+        </div>
+        <Button
+          variant={soundEnabled ? 'primary' : 'secondary'}
+          size="sm"
+          onClick={() => setSoundEnabled(!soundEnabled)}
+        >
+          {soundEnabled ? 'Выключить' : 'Включить'}
+        </Button>
+      </Card>
 
       <Card>
         <div className="flex items-center gap-2 mb-3">

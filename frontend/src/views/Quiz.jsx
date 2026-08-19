@@ -17,6 +17,7 @@ import {
   evaluateBadges,
   xpForNextLevel,
 } from '../lib/gamification';
+import { playCorrect, playWrong, playLevelUp, playBadge, playComplete } from '../lib/sounds';
 
 export function Quiz({ testId, onFinish, onExit }) {
   const { progress, saveProgress, achievements } = useProgressContext();
@@ -104,6 +105,11 @@ export function Quiz({ testId, onFinish, onExit }) {
     if (leveledUpTo) {
       setLevelUpLevel(leveledUpTo);
       setShowLevelUp(true);
+      playLevelUp();
+    } else if (newlyUnlocked.length > 0) {
+      playBadge();
+    } else {
+      playComplete();
     }
 
     if (newlyUnlocked.length > 0) {
@@ -160,6 +166,9 @@ export function Quiz({ testId, onFinish, onExit }) {
 
     if (isCorrect) {
       setEarnedXp((prev) => prev + points);
+      playCorrect();
+    } else {
+      playWrong();
     }
 
     const sessionSnapshot = {
@@ -187,6 +196,7 @@ export function Quiz({ testId, onFinish, onExit }) {
     if (newlyUnlocked.length > 0) {
       setNewBadges((prev) => [...prev, ...newlyUnlocked]);
       setBadgeQueue((prev) => [...prev, ...newlyUnlocked]);
+      playBadge();
     }
   }, [quiz, test, progress, newBadges]);
 

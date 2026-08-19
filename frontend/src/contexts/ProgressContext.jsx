@@ -1,7 +1,9 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import { useDeviceId } from '../hooks/useDeviceId';
 import { useProgress } from '../hooks/useProgress';
+import { useSoundEnabled } from '../hooks/useSoundEnabled';
 import { apiService } from '../lib/api';
+import { unlockAudio } from '../lib/sounds';
 
 const ProgressContext = createContext(null);
 
@@ -10,6 +12,11 @@ export function ProgressProvider({ children }) {
   const { progress, loading, error, saveProgress } = useProgress();
   const [achievements, setAchievements] = useState([]);
   const [achievementsLoading, setAchievementsLoading] = useState(true);
+  const [soundEnabled, setSoundEnabled] = useSoundEnabled();
+
+  useEffect(() => {
+    unlockAudio();
+  }, []);
 
   useEffect(() => {
     const loadAchievements = async () => {
@@ -36,6 +43,8 @@ export function ProgressProvider({ children }) {
     saveProgress,
     achievements,
     achievementsLoading,
+    soundEnabled,
+    setSoundEnabled,
   };
 
   return (

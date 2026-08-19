@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
-import { Flame, Star } from 'lucide-react';
+import { Flame, Star, Volume2, VolumeX } from 'lucide-react';
 import { useProgressContext } from '../../contexts/ProgressContext';
 import { xpForNextLevel } from '../../lib/gamification';
 
 export function Header() {
-  const { progress } = useProgressContext();
+  const { progress, soundEnabled, setSoundEnabled } = useProgressContext();
 
   return (
     <motion.header
@@ -23,7 +23,7 @@ export function Header() {
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
           <div className="flex items-center gap-1 bg-pastel-lemon/60 px-2.5 py-1 rounded-full">
             <Star size={16} className="text-pastel-coral" />
             <span className="text-sm font-bold text-ink">{progress.xp}/{xpForNextLevel(progress.level)}</span>
@@ -34,6 +34,15 @@ export function Header() {
               <span className="text-sm font-bold text-ink">{progress.streak}</span>
             </div>
           )}
+          <motion.button
+            type="button"
+            onClick={() => setSoundEnabled(!soundEnabled)}
+            whileTap={{ scale: 0.9 }}
+            className="w-9 h-9 rounded-full bg-pastel-lavender/60 hover:bg-pastel-lavender flex items-center justify-center text-ink transition-colors"
+            aria-label={soundEnabled ? 'Выключить звук' : 'Включить звук'}
+          >
+            {soundEnabled ? <Volume2 size={18} /> : <VolumeX size={18} />}
+          </motion.button>
         </div>
       </div>
     </motion.header>

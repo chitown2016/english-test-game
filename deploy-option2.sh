@@ -13,7 +13,7 @@ set -e
 PROJECT_DIR="/opt/engquest"
 NODE_VERSION="20"
 # Optional: set this to your GitHub repo URL to clone instead of copying files
-REPO_URL="git@github.com:chitown2016/english-test-game.git"
+REPO_URL="https://github.com/chitown2016/english-test-game.git"
 
 # Colors for output
 GREEN='\033[0;32m'

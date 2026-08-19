@@ -3,6 +3,7 @@ import { ArrowLeft, Award, Target, TrendingUp, Volume2, VolumeX, Timer } from 'l
 import { Card, Button } from '../components/ui';
 import { useProgressContext } from '../contexts/ProgressContext';
 import { xpForNextLevel } from '../lib/gamification';
+import { unlockAudio } from '../lib/sounds';
 
 export function Profile({ onBack }) {
   const { progress, achievements, soundEnabled, setSoundEnabled, timerEnabled, setTimerEnabled } = useProgressContext();
@@ -60,7 +61,10 @@ export function Profile({ onBack }) {
         <Button
           variant={soundEnabled ? 'primary' : 'secondary'}
           size="sm"
-          onClick={() => setSoundEnabled(!soundEnabled)}
+          onClick={() => {
+            unlockAudio();
+            setSoundEnabled(!soundEnabled);
+          }}
         >
           {soundEnabled ? 'Выключить' : 'Включить'}
         </Button>

@@ -1,6 +1,7 @@
 const STORAGE_KEY = 'engQuest_soundEnabled';
 
 let audioCtx = null;
+let unlockListenersAdded = false;
 
 function getContext() {
   if (!audioCtx) {
@@ -27,6 +28,26 @@ async function resumeContext() {
     }
   }
   return ctx.state === 'running';
+}
+
+export function setupGlobalAudioUnlock() {
+  if (unlockListenersAdded) return;
+  if (typeof window === 'undefined') return;
+
+  const events = ['touchstart', 'click', 'keydown'];
+  const unlock = () => {
+    unlockAudio();
+  };
+
+  events.forEach((event) => {
+    window.addEventListener(event, unlock, { once: true, passive: true });
+  });
+
+  unlockListenersAdded = true;
+}
+
+export function unlockAudio() {
+  resumeContext().catch(() => {});
 }
 
 function playTone({ frequency, duration, type = 'sine', gain = 0.12, when = 0 }) {
@@ -119,8 +140,4 @@ export function playComplete() {
       playTone({ frequency: freq, duration, gain: 0.11, when });
     });
   });
-}
-
-export function unlockAudio() {
-  resumeContext().catch(() => {});
 }

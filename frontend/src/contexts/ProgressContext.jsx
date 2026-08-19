@@ -4,7 +4,7 @@ import { useProgress } from '../hooks/useProgress';
 import { useSoundEnabled } from '../hooks/useSoundEnabled';
 import { useTimerEnabled } from '../hooks/useTimerEnabled';
 import { apiService } from '../lib/api';
-import { unlockAudio } from '../lib/sounds';
+import { setupGlobalAudioUnlock } from '../lib/sounds';
 
 const ProgressContext = createContext(null);
 
@@ -17,7 +17,7 @@ export function ProgressProvider({ children }) {
   const [timerEnabled, setTimerEnabled] = useTimerEnabled();
 
   useEffect(() => {
-    unlockAudio();
+    setupGlobalAudioUnlock();
   }, []);
 
   useEffect(() => {

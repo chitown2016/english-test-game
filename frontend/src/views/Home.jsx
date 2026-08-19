@@ -3,6 +3,7 @@ import { BookOpen, Trophy, User, Zap } from 'lucide-react';
 import { Card, Button } from '../components/ui';
 import { useProgressContext } from '../contexts/ProgressContext';
 import { xpForNextLevel } from '../lib/gamification';
+import { unlockAudio } from '../lib/sounds';
 
 export function Home({ onStartGeneral, onProfile }) {
   const { progress, achievements } = useProgressContext();
@@ -62,7 +63,14 @@ export function Home({ onStartGeneral, onProfile }) {
         </Card>
       </div>
 
-      <Button onClick={onStartGeneral} size="lg" className="w-full">
+      <Button
+        onClick={() => {
+          unlockAudio();
+          onStartGeneral();
+        }}
+        size="lg"
+        className="w-full"
+      >
         🎮 Начать общий тест
       </Button>
 

@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Flame, Star, Volume2, VolumeX } from 'lucide-react';
 import { useProgressContext } from '../../contexts/ProgressContext';
 import { xpForNextLevel } from '../../lib/gamification';
+import { unlockAudio } from '../../lib/sounds';
 
 export function Header() {
   const { progress, soundEnabled, setSoundEnabled } = useProgressContext();
@@ -36,7 +37,10 @@ export function Header() {
           )}
           <motion.button
             type="button"
-            onClick={() => setSoundEnabled(!soundEnabled)}
+            onClick={() => {
+              unlockAudio();
+              setSoundEnabled(!soundEnabled);
+            }}
             whileTap={{ scale: 0.9 }}
             className="w-9 h-9 rounded-full bg-pastel-lavender/60 hover:bg-pastel-lavender flex items-center justify-center text-ink transition-colors"
             aria-label={soundEnabled ? 'Выключить звук' : 'Включить звук'}

@@ -14,6 +14,9 @@ function row(deviceId) {
     stats_by_test: {},
     question_stats: {},
     last_visit_date: null,
+    daily_streak: 0,
+    best_daily_streak: 0,
+    activity_dates: [],
     created_at: new Date(),
     updated_at: new Date(),
   };
@@ -44,6 +47,9 @@ async function query(text, params) {
       statsByTestJson,
       questionStatsJson,
       lastVisitDate,
+      dailyStreak,
+      bestDailyStreak,
+      activityDates,
     ] = params;
 
     const existing = store.get(deviceId) || row(deviceId);
@@ -60,6 +66,9 @@ async function query(text, params) {
       stats_by_test: JSON.parse(statsByTestJson),
       question_stats: JSON.parse(questionStatsJson),
       last_visit_date: lastVisitDate,
+      daily_streak: dailyStreak,
+      best_daily_streak: bestDailyStreak,
+      activity_dates: activityDates,
       updated_at: new Date(),
     };
     store.set(deviceId, updated);

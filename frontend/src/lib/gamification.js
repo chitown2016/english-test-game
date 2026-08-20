@@ -1,3 +1,5 @@
+import { DAILY_BADGES } from './dailyStreak';
+
 const DIFFICULTY_MULTIPLIER = {
   easy: 1,
   medium: 1.5,
@@ -38,6 +40,22 @@ export function xpForNextLevel(level) {
   return xpForLevel(level + 1);
 }
 
+const BADGE_ICONS = {
+  star: '⭐',
+  trophy: '🏆',
+  flame: '🔥',
+  zap: '⚡',
+  rocket: '🚀',
+  calendar: '📅',
+  medal: '🏅',
+  gem: '💎',
+  crown: '👑',
+};
+
+export function badgeEmoji(icon) {
+  return BADGE_ICONS[icon] || '🎖️';
+}
+
 export function evaluateBadges({ session, progress, newBadges }) {
   const badges = [...newBadges];
   const answers = session.answers;
@@ -55,6 +73,9 @@ export function evaluateBadges({ session, progress, newBadges }) {
   if (currentStreak >= 10) add('streak-10');
   if (fastAnswers >= 5) add('speed-demon');
   if (progress.level >= 5) add('level-5');
+  DAILY_BADGES.forEach(({ days, id }) => {
+    if ((progress.dailyStreak || 0) >= days) add(id);
+  });
 
   return badges;
 }

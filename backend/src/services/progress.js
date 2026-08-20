@@ -12,6 +12,9 @@ const defaultProgress = {
   stats_by_test: {},
   question_stats: {},
   last_visit_date: null,
+  daily_streak: 0,
+  best_daily_streak: 0,
+  activity_dates: [],
 };
 
 function rowToProgress(row) {
@@ -28,6 +31,9 @@ function rowToProgress(row) {
     statsByTest: row.stats_by_test,
     questionStats: row.question_stats,
     lastVisitDate: row.last_visit_date,
+    dailyStreak: row.daily_streak || 0,
+    bestDailyStreak: row.best_daily_streak || 0,
+    activityDates: row.activity_dates || [],
   };
 }
 
@@ -52,14 +58,18 @@ async function upsertProgress(deviceId, progress) {
     statsByTest = {},
     questionStats = {},
     lastVisitDate = null,
+    dailyStreak = 0,
+    bestDailyStreak = 0,
+    activityDates = [],
   } = progress;
 
   const result = await query(
     `
     INSERT INTO progress (
       device_id, xp, level, total_correct, total_answered, streak, best_streak,
-      completed_tests, badges, stats_by_test, question_stats, last_visit_date, updated_at
-    ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, NOW())
+      completed_tests, badges, stats_by_test, question_stats, last_visit_date,
+      daily_streak, best_daily_streak, activity_dates, updated_at
+    ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, NOW())
     ON CONFLICT (device_id) DO UPDATE SET
       xp = EXCLUDED.xp,
       level = EXCLUDED.level,
@@ -72,6 +82,9 @@ async function upsertProgress(deviceId, progress) {
       stats_by_test = EXCLUDED.stats_by_test,
       question_stats = EXCLUDED.question_stats,
       last_visit_date = EXCLUDED.last_visit_date,
+      daily_streak = EXCLUDED.daily_streak,
+      best_daily_streak = EXCLUDED.best_daily_streak,
+      activity_dates = EXCLUDED.activity_dates,
       updated_at = NOW()
     RETURNING *
     `,
@@ -88,6 +101,9 @@ async function upsertProgress(deviceId, progress) {
       JSON.stringify(statsByTest),
       JSON.stringify(questionStats),
       lastVisitDate,
+      dailyStreak,
+      bestDailyStreak,
+      activityDates,
     ]
   );
 

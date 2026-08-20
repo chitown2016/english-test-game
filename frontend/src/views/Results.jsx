@@ -1,4 +1,6 @@
 import { motion } from 'framer-motion';
+import { badgeEmoji } from '../lib/gamification';
+import { pluralDays } from '../lib/dailyStreak';
 import { Home, RotateCcw, Trophy } from 'lucide-react';
 import { Card, Button } from '../components/ui';
 import { useProgressContext } from '../contexts/ProgressContext';
@@ -12,6 +14,9 @@ export function Results({ result, onHome, onRetry }) {
     earnedXp,
     newBadges,
     leveledUpTo,
+    dailyStreak = 0,
+    streakExtended = false,
+    streakBonusXp = 0,
   } = result;
 
   const percentage = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0;
@@ -53,6 +58,31 @@ export function Results({ result, onHome, onRetry }) {
         </div>
       </Card>
 
+      {dailyStreak > 0 && (
+        <Card className="bg-gradient-to-r from-pastel-peach/50 to-pastel-lemon/40 border border-pastel-peach/50">
+          <div className="flex items-center gap-3">
+            <motion.span
+              initial={{ scale: 0 }}
+              animate={{ scale: [0, 1.3, 1] }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+              className="text-3xl"
+            >
+              🔥
+            </motion.span>
+            <div className="flex-1">
+              <p className="font-extrabold text-ink">
+                Серия: {dailyStreak} {pluralDays(dailyStreak)} подряд
+              </p>
+              <p className="text-xs text-muted">
+                {streakExtended
+                  ? `Ежедневный бонус: +${streakBonusXp} XP. Возвращайтесь завтра!`
+                  : 'Сегодня уже зачтено — бонус будет завтра.'}
+              </p>
+            </div>
+          </div>
+        </Card>
+      )}
+
       {leveledUpTo && (
         <Card className="bg-pastel-lemon/40 border border-pastel-lemon text-center">
           <Trophy size={32} className="mx-auto text-pastel-coral mb-2" />
@@ -70,11 +100,7 @@ export function Results({ result, onHome, onRetry }) {
                 <div key={id} className="flex items-center gap-3 p-3 bg-pastel-lemon/40 rounded-2xl"
                 >
                   <span className="text-2xl">
-                    {badge?.icon === 'star' && '⭐'}
-                    {badge?.icon === 'trophy' && '🏆'}
-                    {badge?.icon === 'flame' && '🔥'}
-                    {badge?.icon === 'zap' && '⚡'}
-                    {badge?.icon === 'rocket' && '🚀'}
+                    {badgeEmoji(badge?.icon)}
                   </span>
                   <div>
                     <p className="font-bold text-ink">{badge?.title || id}</p>

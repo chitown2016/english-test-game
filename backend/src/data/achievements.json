@@ -28,5 +28,29 @@
     "title": "Уверенный рост",
     "description": "Достигнуть 5 уровня.",
     "icon": "rocket"
+  },
+  {
+    "id": "daily-3",
+    "title": "Три дня подряд",
+    "description": "Заниматься 3 дня подряд.",
+    "icon": "calendar"
+  },
+  {
+    "id": "daily-7",
+    "title": "Неделя силы",
+    "description": "Заниматься 7 дней подряд.",
+    "icon": "medal"
+  },
+  {
+    "id": "daily-14",
+    "title": "Две недели!",
+    "description": "Заниматься 14 дней подряд.",
+    "icon": "gem"
+  },
+  {
+    "id": "daily-30",
+    "title": "Месяц без пропусков",
+    "description": "Заниматься 30 дней подряд.",
+    "icon": "crown"
   }
 ]

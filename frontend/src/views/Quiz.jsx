@@ -19,6 +19,7 @@ import {
   xpForNextLevel,
 } from '../lib/gamification';
 import { playCorrect, playWrong, playLevelUp, playBadge, playComplete } from '../lib/sounds';
+import { recordActivity } from '../lib/dailyStreak';
 
 export function Quiz({ testId, onFinish, onExit }) {
   const { progress, saveProgress, achievements, timerEnabled } = useProgressContext();
@@ -77,7 +78,10 @@ export function Quiz({ testId, onFinish, onExit }) {
       },
     };
 
-    const newXp = progress.xp + points;
+    const activity = recordActivity(progress);
+    const totalEarnedXp = points + activity.bonusXp;
+
+    const newXp = progress.xp + totalEarnedXp;
     let newLevel = progress.level;
     let leveledUpTo = null;
     while (newXp >= xpForNextLevel(newLevel)) {
@@ -107,7 +111,10 @@ export function Quiz({ testId, onFinish, onExit }) {
       completedTests,
       statsByTest,
       questionStats: updatedQuestionStats,
-      lastVisitDate: new Date().toISOString().split('T')[0],
+      lastVisitDate: activity.lastVisitDate,
+      activityDates: activity.activityDates,
+      dailyStreak: activity.dailyStreak,
+      bestDailyStreak: activity.bestDailyStreak,
     };
 
     // Evaluate badges one final time with final progress (for level-based badges)
@@ -141,7 +148,10 @@ export function Quiz({ testId, onFinish, onExit }) {
         test,
         score: totalCorrect,
         totalQuestions: totalAnswered,
-        earnedXp: points,
+        earnedXp: totalEarnedXp,
+        dailyStreak: activity.dailyStreak,
+        streakExtended: activity.streakExtended,
+        streakBonusXp: activity.bonusXp,
         newBadges: allNewBadges,
         leveledUpTo,
       });

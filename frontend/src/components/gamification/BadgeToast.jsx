@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { badgeEmoji } from '../../lib/gamification';
 import { X } from 'lucide-react';
 
 export function BadgeToast({ badge, onClose }) {
@@ -12,11 +13,7 @@ export function BadgeToast({ badge, onClose }) {
       <div className="bg-white rounded-3xl shadow-glow p-4 flex items-center gap-4 border-2 border-pastel-lemon"
       >
         <div className="w-14 h-14 rounded-2xl bg-pastel-lemon/50 flex items-center justify-center text-2xl">
-          {badge.icon === 'star' && '⭐'}
-          {badge.icon === 'trophy' && '🏆'}
-          {badge.icon === 'flame' && '🔥'}
-          {badge.icon === 'zap' && '⚡'}
-          {badge.icon === 'rocket' && '🚀'}
+          {badgeEmoji(badge.icon)}
         </div>
         <div className="flex-1">
           <p className="text-xs font-bold text-pastel-coral uppercase tracking-wider">Новая награда!</p>

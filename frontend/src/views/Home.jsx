@@ -2,8 +2,9 @@ import { motion } from 'framer-motion';
 import { BookOpen, Trophy, User, Zap } from 'lucide-react';
 import { Card, Button } from '../components/ui';
 import { useProgressContext } from '../contexts/ProgressContext';
-import { xpForNextLevel } from '../lib/gamification';
+import { xpForNextLevel, badgeEmoji } from '../lib/gamification';
 import { unlockAudio } from '../lib/sounds';
+import { DailyStreakCard } from '../components/gamification/DailyStreakCard';
 
 export function Home({ onStartGeneral, onProfile }) {
   const { progress, achievements } = useProgressContext();
@@ -50,6 +51,8 @@ export function Home({ onStartGeneral, onProfile }) {
         </div>
       </Card>
 
+      <DailyStreakCard progress={progress} />
+
       <div className="grid grid-cols-2 gap-4">
         <Card className="text-center">
           <Trophy size={28} className="mx-auto text-pastel-coral mb-2" />
@@ -90,11 +93,7 @@ export function Home({ onStartGeneral, onProfile }) {
                   key={id}
                   className="inline-flex items-center gap-1 px-3 py-1.5 bg-pastel-lemon/60 rounded-full text-sm font-semibold text-ink"
                 >
-                  {badge?.icon === 'star' && '⭐'}
-                  {badge?.icon === 'trophy' && '🏆'}
-                  {badge?.icon === 'flame' && '🔥'}
-                  {badge?.icon === 'zap' && '⚡'}
-                  {badge?.icon === 'rocket' && '🚀'}
+                  {badgeEmoji(badge?.icon)}
                   {badge?.title || id}
                 </span>
               );

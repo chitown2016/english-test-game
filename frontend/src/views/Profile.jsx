@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
-import { ArrowLeft, Award, Target, TrendingUp, Volume2, VolumeX, Timer } from 'lucide-react';
+import { ArrowLeft, Award, Target, TrendingUp, Volume2, VolumeX, Timer, Flame } from 'lucide-react';
 import { Card, Button } from '../components/ui';
 import { useProgressContext } from '../contexts/ProgressContext';
-import { xpForNextLevel } from '../lib/gamification';
+import { xpForNextLevel, badgeEmoji } from '../lib/gamification';
 import { unlockAudio } from '../lib/sounds';
+import { computeStreak, pluralDays } from '../lib/dailyStreak';
 
 export function Profile({ onBack }) {
   const { progress, achievements, soundEnabled, setSoundEnabled, timerEnabled, setTimerEnabled } = useProgressContext();
@@ -35,6 +36,20 @@ export function Profile({ onBack }) {
         </div>
       </Card>
 
+      <Card className="flex items-center gap-3 bg-gradient-to-r from-pastel-peach/40 to-pastel-lemon/30">
+        <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-pastel-coral shadow-soft">
+          <Flame size={22} />
+        </div>
+        <div className="flex-1">
+          <p className="font-bold text-ink">
+            {computeStreak(progress.activityDates)} {pluralDays(computeStreak(progress.activityDates))} подряд
+          </p>
+          <p className="text-xs text-muted">
+            Рекорд: {progress.bestDailyStreak || 0} {pluralDays(progress.bestDailyStreak || 0)}
+          </p>
+        </div>
+      </Card>
+
       <div className="grid grid-cols-2 gap-3">
         <Card className="text-center">
           <Target size={24} className="mx-auto text-pastel-coral mb-2" />
@@ -44,7 +59,7 @@ export function Profile({ onBack }) {
         <Card className="text-center">
           <TrendingUp size={24} className="mx-auto text-pastel-softgreen mb-2" />
           <p className="text-xl font-extrabold text-ink">{progress.bestStreak}</p>
-          <p className="text-xs text-muted">лучшая серия</p>
+          <p className="text-xs text-muted">лучшая серия ответов</p>
         </Card>
       </div>
 
@@ -109,11 +124,7 @@ export function Profile({ onBack }) {
                   w-10 h-10 rounded-xl flex items-center justify-center text-lg
                   ${earned ? 'bg-white shadow-soft' : 'bg-gray-100'}
                 `}>
-                  {badge.icon === 'star' && '⭐'}
-                  {badge.icon === 'trophy' && '🏆'}
-                  {badge.icon === 'flame' && '🔥'}
-                  {badge.icon === 'zap' && '⚡'}
-                  {badge.icon === 'rocket' && '🚀'}
+                  {badgeEmoji(badge.icon)}
                 </div>
                 <div className="flex-1">
                   <p className={`font-bold ${earned ? 'text-ink' : 'text-muted'}`}>{badge.title}</p>

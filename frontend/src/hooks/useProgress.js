@@ -13,6 +13,9 @@ const DEFAULT_PROGRESS = {
   statsByTest: {},
   questionStats: {},
   lastVisitDate: null,
+  dailyStreak: 0,
+  bestDailyStreak: 0,
+  activityDates: [],
 };
 
 export function useProgress() {

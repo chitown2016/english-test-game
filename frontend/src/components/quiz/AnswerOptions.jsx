@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Check, X } from 'lucide-react';
 
-export function AnswerOptions({ options, selectedOptionId, correctOptionId, status, onSelect }) {
+export function AnswerOptions({ questionId, options, selectedOptionId, correctOptionId, status, onSelect }) {
   const isRevealed = status === 'answered';
 
   return (
@@ -12,7 +12,7 @@ export function AnswerOptions({ options, selectedOptionId, correctOptionId, stat
         const showCorrect = isRevealed && isCorrect;
         const showIncorrect = isRevealed && isSelected && !isCorrect;
 
-        let buttonClass = 'bg-white hover:bg-pastel-lavender/30 border-2 border-transparent';
+        let buttonClass = 'bg-white [@media(hover:hover)]:hover:bg-pastel-lavender/30 border-2 border-transparent';
         if (showCorrect) {
           buttonClass = 'bg-pastel-softgreen/40 border-pastel-softgreen text-ink';
         } else if (showIncorrect) {
@@ -23,7 +23,7 @@ export function AnswerOptions({ options, selectedOptionId, correctOptionId, stat
 
         return (
           <motion.button
-            key={option.id}
+            key={`${questionId}-${option.id}`}
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: index * 0.05 }}

@@ -251,8 +251,9 @@ export function Quiz({ testId, onFinish, onExit }) {
     );
   }
 
-  const currentAnswer = quiz.answers[quiz.answers.length - 1];
   const isAnswered = quiz.status === 'answered';
+  // answers accumulates across questions; only the just-answered one is "current"
+  const currentAnswer = isAnswered ? quiz.answers[quiz.answers.length - 1] : undefined;
 
   return (
     <motion.div
@@ -287,6 +288,7 @@ export function Quiz({ testId, onFinish, onExit }) {
       />
 
       <AnswerOptions
+        questionId={quiz.currentQuestion.id}
         options={quiz.currentQuestion.options}
         selectedOptionId={currentAnswer?.selectedOptionId}
         correctOptionId={quiz.currentQuestion.correctOptionId}

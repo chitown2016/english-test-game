@@ -1013,6 +1013,3958 @@
       "explanation": "Arm — это рука. Leg — нога, back — спина."
     },
     {
+      "id": "vc-001",
+      "tags": [
+        "vocab",
+        "home"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: I sleep in the ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kitchen"
+        },
+        {
+          "id": "b",
+          "text": "bathroom"
+        },
+        {
+          "id": "c",
+          "text": "bedroom"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bedroom — спальня (bed — кровать). Kitchen — кухня, bathroom — ванная."
+    },
+    {
+      "id": "vc-002",
+      "tags": [
+        "vocab",
+        "home"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: We cook dinner in the ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "garage"
+        },
+        {
+          "id": "b",
+          "text": "kitchen"
+        },
+        {
+          "id": "c",
+          "text": "garden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kitchen — кухня. Garden — сад, garage — гараж."
+    },
+    {
+      "id": "vc-003",
+      "tags": [
+        "vocab",
+        "home"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: Please close the ___, it's cold.",
+      "options": [
+        {
+          "id": "a",
+          "text": "table"
+        },
+        {
+          "id": "b",
+          "text": "chair"
+        },
+        {
+          "id": "c",
+          "text": "window"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Window — окно. Table — стол, chair — стул."
+    },
+    {
+      "id": "vc-004",
+      "tags": [
+        "vocab",
+        "home"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: Put the milk in the ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sink"
+        },
+        {
+          "id": "b",
+          "text": "oven"
+        },
+        {
+          "id": "c",
+          "text": "fridge"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Fridge — холодильник. Oven — духовка, sink — раковина."
+    },
+    {
+      "id": "vc-005",
+      "tags": [
+        "vocab",
+        "home"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: I watch TV on the ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sofa"
+        },
+        {
+          "id": "b",
+          "text": "shelf"
+        },
+        {
+          "id": "c",
+          "text": "floor"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Sofa — диван. Shelf — полка, floor — пол."
+    },
+    {
+      "id": "vc-006",
+      "tags": [
+        "vocab",
+        "home"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Turn off the ___ when you leave the room.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sun"
+        },
+        {
+          "id": "b",
+          "text": "light"
+        },
+        {
+          "id": "c",
+          "text": "lamp"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Turn off the light — выключить свет. Lamp — лампа (предмет), но «выключить свет» — light."
+    },
+    {
+      "id": "vc-007",
+      "tags": [
+        "vocab",
+        "home"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: The ___ are dirty. Can you wash them?",
+      "options": [
+        {
+          "id": "a",
+          "text": "desks"
+        },
+        {
+          "id": "b",
+          "text": "dishes"
+        },
+        {
+          "id": "c",
+          "text": "dresses"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dishes — посуда (wash the dishes — мыть посуду). Desk — письменный стол, dress — платье."
+    },
+    {
+      "id": "vc-008",
+      "tags": [
+        "vocab",
+        "home"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I live on the third ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "stage"
+        },
+        {
+          "id": "b",
+          "text": "level"
+        },
+        {
+          "id": "c",
+          "text": "floor"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Floor — этаж (и пол). Third floor — третий этаж. Stage — сцена/этап."
+    },
+    {
+      "id": "vc-009",
+      "tags": [
+        "vocab",
+        "home"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Where is the ___? I need to open the door.",
+      "options": [
+        {
+          "id": "a",
+          "text": "key"
+        },
+        {
+          "id": "b",
+          "text": "bell"
+        },
+        {
+          "id": "c",
+          "text": "lock"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Key — ключ. Lock — замок, bell — звонок."
+    },
+    {
+      "id": "vc-010",
+      "tags": [
+        "vocab",
+        "home"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: My flat has two ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "rooms"
+        },
+        {
+          "id": "b",
+          "text": "places"
+        },
+        {
+          "id": "c",
+          "text": "halls"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Room — комната. A two-room flat — двухкомнатная квартира."
+    },
+    {
+      "id": "vc-011",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: I drink ___ with milk in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "text": "soup"
+        },
+        {
+          "id": "b",
+          "text": "tea"
+        },
+        {
+          "id": "c",
+          "text": "bread"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tea — чай. Bread — хлеб, soup — суп."
+    },
+    {
+      "id": "vc-012",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: I'd like a ___ of water, please.",
+      "options": [
+        {
+          "id": "a",
+          "text": "glass"
+        },
+        {
+          "id": "b",
+          "text": "bowl"
+        },
+        {
+          "id": "c",
+          "text": "plate"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A glass of water — стакан воды. Plate — тарелка, bowl — миска."
+    },
+    {
+      "id": "vc-013",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: Can I have the ___, please?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ticket"
+        },
+        {
+          "id": "b",
+          "text": "price"
+        },
+        {
+          "id": "c",
+          "text": "bill"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bill — счёт в ресторане (в США — check). Ticket — билет, price — цена."
+    },
+    {
+      "id": "vc-014",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: Do you take ___ in your coffee?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sugar"
+        },
+        {
+          "id": "b",
+          "text": "salt"
+        },
+        {
+          "id": "c",
+          "text": "pepper"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Sugar — сахар. Salt — соль, pepper — перец."
+    },
+    {
+      "id": "vc-015",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'm ___. Let's have lunch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "thirsty"
+        },
+        {
+          "id": "b",
+          "text": "hungry"
+        },
+        {
+          "id": "c",
+          "text": "angry"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hungry — голодный. Angry — злой (похоже пишется!), thirsty — хочу пить."
+    },
+    {
+      "id": "vc-016",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'm ___. Can I have some water?",
+      "options": [
+        {
+          "id": "a",
+          "text": "thirsty"
+        },
+        {
+          "id": "b",
+          "text": "tired"
+        },
+        {
+          "id": "c",
+          "text": "hungry"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Thirsty — испытывающий жажду. Tired — уставший."
+    },
+    {
+      "id": "vc-017",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: For ___ I usually have eggs and toast.",
+      "options": [
+        {
+          "id": "a",
+          "text": "breakfast"
+        },
+        {
+          "id": "b",
+          "text": "dinner"
+        },
+        {
+          "id": "c",
+          "text": "lunch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Breakfast — завтрак. Lunch — обед, dinner — ужин."
+    },
+    {
+      "id": "vc-018",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: This soup is too ___. Add some water.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sour"
+        },
+        {
+          "id": "b",
+          "text": "salty"
+        },
+        {
+          "id": "c",
+          "text": "sweet"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salty — солёный. Sweet — сладкий, sour — кислый."
+    },
+    {
+      "id": "vc-019",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Would you like a ___ of cake?",
+      "options": [
+        {
+          "id": "a",
+          "text": "cup"
+        },
+        {
+          "id": "b",
+          "text": "piece"
+        },
+        {
+          "id": "c",
+          "text": "glass"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A piece of cake — кусок торта. Cup — чашка (a cup of tea)."
+    },
+    {
+      "id": "vc-020",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: The ___ brought us the menu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "seller"
+        },
+        {
+          "id": "b",
+          "text": "cook"
+        },
+        {
+          "id": "c",
+          "text": "waiter"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Waiter — официант. Cook — повар, seller — продавец."
+    },
+    {
+      "id": "vc-021",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I don't eat ___. I'm a vegetarian.",
+      "options": [
+        {
+          "id": "a",
+          "text": "fruit"
+        },
+        {
+          "id": "b",
+          "text": "meat"
+        },
+        {
+          "id": "c",
+          "text": "rice"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Meat — мясо. Fruit — фрукты, rice — рис."
+    },
+    {
+      "id": "vc-022",
+      "tags": [
+        "vocab",
+        "food"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Can you ___ me the salt, please?",
+      "options": [
+        {
+          "id": "a",
+          "text": "give up"
+        },
+        {
+          "id": "b",
+          "text": "pass"
+        },
+        {
+          "id": "c",
+          "text": "send"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pass (me) the salt — передай соль. Send — отправить (по почте)."
+    },
+    {
+      "id": "vc-023",
+      "tags": [
+        "vocab",
+        "daily-routine"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: I ___ up at seven o'clock.",
+      "options": [
+        {
+          "id": "a",
+          "text": "make"
+        },
+        {
+          "id": "b",
+          "text": "take"
+        },
+        {
+          "id": "c",
+          "text": "get"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Get up — вставать (с постели). Wake up — просыпаться."
+    },
+    {
+      "id": "vc-024",
+      "tags": [
+        "vocab",
+        "daily-routine"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: I ___ my teeth twice a day.",
+      "options": [
+        {
+          "id": "a",
+          "text": "clean up"
+        },
+        {
+          "id": "b",
+          "text": "wash"
+        },
+        {
+          "id": "c",
+          "text": "brush"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Brush your teeth — чистить зубы. Wash — мыть (руки, лицо)."
+    },
+    {
+      "id": "vc-025",
+      "tags": [
+        "vocab",
+        "daily-routine"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: She ___ a shower every morning.",
+      "options": [
+        {
+          "id": "a",
+          "text": "makes"
+        },
+        {
+          "id": "b",
+          "text": "takes"
+        },
+        {
+          "id": "c",
+          "text": "does"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Take a shower / have a shower — принимать душ. Не «make»."
+    },
+    {
+      "id": "vc-026",
+      "tags": [
+        "vocab",
+        "daily-routine"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ to bed at 11 pm.",
+      "options": [
+        {
+          "id": "a",
+          "text": "go"
+        },
+        {
+          "id": "b",
+          "text": "lie"
+        },
+        {
+          "id": "c",
+          "text": "sleep"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Go to bed — ложиться спать. Sleep — спать (процесс)."
+    },
+    {
+      "id": "vc-027",
+      "tags": [
+        "vocab",
+        "daily-routine"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: He ___ the bus to work.",
+      "options": [
+        {
+          "id": "a",
+          "text": "drives"
+        },
+        {
+          "id": "b",
+          "text": "goes"
+        },
+        {
+          "id": "c",
+          "text": "takes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Take the bus — ехать на автобусе. Drive — вести машину."
+    },
+    {
+      "id": "vc-028",
+      "tags": [
+        "vocab",
+        "daily-routine"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ my homework after dinner.",
+      "options": [
+        {
+          "id": "a",
+          "text": "write"
+        },
+        {
+          "id": "b",
+          "text": "do"
+        },
+        {
+          "id": "c",
+          "text": "make"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Do homework — делать уроки. Make — создавать (make a cake)."
+    },
+    {
+      "id": "vc-029",
+      "tags": [
+        "vocab",
+        "daily-routine"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Can you ___ the dog for a walk?",
+      "options": [
+        {
+          "id": "a",
+          "text": "take"
+        },
+        {
+          "id": "b",
+          "text": "carry"
+        },
+        {
+          "id": "c",
+          "text": "bring"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Take the dog for a walk — выгулять собаку. Bring — принести (сюда)."
+    },
+    {
+      "id": "vc-030",
+      "tags": [
+        "vocab",
+        "daily-routine"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ breakfast at 8.",
+      "options": [
+        {
+          "id": "a",
+          "text": "make"
+        },
+        {
+          "id": "b",
+          "text": "have"
+        },
+        {
+          "id": "c",
+          "text": "take"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Have breakfast / lunch / dinner — завтракать, обедать, ужинать. Make breakfast — готовить завтрак."
+    },
+    {
+      "id": "vc-031",
+      "tags": [
+        "vocab",
+        "daily-routine"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: She ___ her bed every morning.",
+      "options": [
+        {
+          "id": "a",
+          "text": "does"
+        },
+        {
+          "id": "b",
+          "text": "makes"
+        },
+        {
+          "id": "c",
+          "text": "builds"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Make the bed — заправлять кровать. Это устойчивое выражение."
+    },
+    {
+      "id": "vc-032",
+      "tags": [
+        "vocab",
+        "daily-routine"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ a rest after work.",
+      "options": [
+        {
+          "id": "a",
+          "text": "have"
+        },
+        {
+          "id": "b",
+          "text": "make"
+        },
+        {
+          "id": "c",
+          "text": "do"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Have a rest — отдохнуть. Также: have a break, have fun."
+    },
+    {
+      "id": "vc-033",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: Excuse me, where is the ___? I need to catch a train.",
+      "options": [
+        {
+          "id": "a",
+          "text": "port"
+        },
+        {
+          "id": "b",
+          "text": "airport"
+        },
+        {
+          "id": "c",
+          "text": "station"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Station — вокзал (railway station). Airport — аэропорт, port — порт."
+    },
+    {
+      "id": "vc-034",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: I need a ___ to London.",
+      "options": [
+        {
+          "id": "a",
+          "text": "card"
+        },
+        {
+          "id": "b",
+          "text": "bill"
+        },
+        {
+          "id": "c",
+          "text": "ticket"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ticket — билет. Bill — счёт, card — карточка."
+    },
+    {
+      "id": "vc-035",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: ___ straight on and turn left.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Walk in"
+        },
+        {
+          "id": "b",
+          "text": "Come"
+        },
+        {
+          "id": "c",
+          "text": "Go"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Go straight on — идите прямо. Turn left/right — поверните налево/направо."
+    },
+    {
+      "id": "vc-036",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: The bank is ___ the post office.",
+      "options": [
+        {
+          "id": "a",
+          "text": "next"
+        },
+        {
+          "id": "b",
+          "text": "near to"
+        },
+        {
+          "id": "c",
+          "text": "next to"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Next to — рядом с. Near — близко (без to). «Near to» — ошибка."
+    },
+    {
+      "id": "vc-037",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Is it ___ from here?",
+      "options": [
+        {
+          "id": "a",
+          "text": "high"
+        },
+        {
+          "id": "b",
+          "text": "far"
+        },
+        {
+          "id": "c",
+          "text": "long"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Far — далеко. Is it far? — Это далеко? Long — длинный/долгий."
+    },
+    {
+      "id": "vc-038",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Our ___ to Paris takes two hours.",
+      "options": [
+        {
+          "id": "a",
+          "text": "flying"
+        },
+        {
+          "id": "b",
+          "text": "flight"
+        },
+        {
+          "id": "c",
+          "text": "fly"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Flight — рейс, полёт (существительное). Fly — лететь (глагол)."
+    },
+    {
+      "id": "vc-039",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I've lost my ___. I can't travel without it.",
+      "options": [
+        {
+          "id": "a",
+          "text": "password"
+        },
+        {
+          "id": "b",
+          "text": "passport"
+        },
+        {
+          "id": "c",
+          "text": "ticket office"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Passport — паспорт. Password — пароль (похожие слова!)."
+    },
+    {
+      "id": "vc-040",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: We stayed at a small ___ by the sea.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hospital"
+        },
+        {
+          "id": "b",
+          "text": "hotel"
+        },
+        {
+          "id": "c",
+          "text": "hostel room"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hotel — гостиница. Hospital — больница."
+    },
+    {
+      "id": "vc-041",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Where can I ___ a car for the weekend?",
+      "options": [
+        {
+          "id": "a",
+          "text": "buy"
+        },
+        {
+          "id": "b",
+          "text": "rent"
+        },
+        {
+          "id": "c",
+          "text": "borrow"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rent a car — арендовать машину (за деньги). Borrow — взять взаймы (бесплатно)."
+    },
+    {
+      "id": "vc-042",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: The plane ___ at 6 am.",
+      "options": [
+        {
+          "id": "a",
+          "text": "goes up"
+        },
+        {
+          "id": "b",
+          "text": "takes up"
+        },
+        {
+          "id": "c",
+          "text": "takes off"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Take off — взлетать (и снимать одежду). Land — приземляться."
+    },
+    {
+      "id": "vc-043",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I missed the bus, so I was ___ for work.",
+      "options": [
+        {
+          "id": "a",
+          "text": "late"
+        },
+        {
+          "id": "b",
+          "text": "lately"
+        },
+        {
+          "id": "c",
+          "text": "later"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Be late for — опоздать на. Lately — в последнее время."
+    },
+    {
+      "id": "vc-044",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Our luggage was too ___. We paid extra.",
+      "options": [
+        {
+          "id": "a",
+          "text": "heavy"
+        },
+        {
+          "id": "b",
+          "text": "strong"
+        },
+        {
+          "id": "c",
+          "text": "hard"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Heavy — тяжёлый (по весу). Hard — твёрдый/трудный, strong — сильный."
+    },
+    {
+      "id": "vc-045",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Let's go on ___ to Italy this summer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "holiday"
+        },
+        {
+          "id": "b",
+          "text": "vacations"
+        },
+        {
+          "id": "c",
+          "text": "weekend"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Go on holiday — поехать в отпуск (UK). В США — vacation (ед. число)."
+    },
+    {
+      "id": "vc-046",
+      "tags": [
+        "vocab",
+        "travel"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'll ___ you at the airport.",
+      "options": [
+        {
+          "id": "a",
+          "text": "see"
+        },
+        {
+          "id": "b",
+          "text": "meet"
+        },
+        {
+          "id": "c",
+          "text": "know"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Meet someone at the airport — встретить в аэропорту."
+    },
+    {
+      "id": "vc-047",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: How ___ is this T-shirt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "price"
+        },
+        {
+          "id": "b",
+          "text": "many"
+        },
+        {
+          "id": "c",
+          "text": "much"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "How much is it? — Сколько стоит? How much — для цены."
+    },
+    {
+      "id": "vc-048",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: Can I ___ by card?",
+      "options": [
+        {
+          "id": "a",
+          "text": "pay"
+        },
+        {
+          "id": "b",
+          "text": "buy"
+        },
+        {
+          "id": "c",
+          "text": "spend"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Pay by card / in cash — платить картой / наличными."
+    },
+    {
+      "id": "vc-049",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: These shoes are too ___. I need a bigger size.",
+      "options": [
+        {
+          "id": "a",
+          "text": "little"
+        },
+        {
+          "id": "b",
+          "text": "small"
+        },
+        {
+          "id": "c",
+          "text": "short"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Small — маленький (размер). Short — короткий, little — маленький (милый, о детях)."
+    },
+    {
+      "id": "vc-050",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: This dress is very ___. I can't afford it.",
+      "options": [
+        {
+          "id": "a",
+          "text": "costly much"
+        },
+        {
+          "id": "b",
+          "text": "expensive"
+        },
+        {
+          "id": "c",
+          "text": "cheap"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Expensive — дорогой. Cheap — дешёвый. Afford — позволить себе."
+    },
+    {
+      "id": "vc-051",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Can I ___ on this jacket?",
+      "options": [
+        {
+          "id": "a",
+          "text": "put"
+        },
+        {
+          "id": "b",
+          "text": "take"
+        },
+        {
+          "id": "c",
+          "text": "try"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Try on — примерить. Put on — надеть."
+    },
+    {
+      "id": "vc-052",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I bought it on ___. It was 50% off.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sale"
+        },
+        {
+          "id": "b",
+          "text": "discount shop"
+        },
+        {
+          "id": "c",
+          "text": "price"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "On sale — со скидкой, на распродаже. 50% off — скидка 50%."
+    },
+    {
+      "id": "vc-053",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ too much money on clothes.",
+      "options": [
+        {
+          "id": "a",
+          "text": "spend"
+        },
+        {
+          "id": "b",
+          "text": "cost"
+        },
+        {
+          "id": "c",
+          "text": "pay"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Spend money on — тратить деньги на. Cost — стоить (о товаре)."
+    },
+    {
+      "id": "vc-054",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Here is your ___. Keep it if you want to return the item.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bill"
+        },
+        {
+          "id": "b",
+          "text": "recipe"
+        },
+        {
+          "id": "c",
+          "text": "receipt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Receipt — чек. Recipe — кулинарный рецепт (ложный друг!)."
+    },
+    {
+      "id": "vc-055",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I need to ___ some money from the ATM.",
+      "options": [
+        {
+          "id": "a",
+          "text": "get out"
+        },
+        {
+          "id": "b",
+          "text": "withdraw"
+        },
+        {
+          "id": "c",
+          "text": "take out of"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Withdraw money — снять деньги. Take out money — тоже можно (без of)."
+    },
+    {
+      "id": "vc-056",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Can I ___ 20 dollars? I'll give it back tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "text": "rent"
+        },
+        {
+          "id": "b",
+          "text": "borrow"
+        },
+        {
+          "id": "c",
+          "text": "lend"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Borrow — взять в долг (я беру). Lend — дать в долг (я даю): Can you lend me 20 dollars?"
+    },
+    {
+      "id": "vc-057",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: The shop is ___ on Sundays.",
+      "options": [
+        {
+          "id": "a",
+          "text": "closed"
+        },
+        {
+          "id": "b",
+          "text": "close"
+        },
+        {
+          "id": "c",
+          "text": "shut up"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Closed — закрыт (прилагательное). Close — закрывать (глагол) или близкий."
+    },
+    {
+      "id": "vc-058",
+      "tags": [
+        "vocab",
+        "shopping"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I work as a ___ in a supermarket.",
+      "options": [
+        {
+          "id": "a",
+          "text": "customer"
+        },
+        {
+          "id": "b",
+          "text": "cashier"
+        },
+        {
+          "id": "c",
+          "text": "client"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Cashier — кассир. Customer — покупатель."
+    },
+    {
+      "id": "vc-059",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: She works in a hospital. She is a ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "lawyer"
+        },
+        {
+          "id": "b",
+          "text": "nurse"
+        },
+        {
+          "id": "c",
+          "text": "teacher"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nurse — медсестра. Teacher — учитель, lawyer — юрист."
+    },
+    {
+      "id": "vc-060",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: He ___ as an engineer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "makes"
+        },
+        {
+          "id": "b",
+          "text": "works"
+        },
+        {
+          "id": "c",
+          "text": "jobs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Work as — работать кем-то. Job — работа (существительное), глагола «to job» нет."
+    },
+    {
+      "id": "vc-061",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I have an English ___ at 5 pm.",
+      "options": [
+        {
+          "id": "a",
+          "text": "learning"
+        },
+        {
+          "id": "b",
+          "text": "lecture"
+        },
+        {
+          "id": "c",
+          "text": "lesson"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lesson — урок. Lecture — лекция. Learning — обучение (процесс)."
+    },
+    {
+      "id": "vc-062",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: What do you ___? — I'm a doctor.",
+      "options": [
+        {
+          "id": "a",
+          "text": "work"
+        },
+        {
+          "id": "b",
+          "text": "make"
+        },
+        {
+          "id": "c",
+          "text": "do"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "What do you do? — Кем вы работаете? Буквально: «что вы делаете?»"
+    },
+    {
+      "id": "vc-063",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I have a job ___ tomorrow. I'm nervous.",
+      "options": [
+        {
+          "id": "a",
+          "text": "conversation"
+        },
+        {
+          "id": "b",
+          "text": "interview"
+        },
+        {
+          "id": "c",
+          "text": "meeting"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Job interview — собеседование. Meeting — встреча, совещание."
+    },
+    {
+      "id": "vc-064",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: My ___ is very high. I'm happy with the money.",
+      "options": [
+        {
+          "id": "a",
+          "text": "payment"
+        },
+        {
+          "id": "b",
+          "text": "price"
+        },
+        {
+          "id": "c",
+          "text": "salary"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salary — зарплата. Price — цена."
+    },
+    {
+      "id": "vc-065",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'm very ___ this week. I have a lot of work.",
+      "options": [
+        {
+          "id": "a",
+          "text": "free"
+        },
+        {
+          "id": "b",
+          "text": "busy"
+        },
+        {
+          "id": "c",
+          "text": "hard"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Busy — занятой. Free — свободный."
+    },
+    {
+      "id": "vc-066",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: She ___ her exam with a good mark.",
+      "options": [
+        {
+          "id": "a",
+          "text": "made"
+        },
+        {
+          "id": "b",
+          "text": "passed"
+        },
+        {
+          "id": "c",
+          "text": "won"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pass an exam — сдать экзамен (успешно). Take an exam — сдавать (процесс). Fail — провалить."
+    },
+    {
+      "id": "vc-067",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: My ___ is very strict but fair.",
+      "options": [
+        {
+          "id": "a",
+          "text": "chef"
+        },
+        {
+          "id": "b",
+          "text": "chief"
+        },
+        {
+          "id": "c",
+          "text": "boss"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Boss — начальник. Chef — шеф-повар (ложный друг!), chief — вождь/глава."
+    },
+    {
+      "id": "vc-068",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I need to ___ this report by Friday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "finish"
+        },
+        {
+          "id": "b",
+          "text": "end"
+        },
+        {
+          "id": "c",
+          "text": "stop"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Finish — закончить работу. End — заканчиваться (о фильме, дне)."
+    },
+    {
+      "id": "vc-069",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Could you ___ me your pen, please?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lend"
+        },
+        {
+          "id": "b",
+          "text": "borrow"
+        },
+        {
+          "id": "c",
+          "text": "take"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Lend me — одолжи мне (ты даёшь). Borrow — брать: Can I borrow your pen?"
+    },
+    {
+      "id": "vc-070",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: She ___ a lot of mistakes in her test.",
+      "options": [
+        {
+          "id": "a",
+          "text": "made"
+        },
+        {
+          "id": "b",
+          "text": "had"
+        },
+        {
+          "id": "c",
+          "text": "did"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Make a mistake — сделать ошибку. Не «do a mistake»."
+    },
+    {
+      "id": "vc-071",
+      "tags": [
+        "vocab",
+        "work"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ a degree in economics.",
+      "options": [
+        {
+          "id": "a",
+          "text": "have"
+        },
+        {
+          "id": "b",
+          "text": "study"
+        },
+        {
+          "id": "c",
+          "text": "make"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Have a degree in — иметь диплом/степень по."
+    },
+    {
+      "id": "vc-072",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: I have a ___. I need an aspirin.",
+      "options": [
+        {
+          "id": "a",
+          "text": "toothbrush"
+        },
+        {
+          "id": "b",
+          "text": "headache"
+        },
+        {
+          "id": "c",
+          "text": "stomach"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Headache — головная боль (head + ache). Toothache — зубная боль."
+    },
+    {
+      "id": "vc-073",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: I feel ___. I think I have a cold.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hurt"
+        },
+        {
+          "id": "b",
+          "text": "bad"
+        },
+        {
+          "id": "c",
+          "text": "ill"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Feel ill / sick — чувствовать себя больным. Have a cold — простудиться."
+    },
+    {
+      "id": "vc-074",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: You look ___. Go to bed early.",
+      "options": [
+        {
+          "id": "a",
+          "text": "boring"
+        },
+        {
+          "id": "b",
+          "text": "tired"
+        },
+        {
+          "id": "c",
+          "text": "sleep"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tired — уставший. Boring — скучный (о фильме, книге)."
+    },
+    {
+      "id": "vc-075",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: The ___ gave me some medicine.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dentist"
+        },
+        {
+          "id": "b",
+          "text": "nurse"
+        },
+        {
+          "id": "c",
+          "text": "doctor"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Doctor — врач. Dentist — зубной врач."
+    },
+    {
+      "id": "vc-076",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ my leg when I fell.",
+      "options": [
+        {
+          "id": "a",
+          "text": "harmed"
+        },
+        {
+          "id": "b",
+          "text": "pained"
+        },
+        {
+          "id": "c",
+          "text": "hurt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Hurt — ушибить, повредить: I hurt my leg. My leg hurts — нога болит."
+    },
+    {
+      "id": "vc-077",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: She has a high ___. She needs to see a doctor.",
+      "options": [
+        {
+          "id": "a",
+          "text": "heat"
+        },
+        {
+          "id": "b",
+          "text": "temperature"
+        },
+        {
+          "id": "c",
+          "text": "warm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Temperature — температура (у больного). Heat — жара."
+    },
+    {
+      "id": "vc-078",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Take this ___ twice a day.",
+      "options": [
+        {
+          "id": "a",
+          "text": "medicine"
+        },
+        {
+          "id": "b",
+          "text": "recipe"
+        },
+        {
+          "id": "c",
+          "text": "cure"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Medicine — лекарство. Recipe — кулинарный рецепт; медицинский рецепт — prescription."
+    },
+    {
+      "id": "vc-079",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'm ___ about the exam tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "text": "nervous"
+        },
+        {
+          "id": "b",
+          "text": "angry"
+        },
+        {
+          "id": "c",
+          "text": "nervy"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nervous — нервничающий, взволнованный. Angry — злой."
+    },
+    {
+      "id": "vc-080",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Don't be ___. The dog is friendly.",
+      "options": [
+        {
+          "id": "a",
+          "text": "scary"
+        },
+        {
+          "id": "b",
+          "text": "fear"
+        },
+        {
+          "id": "c",
+          "text": "afraid"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Be afraid — бояться. Scary — страшный (о предмете), fear — страх (существительное)."
+    },
+    {
+      "id": "vc-081",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'm so ___! I passed all my exams.",
+      "options": [
+        {
+          "id": "a",
+          "text": "happy"
+        },
+        {
+          "id": "b",
+          "text": "lucky"
+        },
+        {
+          "id": "c",
+          "text": "funny"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Happy — счастливый. Lucky — везучий, funny — смешной."
+    },
+    {
+      "id": "vc-082",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: This film is ___. I'm falling asleep.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bored"
+        },
+        {
+          "id": "b",
+          "text": "boring"
+        },
+        {
+          "id": "c",
+          "text": "bore"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Boring — скучный (вызывает скуку). Bored — скучающий (I'm bored — мне скучно)."
+    },
+    {
+      "id": "vc-083",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'm ___ in art. I often go to museums.",
+      "options": [
+        {
+          "id": "a",
+          "text": "interest"
+        },
+        {
+          "id": "b",
+          "text": "interesting"
+        },
+        {
+          "id": "c",
+          "text": "interested"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Interested in — интересующийся. Interesting — интересный (о предмете)."
+    },
+    {
+      "id": "vc-084",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I was ___ when I heard the news.",
+      "options": [
+        {
+          "id": "a",
+          "text": "surprising"
+        },
+        {
+          "id": "b",
+          "text": "surprised"
+        },
+        {
+          "id": "c",
+          "text": "surprise"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Surprised — удивлённый (человек). Surprising — удивительный (новость)."
+    },
+    {
+      "id": "vc-085",
+      "tags": [
+        "vocab",
+        "health"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Keep ___! It's not a big problem.",
+      "options": [
+        {
+          "id": "a",
+          "text": "quiet"
+        },
+        {
+          "id": "b",
+          "text": "calm"
+        },
+        {
+          "id": "c",
+          "text": "slow"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Keep calm — сохраняй спокойствие. Quiet — тихий."
+    },
+    {
+      "id": "vc-086",
+      "tags": [
+        "vocab",
+        "weather"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: It's ___ today. Take an umbrella.",
+      "options": [
+        {
+          "id": "a",
+          "text": "raining"
+        },
+        {
+          "id": "b",
+          "text": "sunny"
+        },
+        {
+          "id": "c",
+          "text": "windy"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Raining — идёт дождь. Sunny — солнечно, windy — ветрено."
+    },
+    {
+      "id": "vc-087",
+      "tags": [
+        "vocab",
+        "weather"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: It's very ___ in winter in Russia.",
+      "options": [
+        {
+          "id": "a",
+          "text": "cool"
+        },
+        {
+          "id": "b",
+          "text": "cold"
+        },
+        {
+          "id": "c",
+          "text": "hot"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Cold — холодно. Cool — прохладно (или «классно»). Hot — жарко."
+    },
+    {
+      "id": "vc-088",
+      "tags": [
+        "vocab",
+        "weather"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: It's ___ outside. Wear a jacket.",
+      "options": [
+        {
+          "id": "a",
+          "text": "chilly"
+        },
+        {
+          "id": "b",
+          "text": "boiling"
+        },
+        {
+          "id": "c",
+          "text": "chill"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Chilly — прохладно, зябко. Boiling — очень жарко."
+    },
+    {
+      "id": "vc-089",
+      "tags": [
+        "vocab",
+        "weather"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Look, it's ___! Everything is white.",
+      "options": [
+        {
+          "id": "a",
+          "text": "snowing"
+        },
+        {
+          "id": "b",
+          "text": "snow"
+        },
+        {
+          "id": "c",
+          "text": "snowy"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "It's snowing — идёт снег (глагол). Snowy — снежный."
+    },
+    {
+      "id": "vc-090",
+      "tags": [
+        "vocab",
+        "weather"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: What's the ___ like today?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weather"
+        },
+        {
+          "id": "b",
+          "text": "whether"
+        },
+        {
+          "id": "c",
+          "text": "climate"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Weather — погода. Whether — «ли» (союз), climate — климат."
+    },
+    {
+      "id": "vc-091",
+      "tags": [
+        "vocab",
+        "weather"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: My birthday is in ___, the first month of the year.",
+      "options": [
+        {
+          "id": "a",
+          "text": "January"
+        },
+        {
+          "id": "b",
+          "text": "June"
+        },
+        {
+          "id": "c",
+          "text": "July"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "January — январь. June — июнь, July — июль."
+    },
+    {
+      "id": "vc-092",
+      "tags": [
+        "vocab",
+        "weather"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Monday, Tuesday, ___, Thursday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saturday"
+        },
+        {
+          "id": "b",
+          "text": "Wednesday"
+        },
+        {
+          "id": "c",
+          "text": "Sunday"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Wednesday — среда. Saturday — суббота, Sunday — воскресенье."
+    },
+    {
+      "id": "vc-093",
+      "tags": [
+        "vocab",
+        "weather"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: There was a heavy ___ last night. I couldn't sleep.",
+      "options": [
+        {
+          "id": "a",
+          "text": "storm"
+        },
+        {
+          "id": "b",
+          "text": "wind"
+        },
+        {
+          "id": "c",
+          "text": "cloud"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Storm — гроза, буря. Heavy rain/snow — сильный дождь/снег."
+    },
+    {
+      "id": "vc-094",
+      "tags": [
+        "vocab",
+        "weather"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: It's 8:45. — It's a ___ to nine.",
+      "options": [
+        {
+          "id": "a",
+          "text": "fourth"
+        },
+        {
+          "id": "b",
+          "text": "half"
+        },
+        {
+          "id": "c",
+          "text": "quarter"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A quarter to nine — без четверти девять. Half past eight — половина девятого."
+    },
+    {
+      "id": "vc-095",
+      "tags": [
+        "vocab",
+        "weather"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'll be back in a ___ of minutes.",
+      "options": [
+        {
+          "id": "a",
+          "text": "few"
+        },
+        {
+          "id": "b",
+          "text": "couple"
+        },
+        {
+          "id": "c",
+          "text": "pair"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A couple of minutes — пара минут. Pair — пара (обуви, носков)."
+    },
+    {
+      "id": "vc-096",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Please ___ your shoes before you come in.",
+      "options": [
+        {
+          "id": "a",
+          "text": "put off"
+        },
+        {
+          "id": "b",
+          "text": "take off"
+        },
+        {
+          "id": "c",
+          "text": "take on"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Take off — снимать (одежду, обувь). Put on — надевать."
+    },
+    {
+      "id": "vc-097",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: It's cold. ___ your coat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Put on"
+        },
+        {
+          "id": "b",
+          "text": "Put off"
+        },
+        {
+          "id": "c",
+          "text": "Wear on"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Put on — надеть. Wear — носить (без on)."
+    },
+    {
+      "id": "vc-098",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Can you ___ the TV? I want to watch the news.",
+      "options": [
+        {
+          "id": "a",
+          "text": "turn up"
+        },
+        {
+          "id": "b",
+          "text": "switch"
+        },
+        {
+          "id": "c",
+          "text": "turn on"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Turn on / switch on — включить. Turn up — сделать громче."
+    },
+    {
+      "id": "vc-099",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ early and have breakfast.",
+      "options": [
+        {
+          "id": "a",
+          "text": "get up"
+        },
+        {
+          "id": "b",
+          "text": "get on"
+        },
+        {
+          "id": "c",
+          "text": "stand up"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Get up — вставать утром. Stand up — встать (со стула)."
+    },
+    {
+      "id": "vc-100",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I have to ___ my children from school.",
+      "options": [
+        {
+          "id": "a",
+          "text": "take up"
+        },
+        {
+          "id": "b",
+          "text": "put up"
+        },
+        {
+          "id": "c",
+          "text": "pick up"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pick up — забрать, заехать за кем-то."
+    },
+    {
+      "id": "vc-101",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'm ___ my keys. Have you seen them?",
+      "options": [
+        {
+          "id": "a",
+          "text": "looking after"
+        },
+        {
+          "id": "b",
+          "text": "looking at"
+        },
+        {
+          "id": "c",
+          "text": "looking for"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Look for — искать. Look at — смотреть на. Look after — присматривать."
+    },
+    {
+      "id": "vc-102",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: She ___ her little brother when her parents are at work.",
+      "options": [
+        {
+          "id": "a",
+          "text": "looks for"
+        },
+        {
+          "id": "b",
+          "text": "looks after"
+        },
+        {
+          "id": "c",
+          "text": "looks up"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Look after — присматривать, ухаживать."
+    },
+    {
+      "id": "vc-103",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ smoking two years ago.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gave up"
+        },
+        {
+          "id": "b",
+          "text": "gave out"
+        },
+        {
+          "id": "c",
+          "text": "gave in"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Give up — бросить (привычку), сдаться."
+    },
+    {
+      "id": "vc-104",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Can you ___ this word in the dictionary?",
+      "options": [
+        {
+          "id": "a",
+          "text": "look up"
+        },
+        {
+          "id": "b",
+          "text": "look for"
+        },
+        {
+          "id": "c",
+          "text": "look into"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Look up — посмотреть (в словаре, справочнике)."
+    },
+    {
+      "id": "vc-105",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ with my best friend. We don't talk now.",
+      "options": [
+        {
+          "id": "a",
+          "text": "fell off"
+        },
+        {
+          "id": "b",
+          "text": "fell down"
+        },
+        {
+          "id": "c",
+          "text": "fell out"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Fall out with — поссориться. Fall down — упасть."
+    },
+    {
+      "id": "vc-106",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Don't ___! Keep trying.",
+      "options": [
+        {
+          "id": "a",
+          "text": "give up"
+        },
+        {
+          "id": "b",
+          "text": "give back"
+        },
+        {
+          "id": "c",
+          "text": "get up"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Give up — сдаваться. Give back — вернуть."
+    },
+    {
+      "id": "vc-107",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Please ___ the form and sign it.",
+      "options": [
+        {
+          "id": "a",
+          "text": "fill on"
+        },
+        {
+          "id": "b",
+          "text": "fill up"
+        },
+        {
+          "id": "c",
+          "text": "fill in"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Fill in (a form) — заполнить бланк. Fill up — заправить (бак)."
+    },
+    {
+      "id": "vc-108",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: The meeting was ___ because the boss was ill.",
+      "options": [
+        {
+          "id": "a",
+          "text": "called out"
+        },
+        {
+          "id": "b",
+          "text": "called off"
+        },
+        {
+          "id": "c",
+          "text": "called up"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Call off — отменить. Call up — позвонить."
+    },
+    {
+      "id": "vc-109",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ at 6 am, but I stayed in bed until 7.",
+      "options": [
+        {
+          "id": "a",
+          "text": "woke up"
+        },
+        {
+          "id": "b",
+          "text": "got up"
+        },
+        {
+          "id": "c",
+          "text": "stood up"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Wake up — проснуться. Get up — встать с постели."
+    },
+    {
+      "id": "vc-110",
+      "tags": [
+        "vocab",
+        "phrasal-verbs"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: We ___ at the next stop.",
+      "options": [
+        {
+          "id": "a",
+          "text": "get off"
+        },
+        {
+          "id": "b",
+          "text": "get down"
+        },
+        {
+          "id": "c",
+          "text": "get out"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Get off — выходить из автобуса/поезда. Get out of — из машины/такси."
+    },
+    {
+      "id": "vc-111",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: She ___ me that she was tired.",
+      "options": [
+        {
+          "id": "a",
+          "text": "spoke"
+        },
+        {
+          "id": "b",
+          "text": "said"
+        },
+        {
+          "id": "c",
+          "text": "told"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Tell + кому (tell me). Say — без адресата (she said that…). Speak — говорить (на языке)."
+    },
+    {
+      "id": "vc-112",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: He ___ \"Hello\" and left.",
+      "options": [
+        {
+          "id": "a",
+          "text": "told"
+        },
+        {
+          "id": "b",
+          "text": "talked"
+        },
+        {
+          "id": "c",
+          "text": "said"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Say + слова (said \"Hello\"). Tell — обязательно с адресатом (told me)."
+    },
+    {
+      "id": "vc-113",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Do you ___ English?",
+      "options": [
+        {
+          "id": "a",
+          "text": "talk"
+        },
+        {
+          "id": "b",
+          "text": "speak"
+        },
+        {
+          "id": "c",
+          "text": "say"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Speak a language — говорить на языке. Talk — беседовать."
+    },
+    {
+      "id": "vc-114",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Please ___ me your phone number.",
+      "options": [
+        {
+          "id": "a",
+          "text": "tell"
+        },
+        {
+          "id": "b",
+          "text": "say"
+        },
+        {
+          "id": "c",
+          "text": "speak"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Tell me — скажи мне. Say me — ошибка."
+    },
+    {
+      "id": "vc-115",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ a mistake in the email.",
+      "options": [
+        {
+          "id": "a",
+          "text": "did"
+        },
+        {
+          "id": "b",
+          "text": "made"
+        },
+        {
+          "id": "c",
+          "text": "had"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Make a mistake, make a decision, make a cake. Do homework, do sport, do the shopping."
+    },
+    {
+      "id": "vc-116",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ the shopping on Saturdays.",
+      "options": [
+        {
+          "id": "a",
+          "text": "make"
+        },
+        {
+          "id": "b",
+          "text": "do"
+        },
+        {
+          "id": "c",
+          "text": "have"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Do the shopping — делать покупки. Do the dishes, do the washing."
+    },
+    {
+      "id": "vc-117",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Can you ___ me a photo of your dog?",
+      "options": [
+        {
+          "id": "a",
+          "text": "send"
+        },
+        {
+          "id": "b",
+          "text": "carry"
+        },
+        {
+          "id": "c",
+          "text": "bring"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Send — отправить (сообщение, фото). Bring — принести (физически)."
+    },
+    {
+      "id": "vc-118",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Please ___ your umbrella. It's going to rain.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bring"
+        },
+        {
+          "id": "b",
+          "text": "take"
+        },
+        {
+          "id": "c",
+          "text": "carry"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Take — взять с собой (туда). Bring — принести (сюда, ко мне)."
+    },
+    {
+      "id": "vc-119",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'm ___ at the photo. She looks happy.",
+      "options": [
+        {
+          "id": "a",
+          "text": "watching"
+        },
+        {
+          "id": "b",
+          "text": "looking"
+        },
+        {
+          "id": "c",
+          "text": "seeing"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Look at — смотреть на (фото, картину). Watch — смотреть (фильм, процесс). See — видеть."
+    },
+    {
+      "id": "vc-120",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: We ___ a film last night.",
+      "options": [
+        {
+          "id": "a",
+          "text": "saw at"
+        },
+        {
+          "id": "b",
+          "text": "looked"
+        },
+        {
+          "id": "c",
+          "text": "watched"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Watch a film / TV — смотреть фильм. Также: see a film (в кино)."
+    },
+    {
+      "id": "vc-121",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I didn't ___ you at the party. Were you there?",
+      "options": [
+        {
+          "id": "a",
+          "text": "watch"
+        },
+        {
+          "id": "b",
+          "text": "look"
+        },
+        {
+          "id": "c",
+          "text": "see"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "See — видеть (факт). I didn't see you — я тебя не видел."
+    },
+    {
+      "id": "vc-122",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Can you ___ me? The music is too loud.",
+      "options": [
+        {
+          "id": "a",
+          "text": "listen to"
+        },
+        {
+          "id": "b",
+          "text": "listen"
+        },
+        {
+          "id": "c",
+          "text": "hear"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Hear — слышать (способность). Listen to — слушать (намеренно)."
+    },
+    {
+      "id": "vc-123",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ at university. I'm a student.",
+      "options": [
+        {
+          "id": "a",
+          "text": "study"
+        },
+        {
+          "id": "b",
+          "text": "teach"
+        },
+        {
+          "id": "c",
+          "text": "learn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Study — учиться (в учебном заведении, предмет). Learn — выучить, осваивать (learn to drive)."
+    },
+    {
+      "id": "vc-124",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I want to ___ how to swim.",
+      "options": [
+        {
+          "id": "a",
+          "text": "learn"
+        },
+        {
+          "id": "b",
+          "text": "teach"
+        },
+        {
+          "id": "c",
+          "text": "study"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Learn how to — научиться. Teach — учить кого-то."
+    },
+    {
+      "id": "vc-125",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'm going to the ___ to buy some medicine.",
+      "options": [
+        {
+          "id": "a",
+          "text": "drugstore shop"
+        },
+        {
+          "id": "b",
+          "text": "magazine"
+        },
+        {
+          "id": "c",
+          "text": "chemist's"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Chemist's / pharmacy — аптека. Magazine — журнал (не магазин!). Магазин — shop."
+    },
+    {
+      "id": "vc-126",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I read an interesting ___ yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "journal"
+        },
+        {
+          "id": "b",
+          "text": "magazine"
+        },
+        {
+          "id": "c",
+          "text": "shop"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Magazine — журнал. Journal — научный журнал или дневник."
+    },
+    {
+      "id": "vc-127",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: She is a very ___ person. She always reads and studies.",
+      "options": [
+        {
+          "id": "a",
+          "text": "intelligible"
+        },
+        {
+          "id": "b",
+          "text": "intellectual worker"
+        },
+        {
+          "id": "c",
+          "text": "intelligent"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Intelligent — умный. Не путать с русским «интеллигентный» (cultured, well-mannered)."
+    },
+    {
+      "id": "vc-128",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: This is a very ___ question. I can't answer it quickly.",
+      "options": [
+        {
+          "id": "a",
+          "text": "complicated"
+        },
+        {
+          "id": "b",
+          "text": "actual"
+        },
+        {
+          "id": "c",
+          "text": "complex number"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Complicated — сложный. Actual — фактический, реальный (не «актуальный»!)."
+    },
+    {
+      "id": "vc-129",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: He is very ___. He always gives exact answers.",
+      "options": [
+        {
+          "id": "a",
+          "text": "careful man"
+        },
+        {
+          "id": "b",
+          "text": "accurate"
+        },
+        {
+          "id": "c",
+          "text": "neat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Accurate — точный. «Аккуратный» (опрятный) — neat, tidy."
+    },
+    {
+      "id": "vc-130",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I have a ___ of this book in my bag.",
+      "options": [
+        {
+          "id": "a",
+          "text": "exemplar"
+        },
+        {
+          "id": "b",
+          "text": "copy"
+        },
+        {
+          "id": "c",
+          "text": "sample"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A copy of a book — экземпляр книги. Copy — не только «копия»."
+    },
+    {
+      "id": "vc-131",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Sorry, I'm ___. I'll be there in 10 minutes.",
+      "options": [
+        {
+          "id": "a",
+          "text": "late"
+        },
+        {
+          "id": "b",
+          "text": "later"
+        },
+        {
+          "id": "c",
+          "text": "lately"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Be late — опаздывать. Later — позже, lately — в последнее время."
+    },
+    {
+      "id": "vc-132",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ my grandmother every Sunday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "go to"
+        },
+        {
+          "id": "b",
+          "text": "visit"
+        },
+        {
+          "id": "c",
+          "text": "attend"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Visit — навещать (людей, места). Attend — посещать (занятия, встречи)."
+    },
+    {
+      "id": "vc-133",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ a very strange dream last night.",
+      "options": [
+        {
+          "id": "a",
+          "text": "saw"
+        },
+        {
+          "id": "b",
+          "text": "watched"
+        },
+        {
+          "id": "c",
+          "text": "had"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Have a dream — видеть сон. По-английски сон не «видят», а «имеют»."
+    },
+    {
+      "id": "vc-134",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Can you ___ me a favour?",
+      "options": [
+        {
+          "id": "a",
+          "text": "make"
+        },
+        {
+          "id": "b",
+          "text": "do"
+        },
+        {
+          "id": "c",
+          "text": "give"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Do someone a favour — сделать одолжение."
+    },
+    {
+      "id": "vc-135",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: Let's ___ a photo together!",
+      "options": [
+        {
+          "id": "a",
+          "text": "do"
+        },
+        {
+          "id": "b",
+          "text": "take"
+        },
+        {
+          "id": "c",
+          "text": "make"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Take a photo — сфотографировать. Не «make a photo»."
+    },
+    {
+      "id": "vc-136",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ my friend at the cinema yesterday. It was unexpected.",
+      "options": [
+        {
+          "id": "a",
+          "text": "knew"
+        },
+        {
+          "id": "b",
+          "text": "met"
+        },
+        {
+          "id": "c",
+          "text": "saw with"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Meet — встретить. Know — знать (быть знакомым)."
+    },
+    {
+      "id": "vc-137",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: He was ___ because the lesson was boring.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bore"
+        },
+        {
+          "id": "b",
+          "text": "boring"
+        },
+        {
+          "id": "c",
+          "text": "bored"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bored — скучающий (человек). Boring — скучный (урок)."
+    },
+    {
+      "id": "vc-138",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I ___ my job. I want to find a new one.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hate"
+        },
+        {
+          "id": "b",
+          "text": "hat"
+        },
+        {
+          "id": "c",
+          "text": "hit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Hate — ненавидеть. Hat — шляпа, hit — ударить."
+    },
+    {
+      "id": "vc-139",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: It's a ___ day. Let's go for a walk.",
+      "options": [
+        {
+          "id": "a",
+          "text": "lively"
+        },
+        {
+          "id": "b",
+          "text": "lovely"
+        },
+        {
+          "id": "c",
+          "text": "lonely"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lovely — прекрасный. Lively — оживлённый, lonely — одинокий."
+    },
+    {
+      "id": "vc-140",
+      "tags": [
+        "vocab",
+        "confusables"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: I'm ___! I can't wait for the holiday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "excited"
+        },
+        {
+          "id": "b",
+          "text": "excite"
+        },
+        {
+          "id": "c",
+          "text": "exciting"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Excited — взволнованный, в предвкушении. Exciting — захватывающий (о событии)."
+    },
+    {
+      "id": "vc-141",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: My mother's sister is my ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "aunt"
+        },
+        {
+          "id": "b",
+          "text": "cousin"
+        },
+        {
+          "id": "c",
+          "text": "uncle"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Aunt — тётя. Uncle — дядя, cousin — двоюродный брат/сестра."
+    },
+    {
+      "id": "vc-142",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите подходящее слово: My father's father is my ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "grandfather"
+        },
+        {
+          "id": "b",
+          "text": "uncle"
+        },
+        {
+          "id": "c",
+          "text": "grandson"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Grandfather — дедушка. Grandson — внук."
+    },
+    {
+      "id": "vc-143",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: My brother's daughter is my ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "nephew"
+        },
+        {
+          "id": "b",
+          "text": "cousin"
+        },
+        {
+          "id": "c",
+          "text": "niece"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Niece — племянница. Nephew — племянник."
+    },
+    {
+      "id": "vc-144",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: She has long ___ hair.",
+      "options": [
+        {
+          "id": "a",
+          "text": "yellow"
+        },
+        {
+          "id": "b",
+          "text": "blonde"
+        },
+        {
+          "id": "c",
+          "text": "blond-haired"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Blonde hair — светлые волосы. Про волосы не говорят yellow."
+    },
+    {
+      "id": "vc-145",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: He is very ___. He is 1 metre 95.",
+      "options": [
+        {
+          "id": "a",
+          "text": "long"
+        },
+        {
+          "id": "b",
+          "text": "high"
+        },
+        {
+          "id": "c",
+          "text": "tall"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Tall — высокий (о людях). High — высокий (о горах, зданиях)."
+    },
+    {
+      "id": "vc-146",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: She is ___. She's only 20.",
+      "options": [
+        {
+          "id": "a",
+          "text": "new"
+        },
+        {
+          "id": "b",
+          "text": "small"
+        },
+        {
+          "id": "c",
+          "text": "young"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Young — молодой. New — новый."
+    },
+    {
+      "id": "vc-147",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: My wife's parents are my ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "in-laws"
+        },
+        {
+          "id": "b",
+          "text": "relatives-in"
+        },
+        {
+          "id": "c",
+          "text": "step-parents"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "In-laws — родственники со стороны мужа/жены: mother-in-law — тёща/свекровь."
+    },
+    {
+      "id": "vc-148",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: He is always ___. He never smiles.",
+      "options": [
+        {
+          "id": "a",
+          "text": "heavy"
+        },
+        {
+          "id": "b",
+          "text": "boring"
+        },
+        {
+          "id": "c",
+          "text": "serious"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Serious — серьёзный."
+    },
+    {
+      "id": "vc-149",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: My sister is very ___. She talks to everyone.",
+      "options": [
+        {
+          "id": "a",
+          "text": "friendly"
+        },
+        {
+          "id": "b",
+          "text": "friend"
+        },
+        {
+          "id": "c",
+          "text": "lonely"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Friendly — дружелюбный (прилагательное, хотя и на -ly!)."
+    },
+    {
+      "id": "vc-150",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: He's a bit ___. He doesn't like talking to new people.",
+      "options": [
+        {
+          "id": "a",
+          "text": "proud"
+        },
+        {
+          "id": "b",
+          "text": "brave"
+        },
+        {
+          "id": "c",
+          "text": "shy"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Shy — застенчивый. Proud — гордый, brave — смелый."
+    },
+    {
+      "id": "vc-151",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: She's very ___. She always helps others.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kind"
+        },
+        {
+          "id": "b",
+          "text": "nice-looking"
+        },
+        {
+          "id": "c",
+          "text": "polite"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Kind — добрый. Polite — вежливый."
+    },
+    {
+      "id": "vc-152",
+      "tags": [
+        "vocab",
+        "people"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите подходящее слово: My grandparents are ___. They are over 80.",
+      "options": [
+        {
+          "id": "a",
+          "text": "older"
+        },
+        {
+          "id": "b",
+          "text": "ancient"
+        },
+        {
+          "id": "c",
+          "text": "elderly"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Elderly — пожилой (вежливо). Old — старый. Ancient — древний."
+    },
+    {
       "id": "gr-001",
       "tags": [
         "grammar",
@@ -1054,14 +5006,14 @@
         },
         {
           "id": "b",
-          "text": "is"
+          "text": "are"
         },
         {
           "id": "c",
-          "text": "are"
+          "text": "is"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "He, she, it → is. She is from Moscow."
     },
     {
@@ -1102,18 +5054,18 @@
       "options": [
         {
           "id": "a",
-          "text": "Am"
+          "text": "Are"
         },
         {
           "id": "b",
-          "text": "Is"
+          "text": "Am"
         },
         {
           "id": "c",
-          "text": "Are"
+          "text": "Is"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "a",
       "explanation": "В вопросе глагол to be ставится перед подлежащим: Are you tired? You → are."
     },
     {
@@ -1132,14 +5084,14 @@
         },
         {
           "id": "b",
-          "text": "is"
+          "text": "are"
         },
         {
           "id": "c",
-          "text": "are"
+          "text": "is"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "It (погода, предметы) → is. It is cold today. — Сегодня холодно."
     },
     {
@@ -1154,18 +5106,18 @@
       "options": [
         {
           "id": "a",
-          "text": "am"
+          "text": "are"
         },
         {
           "id": "b",
-          "text": "is"
+          "text": "am"
         },
         {
           "id": "c",
-          "text": "are"
+          "text": "is"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "a",
       "explanation": "We → are. Отрицание: are not = aren't. We aren't at home."
     },
     {
@@ -1180,7 +5132,7 @@
       "options": [
         {
           "id": "a",
-          "text": "am"
+          "text": "are"
         },
         {
           "id": "b",
@@ -1188,7 +5140,7 @@
         },
         {
           "id": "c",
-          "text": "are"
+          "text": "am"
         }
       ],
       "correctOptionId": "b",
@@ -1206,18 +5158,18 @@
       "options": [
         {
           "id": "a",
-          "text": "Am"
+          "text": "Are"
         },
         {
           "id": "b",
-          "text": "Is"
+          "text": "Am"
         },
         {
           "id": "c",
-          "text": "Are"
+          "text": "Is"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "This (это) — единственное число → is. Is this your bag?"
     },
     {
@@ -1258,18 +5210,18 @@
       "options": [
         {
           "id": "a",
-          "text": "is"
-        },
-        {
-          "id": "b",
           "text": "has"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "have"
+        },
+        {
+          "id": "c",
+          "text": "is"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Состояния (hungry, thirsty, cold, hot) выражаются через to be: He is hungry. Не говорят «he has hungry»."
     },
     {
@@ -1284,18 +5236,18 @@
       "options": [
         {
           "id": "a",
-          "text": "am"
-        },
-        {
-          "id": "b",
           "text": "is"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "are"
+        },
+        {
+          "id": "c",
+          "text": "am"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "Children (дети) — множественное число → are. Where are the children?"
     },
     {
@@ -1336,22 +5288,22 @@
       "options": [
         {
           "id": "a",
-          "text": "a"
+          "text": "—"
         },
         {
           "id": "b",
-          "text": "an"
+          "text": "a"
         },
         {
           "id": "c",
-          "text": "the"
+          "text": "an"
         },
         {
           "id": "d",
-          "text": "—"
+          "text": "the"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Перед исчисляемым существительным в единственном числе, которое упоминается впервые, нужен артикль a. Dog начинается с согласного → a dog."
     },
     {
@@ -1366,7 +5318,7 @@
       "options": [
         {
           "id": "a",
-          "text": "a"
+          "text": "the"
         },
         {
           "id": "b",
@@ -1374,11 +5326,11 @@
         },
         {
           "id": "c",
-          "text": "the"
+          "text": "—"
         },
         {
           "id": "d",
-          "text": "—"
+          "text": "a"
         }
       ],
       "correctOptionId": "b",
@@ -1396,11 +5348,11 @@
       "options": [
         {
           "id": "a",
-          "text": "a"
+          "text": "an"
         },
         {
           "id": "b",
-          "text": "an"
+          "text": "—"
         },
         {
           "id": "c",
@@ -1408,10 +5360,10 @@
         },
         {
           "id": "d",
-          "text": "—"
+          "text": "a"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Apple начинается с гласного → an apple."
     },
     {
@@ -1426,7 +5378,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A"
+          "text": "—"
         },
         {
           "id": "b",
@@ -1438,7 +5390,7 @@
         },
         {
           "id": "d",
-          "text": "—"
+          "text": "A"
         }
       ],
       "correctOptionId": "c",
@@ -1456,22 +5408,22 @@
       "options": [
         {
           "id": "a",
-          "text": "A"
+          "text": "—"
         },
         {
           "id": "b",
-          "text": "An"
+          "text": "A"
         },
         {
           "id": "c",
-          "text": "The"
+          "text": "An"
         },
         {
           "id": "d",
-          "text": "—"
+          "text": "The"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "d",
       "explanation": "Единственные в своём роде предметы (sun, moon, sky, world) — с the: the sun."
     },
     {
@@ -1486,22 +5438,22 @@
       "options": [
         {
           "id": "a",
-          "text": "a"
-        },
-        {
-          "id": "b",
-          "text": "an"
-        },
-        {
-          "id": "c",
           "text": "the"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "—"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        },
+        {
+          "id": "d",
+          "text": "a"
         }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "b",
       "explanation": "Неисчисляемые существительные в общем значении (music, water, love) употребляются без артикля: I like music."
     },
     {
@@ -1516,7 +5468,7 @@
       "options": [
         {
           "id": "a",
-          "text": "a"
+          "text": "—"
         },
         {
           "id": "b",
@@ -1528,10 +5480,10 @@
         },
         {
           "id": "d",
-          "text": "—"
+          "text": "a"
         }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "a",
       "explanation": "School, work, bed, home в значении «место по назначению» — без артикля: go to school, go to work, go home."
     },
     {
@@ -1546,22 +5498,22 @@
       "options": [
         {
           "id": "a",
-          "text": "a"
+          "text": "—"
         },
         {
           "id": "b",
-          "text": "an"
-        },
-        {
-          "id": "c",
           "text": "the"
         },
         {
+          "id": "c",
+          "text": "a"
+        },
+        {
           "id": "d",
-          "text": "—"
+          "text": "an"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "d",
       "explanation": "Hour произносится с гласного звука (h не читается) → an hour. Важен звук, а не буква!"
     },
     {
@@ -1576,22 +5528,22 @@
       "options": [
         {
           "id": "a",
-          "text": "a"
+          "text": "—"
         },
         {
           "id": "b",
-          "text": "an"
-        },
-        {
-          "id": "c",
           "text": "the"
         },
         {
+          "id": "c",
+          "text": "a"
+        },
+        {
           "id": "d",
-          "text": "—"
+          "text": "an"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "University произносится «ю» — согласный звук → a university. Сравните: an umbrella."
     },
     {
@@ -1610,18 +5562,18 @@
         },
         {
           "id": "b",
-          "text": "an"
+          "text": "—"
         },
         {
           "id": "c",
-          "text": "the"
+          "text": "an"
         },
         {
           "id": "d",
-          "text": "—"
+          "text": "the"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "d",
       "explanation": "Столица у страны одна, поэтому the capital of France."
     },
     {
@@ -1636,7 +5588,7 @@
       "options": [
         {
           "id": "a",
-          "text": "a"
+          "text": "—"
         },
         {
           "id": "b",
@@ -1648,10 +5600,10 @@
         },
         {
           "id": "d",
-          "text": "—"
+          "text": "a"
         }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "a",
       "explanation": "Названия большинства стран — без артикля: Russia, France, Italy. Исключения: the USA, the UK, the Netherlands."
     },
     {
@@ -1666,22 +5618,22 @@
       "options": [
         {
           "id": "a",
-          "text": "a"
-        },
-        {
-          "id": "b",
-          "text": "an"
-        },
-        {
-          "id": "c",
           "text": "the"
         },
         {
-          "id": "d",
+          "id": "b",
+          "text": "a"
+        },
+        {
+          "id": "c",
           "text": "—"
+        },
+        {
+          "id": "d",
+          "text": "an"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "a",
       "explanation": "Музыкальные инструменты — с the: play the piano, play the guitar. А виды спорта — без: play football."
     },
     {
@@ -1696,22 +5648,22 @@
       "options": [
         {
           "id": "a",
-          "text": "a"
-        },
-        {
-          "id": "b",
           "text": "an"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "the"
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "—"
+        },
+        {
+          "id": "d",
+          "text": "a"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "Glass (стакан) — исчисляемое, впервые → a glass of water. Water без артикля, а вот стакан — один, «какой-то»."
     },
     {
@@ -1726,22 +5678,22 @@
       "options": [
         {
           "id": "a",
-          "text": "a"
-        },
-        {
-          "id": "b",
-          "text": "an"
-        },
-        {
-          "id": "c",
           "text": "the"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "—"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        },
+        {
+          "id": "d",
+          "text": "a"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "Восклицание What + a/an + прилагательное + сущ.: What a beautiful day! What an idea!"
     },
     {
@@ -1756,18 +5708,18 @@
       "options": [
         {
           "id": "a",
-          "text": "child"
+          "text": "children"
         },
         {
           "id": "b",
-          "text": "childs"
+          "text": "child"
         },
         {
           "id": "c",
-          "text": "children"
+          "text": "childs"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "a",
       "explanation": "Child — неправильное существительное: child → children. «Childs» не существует."
     },
     {
@@ -1782,18 +5734,18 @@
       "options": [
         {
           "id": "a",
-          "text": "foot"
+          "text": "feet"
         },
         {
           "id": "b",
-          "text": "foots"
+          "text": "foot"
         },
         {
           "id": "c",
-          "text": "feet"
+          "text": "foots"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "a",
       "explanation": "Foot → feet (ноги, ступни). Запомните пары: foot–feet, tooth–teeth, man–men, woman–women."
     },
     {
@@ -1808,11 +5760,11 @@
       "options": [
         {
           "id": "a",
-          "text": "person"
+          "text": "persons"
         },
         {
           "id": "b",
-          "text": "persons"
+          "text": "person"
         },
         {
           "id": "c",
@@ -1834,18 +5786,18 @@
       "options": [
         {
           "id": "a",
-          "text": "box"
+          "text": "boxes"
         },
         {
           "id": "b",
-          "text": "boxs"
+          "text": "box"
         },
         {
           "id": "c",
-          "text": "boxes"
+          "text": "boxs"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "a",
       "explanation": "После -s, -x, -ch, -sh прибавляется -es: box → boxes, bus → buses, watch → watches."
     },
     {
@@ -1860,18 +5812,18 @@
       "options": [
         {
           "id": "a",
-          "text": "baby"
+          "text": "babies"
         },
         {
           "id": "b",
-          "text": "babys"
+          "text": "baby"
         },
         {
           "id": "c",
-          "text": "babies"
+          "text": "babys"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "a",
       "explanation": "Согласная + y → -ies: baby → babies, city → cities. Но: boy → boys (гласная + y)."
     },
     {
@@ -1890,14 +5842,14 @@
         },
         {
           "id": "b",
-          "text": "knives"
+          "text": "knife"
         },
         {
           "id": "c",
-          "text": "knife"
+          "text": "knives"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Слова на -f/-fe обычно меняют f на v: knife → knives, wife → wives, leaf → leaves."
     },
     {
@@ -1912,18 +5864,18 @@
       "options": [
         {
           "id": "a",
-          "text": "sheep"
+          "text": "sheeps"
         },
         {
           "id": "b",
-          "text": "sheeps"
+          "text": "sheep"
         },
         {
           "id": "c",
           "text": "sheepes"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Sheep не меняется во множественном числе: one sheep, five sheep. Так же: fish, deer."
     },
     {
@@ -1938,18 +5890,18 @@
       "options": [
         {
           "id": "a",
-          "text": "man"
-        },
-        {
-          "id": "b",
           "text": "mans"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "men"
+        },
+        {
+          "id": "c",
+          "text": "man"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "Man → men, woman → women. Произношение women — «уимин»."
     },
     {
@@ -1964,18 +5916,18 @@
       "options": [
         {
           "id": "a",
-          "text": "There is"
+          "text": "It is"
         },
         {
           "id": "b",
-          "text": "There are"
+          "text": "There is"
         },
         {
           "id": "c",
-          "text": "It is"
+          "text": "There are"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Одна книга (единственное число) → There is. Конструкция «there is/are» означает «есть, находится»."
     },
     {
@@ -1990,18 +5942,18 @@
       "options": [
         {
           "id": "a",
-          "text": "There is"
-        },
-        {
-          "id": "b",
           "text": "There are"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "It is"
+        },
+        {
+          "id": "c",
+          "text": "There is"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Two cats — множественное число → There are."
     },
     {
@@ -2042,18 +5994,18 @@
       "options": [
         {
           "id": "a",
-          "text": "There was"
+          "text": "There is"
         },
         {
           "id": "b",
-          "text": "There were"
+          "text": "There was"
         },
         {
           "id": "c",
-          "text": "There is"
+          "text": "There were"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "People — множественное число, прошедшее время → There were."
     },
     {
@@ -2094,7 +6046,7 @@
       "options": [
         {
           "id": "a",
-          "text": "go"
+          "text": "going"
         },
         {
           "id": "b",
@@ -2102,7 +6054,7 @@
         },
         {
           "id": "c",
-          "text": "going"
+          "text": "go"
         }
       ],
       "correctOptionId": "b",
@@ -2120,18 +6072,18 @@
       "options": [
         {
           "id": "a",
-          "text": "drink"
+          "text": "drinks"
         },
         {
           "id": "b",
-          "text": "drinks"
+          "text": "drink"
         },
         {
           "id": "c",
           "text": "drinking"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "С I/you/we/they глагол без окончания: I drink."
     },
     {
@@ -2146,18 +6098,18 @@
       "options": [
         {
           "id": "a",
-          "text": "speak"
-        },
-        {
-          "id": "b",
           "text": "speaks"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "is speak"
+        },
+        {
+          "id": "c",
+          "text": "speak"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "He → speaks. «Is speak» — ошибка: либо speaks, либо is speaking."
     },
     {
@@ -2172,18 +6124,18 @@
       "options": [
         {
           "id": "a",
-          "text": "Do"
+          "text": "Does"
         },
         {
           "id": "b",
-          "text": "Does"
+          "text": "Do"
         },
         {
           "id": "c",
           "text": "Are"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Вопрос в Present Simple строится с do/does. You → Do you like…? «Are you like» — ошибка."
     },
     {
@@ -2198,18 +6150,18 @@
       "options": [
         {
           "id": "a",
-          "text": "Do"
+          "text": "Is"
         },
         {
           "id": "b",
-          "text": "Does"
+          "text": "Do"
         },
         {
           "id": "c",
-          "text": "Is"
+          "text": "Does"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "She → Does. После does глагол без -s: Does she live (не lives)."
     },
     {
@@ -2250,7 +6202,7 @@
       "options": [
         {
           "id": "a",
-          "text": "don't"
+          "text": "not"
         },
         {
           "id": "b",
@@ -2258,10 +6210,10 @@
         },
         {
           "id": "c",
-          "text": "not"
+          "text": "don't"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "We → don't. Просто «not» без вспомогательного глагола нельзя."
     },
     {
@@ -2276,18 +6228,18 @@
       "options": [
         {
           "id": "a",
-          "text": "read"
+          "text": "is read"
         },
         {
           "id": "b",
-          "text": "reads"
+          "text": "read"
         },
         {
           "id": "c",
-          "text": "is read"
+          "text": "reads"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "My sister = she → reads."
     },
     {
@@ -2328,18 +6280,18 @@
       "options": [
         {
           "id": "a",
-          "text": "do"
+          "text": "is do"
         },
         {
           "id": "b",
-          "text": "does"
+          "text": "do"
         },
         {
           "id": "c",
-          "text": "is do"
+          "text": "does"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Do (делать) с she → does. She does her homework."
     },
     {
@@ -2358,14 +6310,14 @@
         },
         {
           "id": "b",
-          "text": "watchs"
+          "text": "watches"
         },
         {
           "id": "c",
-          "text": "watches"
+          "text": "watchs"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "После -ch добавляется -es: watch → watches, wash → washes, go → goes."
     },
     {
@@ -2380,7 +6332,7 @@
       "options": [
         {
           "id": "a",
-          "text": "do"
+          "text": "is"
         },
         {
           "id": "b",
@@ -2388,7 +6340,7 @@
         },
         {
           "id": "c",
-          "text": "is"
+          "text": "do"
         }
       ],
       "correctOptionId": "b",
@@ -2410,11 +6362,11 @@
         },
         {
           "id": "b",
-          "text": "doesn't"
+          "text": "not"
         },
         {
           "id": "c",
-          "text": "not"
+          "text": "doesn't"
         }
       ],
       "correctOptionId": "a",
@@ -2436,11 +6388,11 @@
         },
         {
           "id": "b",
-          "text": "does"
+          "text": "are"
         },
         {
           "id": "c",
-          "text": "are"
+          "text": "does"
         }
       ],
       "correctOptionId": "a",
@@ -2458,7 +6410,7 @@
       "options": [
         {
           "id": "a",
-          "text": "get up"
+          "text": "is get up"
         },
         {
           "id": "b",
@@ -2466,7 +6418,7 @@
         },
         {
           "id": "c",
-          "text": "is get up"
+          "text": "get up"
         }
       ],
       "correctOptionId": "b",
@@ -2484,18 +6436,18 @@
       "options": [
         {
           "id": "a",
-          "text": "lives"
+          "text": "live"
         },
         {
           "id": "b",
-          "text": "live"
+          "text": "lives"
         },
         {
           "id": "c",
           "text": "living"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Parents — они (they) → live без -s."
     },
     {
@@ -2536,18 +6488,18 @@
       "options": [
         {
           "id": "a",
-          "text": "you"
+          "text": "yours"
         },
         {
           "id": "b",
-          "text": "your"
+          "text": "you"
         },
         {
           "id": "c",
-          "text": "yours"
+          "text": "your"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Перед существительным нужно притяжательное местоимение: your car (твоя машина)."
     },
     {
@@ -2588,18 +6540,18 @@
       "options": [
         {
           "id": "a",
-          "text": "She"
-        },
-        {
-          "id": "b",
           "text": "Her"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Hers"
+        },
+        {
+          "id": "c",
+          "text": "She"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Подлежащее → she. Her — «её» (her book) или объектное «ей/её» (I see her)."
     },
     {
@@ -2614,18 +6566,18 @@
       "options": [
         {
           "id": "a",
-          "text": "my"
+          "text": "me"
         },
         {
           "id": "b",
-          "text": "mine"
+          "text": "my"
         },
         {
           "id": "c",
-          "text": "me"
+          "text": "mine"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Без существительного после — абсолютная форма: mine, yours, his, hers, ours, theirs. This book is mine."
     },
     {
@@ -2640,7 +6592,7 @@
       "options": [
         {
           "id": "a",
-          "text": "it"
+          "text": "it's"
         },
         {
           "id": "b",
@@ -2648,7 +6600,7 @@
         },
         {
           "id": "c",
-          "text": "it's"
+          "text": "it"
         }
       ],
       "correctOptionId": "b",
@@ -2670,14 +6622,14 @@
         },
         {
           "id": "b",
-          "text": "we"
+          "text": "our"
         },
         {
           "id": "c",
-          "text": "our"
+          "text": "we"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "Притяжательное: our children (наши дети)."
     },
     {
@@ -2718,7 +6670,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Who"
+          "text": "Who's"
         },
         {
           "id": "b",
@@ -2726,7 +6678,7 @@
         },
         {
           "id": "c",
-          "text": "Who's"
+          "text": "Who"
         }
       ],
       "correctOptionId": "b",
@@ -2774,11 +6726,11 @@
         },
         {
           "id": "b",
-          "text": "in"
+          "text": "at"
         },
         {
           "id": "c",
-          "text": "at"
+          "text": "in"
         }
       ],
       "correctOptionId": "a",
@@ -2822,18 +6774,18 @@
       "options": [
         {
           "id": "a",
-          "text": "on"
-        },
-        {
-          "id": "b",
           "text": "in"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "at"
+        },
+        {
+          "id": "c",
+          "text": "on"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "At — у конкретной точки: at the bus stop, at the door, at the station."
     },
     {
@@ -2848,7 +6800,7 @@
       "options": [
         {
           "id": "a",
-          "text": "on"
+          "text": "at"
         },
         {
           "id": "b",
@@ -2856,10 +6808,10 @@
         },
         {
           "id": "c",
-          "text": "at"
+          "text": "on"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Дни недели — on: on Monday, on Friday, on my birthday."
     },
     {
@@ -2874,18 +6826,18 @@
       "options": [
         {
           "id": "a",
-          "text": "on"
+          "text": "at"
         },
         {
           "id": "b",
-          "text": "in"
+          "text": "on"
         },
         {
           "id": "c",
-          "text": "at"
+          "text": "in"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "a",
       "explanation": "Точное время — at: at 9 o'clock, at noon, at night, at the weekend."
     },
     {
@@ -2900,7 +6852,7 @@
       "options": [
         {
           "id": "a",
-          "text": "on"
+          "text": "at"
         },
         {
           "id": "b",
@@ -2908,7 +6860,7 @@
         },
         {
           "id": "c",
-          "text": "at"
+          "text": "on"
         }
       ],
       "correctOptionId": "b",
@@ -2952,7 +6904,7 @@
       "options": [
         {
           "id": "a",
-          "text": "on"
+          "text": "at"
         },
         {
           "id": "b",
@@ -2960,7 +6912,7 @@
         },
         {
           "id": "c",
-          "text": "at"
+          "text": "on"
         }
       ],
       "correctOptionId": "b",
@@ -3004,18 +6956,18 @@
       "options": [
         {
           "id": "a",
-          "text": "to"
-        },
-        {
-          "id": "b",
           "text": "in"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "at"
+        },
+        {
+          "id": "c",
+          "text": "to"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Движение «куда» — to: go to the cinema, go to school, go to Moscow."
     },
     {
@@ -3030,18 +6982,18 @@
       "options": [
         {
           "id": "a",
-          "text": "—"
+          "text": "at"
         },
         {
           "id": "b",
-          "text": "to"
+          "text": "—"
         },
         {
           "id": "c",
-          "text": "at"
+          "text": "to"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Listen to (слушать кого-то) — предлог обязателен. Но: hear me (без предлога)."
     },
     {
@@ -3086,14 +7038,14 @@
         },
         {
           "id": "b",
-          "text": "of"
+          "text": "on"
         },
         {
           "id": "c",
-          "text": "on"
+          "text": "of"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "Depend on — зависеть от. Русское «от» (from) здесь ошибка: it depends on you."
     },
     {
@@ -3108,18 +7060,18 @@
       "options": [
         {
           "id": "a",
-          "text": "in"
+          "text": "on"
         },
         {
           "id": "b",
-          "text": "at"
+          "text": "in"
         },
         {
           "id": "c",
-          "text": "on"
+          "text": "at"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Interested in — интересоваться чем-то."
     },
     {
@@ -3134,7 +7086,7 @@
       "options": [
         {
           "id": "a",
-          "text": "in"
+          "text": "on"
         },
         {
           "id": "b",
@@ -3142,7 +7094,7 @@
         },
         {
           "id": "c",
-          "text": "on"
+          "text": "in"
         }
       ],
       "correctOptionId": "b",
@@ -3160,7 +7112,7 @@
       "options": [
         {
           "id": "a",
-          "text": "—"
+          "text": "at"
         },
         {
           "id": "b",
@@ -3168,7 +7120,7 @@
         },
         {
           "id": "c",
-          "text": "at"
+          "text": "—"
         }
       ],
       "correctOptionId": "b",
@@ -3212,18 +7164,18 @@
       "options": [
         {
           "id": "a",
-          "text": "of"
-        },
-        {
-          "id": "b",
           "text": "from"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "at"
+        },
+        {
+          "id": "c",
+          "text": "of"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Afraid of — бояться. «Afraid from» — ошибка под влиянием русского «от»."
     },
     {
@@ -3238,7 +7190,7 @@
       "options": [
         {
           "id": "a",
-          "text": "to"
+          "text": "in"
         },
         {
           "id": "b",
@@ -3246,7 +7198,7 @@
         },
         {
           "id": "c",
-          "text": "in"
+          "text": "to"
         }
       ],
       "correctOptionId": "b",
@@ -3264,7 +7216,7 @@
       "options": [
         {
           "id": "a",
-          "text": "under"
+          "text": "among"
         },
         {
           "id": "b",
@@ -3272,10 +7224,10 @@
         },
         {
           "id": "c",
-          "text": "among"
+          "text": "under"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Under — под. Between — между (двумя), among — среди (многих)."
     },
     {
@@ -3316,7 +7268,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Can"
+          "text": "Are"
         },
         {
           "id": "b",
@@ -3324,10 +7276,10 @@
         },
         {
           "id": "c",
-          "text": "Are"
+          "text": "Can"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Вопрос с can: Can you…? Вспомогательный do не нужен."
     },
     {
@@ -3342,18 +7294,18 @@
       "options": [
         {
           "id": "a",
-          "text": "can't"
+          "text": "don't can"
         },
         {
           "id": "b",
-          "text": "don't can"
+          "text": "can't"
         },
         {
           "id": "c",
           "text": "doesn't can"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Отрицание: can't / cannot. «Don't can» — грубая ошибка."
     },
     {
@@ -3368,18 +7320,18 @@
       "options": [
         {
           "id": "a",
-          "text": "can"
-        },
-        {
-          "id": "b",
           "text": "cans"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "can plays"
+        },
+        {
+          "id": "c",
+          "text": "can"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Can не меняется по лицам: he can, she can. Глагол после него — в начальной форме."
     },
     {
@@ -3398,11 +7350,11 @@
         },
         {
           "id": "b",
-          "text": "Do"
+          "text": "Am"
         },
         {
           "id": "c",
-          "text": "Am"
+          "text": "Do"
         }
       ],
       "correctOptionId": "a",
@@ -3420,7 +7372,7 @@
       "options": [
         {
           "id": "a",
-          "text": "mustn't"
+          "text": "can"
         },
         {
           "id": "b",
@@ -3428,10 +7380,10 @@
         },
         {
           "id": "c",
-          "text": "can"
+          "text": "mustn't"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Mustn't = нельзя, запрещено. Don't have to = не обязательно (но можно)."
     },
     {
@@ -3450,14 +7402,14 @@
         },
         {
           "id": "b",
-          "text": "don't have to"
+          "text": "can't"
         },
         {
           "id": "c",
-          "text": "can't"
+          "text": "don't have to"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Don't have to = не нужно, не обязан. Optional — по желанию."
     },
     {
@@ -3476,11 +7428,11 @@
         },
         {
           "id": "b",
-          "text": "can"
+          "text": "would"
         },
         {
           "id": "c",
-          "text": "would"
+          "text": "can"
         }
       ],
       "correctOptionId": "a",
@@ -3498,18 +7450,18 @@
       "options": [
         {
           "id": "a",
-          "text": "must"
+          "text": "may"
         },
         {
           "id": "b",
-          "text": "can"
+          "text": "must"
         },
         {
           "id": "c",
-          "text": "may"
+          "text": "can"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Must — обязанность, правило: You must be quiet."
     },
     {
@@ -3550,7 +7502,7 @@
       "options": [
         {
           "id": "a",
-          "text": "would"
+          "text": "will"
         },
         {
           "id": "b",
@@ -3558,10 +7510,10 @@
         },
         {
           "id": "c",
-          "text": "will"
+          "text": "would"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "I would like (I'd like) — вежливая форма «я хотел бы». Просто I want звучит грубее."
     },
     {
@@ -3576,7 +7528,7 @@
       "options": [
         {
           "id": "a",
-          "text": "have"
+          "text": "is"
         },
         {
           "id": "b",
@@ -3584,7 +7536,7 @@
         },
         {
           "id": "c",
-          "text": "is"
+          "text": "have"
         }
       ],
       "correctOptionId": "b",
@@ -3602,7 +7554,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Anna"
+          "text": "Annas"
         },
         {
           "id": "b",
@@ -3610,7 +7562,7 @@
         },
         {
           "id": "c",
-          "text": "Annas"
+          "text": "Anna"
         }
       ],
       "correctOptionId": "b",
@@ -3632,14 +7584,14 @@
         },
         {
           "id": "b",
-          "text": "children's"
+          "text": "childrens'"
         },
         {
           "id": "c",
-          "text": "childrens'"
+          "text": "children's"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Children уже множественное число, поэтому добавляем 's: children's toys."
     },
     {
@@ -3658,11 +7610,11 @@
         },
         {
           "id": "b",
-          "text": "has"
+          "text": "am"
         },
         {
           "id": "c",
-          "text": "am"
+          "text": "has"
         }
       ],
       "correctOptionId": "a",
@@ -3680,18 +7632,18 @@
       "options": [
         {
           "id": "a",
-          "text": "rains"
-        },
-        {
-          "id": "b",
           "text": "is raining"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "raining"
+        },
+        {
+          "id": "c",
+          "text": "rains"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Действие происходит прямо сейчас (Look!) → Present Continuous: is raining."
     },
     {
@@ -3706,18 +7658,18 @@
       "options": [
         {
           "id": "a",
-          "text": "read"
-        },
-        {
-          "id": "b",
           "text": "am reading"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "reading"
+        },
+        {
+          "id": "c",
+          "text": "read"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Now → am reading. Одно слово «reading» без am — ошибка."
     },
     {
@@ -3732,18 +7684,18 @@
       "options": [
         {
           "id": "a",
-          "text": "watches"
+          "text": "is watching"
         },
         {
           "id": "b",
-          "text": "is watching"
+          "text": "watches"
         },
         {
           "id": "c",
           "text": "watch"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "At the moment → Present Continuous: is watching."
     },
     {
@@ -3758,18 +7710,18 @@
       "options": [
         {
           "id": "a",
-          "text": "do"
-        },
-        {
-          "id": "b",
           "text": "are"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "is"
+        },
+        {
+          "id": "c",
+          "text": "do"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Вопрос Present Continuous: What are you doing? — Что ты делаешь (сейчас)?"
     },
     {
@@ -3784,18 +7736,18 @@
       "options": [
         {
           "id": "a",
-          "text": "play"
+          "text": "are playing"
         },
         {
           "id": "b",
-          "text": "are playing"
+          "text": "play"
         },
         {
           "id": "c",
           "text": "plays"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Every Sunday — регулярно → Present Simple: play."
     },
     {
@@ -3814,14 +7766,14 @@
         },
         {
           "id": "b",
-          "text": "am listening"
+          "text": "listening"
         },
         {
           "id": "c",
-          "text": "listening"
+          "text": "am listening"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Right now → am listening."
     },
     {
@@ -3862,7 +7814,7 @@
       "options": [
         {
           "id": "a",
-          "text": "don't understand"
+          "text": "not understand"
         },
         {
           "id": "b",
@@ -3870,10 +7822,10 @@
         },
         {
           "id": "c",
-          "text": "not understand"
+          "text": "don't understand"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Understand, know, like, want, need — глаголы состояния, они не используются в Continuous."
     },
     {
@@ -3888,18 +7840,18 @@
       "options": [
         {
           "id": "a",
-          "text": "has"
+          "text": "have"
         },
         {
           "id": "b",
-          "text": "is having"
+          "text": "has"
         },
         {
           "id": "c",
-          "text": "have"
+          "text": "is having"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Have в значении «иметь» — не в Continuous. She has a lot of friends."
     },
     {
@@ -3914,18 +7866,18 @@
       "options": [
         {
           "id": "a",
-          "text": "go"
-        },
-        {
-          "id": "b",
           "text": "are going"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "goes"
+        },
+        {
+          "id": "c",
+          "text": "go"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Запланированное будущее → Present Continuous: We are going to Spain next week."
     },
     {
@@ -3966,18 +7918,18 @@
       "options": [
         {
           "id": "a",
-          "text": "is playing"
+          "text": "plays"
         },
         {
           "id": "b",
-          "text": "are playing"
+          "text": "is playing"
         },
         {
           "id": "c",
-          "text": "plays"
+          "text": "are playing"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Children — множественное число → are playing."
     },
     {
@@ -3992,7 +7944,7 @@
       "options": [
         {
           "id": "a",
-          "text": "go"
+          "text": "goed"
         },
         {
           "id": "b",
@@ -4000,7 +7952,7 @@
         },
         {
           "id": "c",
-          "text": "goed"
+          "text": "go"
         }
       ],
       "correctOptionId": "b",
@@ -4018,18 +7970,18 @@
       "options": [
         {
           "id": "a",
-          "text": "watch"
+          "text": "watched"
         },
         {
           "id": "b",
-          "text": "watched"
+          "text": "watch"
         },
         {
           "id": "c",
           "text": "watchs"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Правильный глагол: watch → watched. Last night → Past Simple."
     },
     {
@@ -4048,11 +8000,11 @@
         },
         {
           "id": "b",
-          "text": "Do"
+          "text": "Were"
         },
         {
           "id": "c",
-          "text": "Were"
+          "text": "Do"
         }
       ],
       "correctOptionId": "a",
@@ -4070,7 +8022,7 @@
       "options": [
         {
           "id": "a",
-          "text": "didn't"
+          "text": "weren't"
         },
         {
           "id": "b",
@@ -4078,10 +8030,10 @@
         },
         {
           "id": "c",
-          "text": "weren't"
+          "text": "didn't"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Отрицание в прошедшем: didn't + начальная форма: We didn't go."
     },
     {
@@ -4096,7 +8048,7 @@
       "options": [
         {
           "id": "a",
-          "text": "buy"
+          "text": "buyed"
         },
         {
           "id": "b",
@@ -4104,7 +8056,7 @@
         },
         {
           "id": "c",
-          "text": "buyed"
+          "text": "buy"
         }
       ],
       "correctOptionId": "b",
@@ -4122,18 +8074,18 @@
       "options": [
         {
           "id": "a",
-          "text": "was"
-        },
-        {
-          "id": "b",
           "text": "were"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "did"
+        },
+        {
+          "id": "c",
+          "text": "was"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "To be в прошедшем: I/he/she/it → was, you/we/they → were."
     },
     {
@@ -4148,7 +8100,7 @@
       "options": [
         {
           "id": "a",
-          "text": "was"
+          "text": "did"
         },
         {
           "id": "b",
@@ -4156,7 +8108,7 @@
         },
         {
           "id": "c",
-          "text": "did"
+          "text": "was"
         }
       ],
       "correctOptionId": "b",
@@ -4174,18 +8126,18 @@
       "options": [
         {
           "id": "a",
-          "text": "Was"
+          "text": "Did"
         },
         {
           "id": "b",
-          "text": "Were"
+          "text": "Was"
         },
         {
           "id": "c",
-          "text": "Did"
+          "text": "Were"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "You → were: Were you at work? С глаголом to be did не нужен."
     },
     {
@@ -4200,18 +8152,18 @@
       "options": [
         {
           "id": "a",
-          "text": "know"
+          "text": "known"
         },
         {
           "id": "b",
-          "text": "knew"
+          "text": "know"
         },
         {
           "id": "c",
-          "text": "known"
+          "text": "knew"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "После didn't — начальная форма: didn't know. «Didn't knew» — частая ошибка."
     },
     {
@@ -4226,18 +8178,18 @@
       "options": [
         {
           "id": "a",
-          "text": "call"
+          "text": "called"
         },
         {
           "id": "b",
-          "text": "called"
+          "text": "call"
         },
         {
           "id": "c",
           "text": "calls"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "После did — начальная форма: Did he call you?"
     },
     {
@@ -4252,7 +8204,7 @@
       "options": [
         {
           "id": "a",
-          "text": "lose"
+          "text": "losed"
         },
         {
           "id": "b",
@@ -4260,7 +8212,7 @@
         },
         {
           "id": "c",
-          "text": "losed"
+          "text": "lose"
         }
       ],
       "correctOptionId": "b",
@@ -4278,18 +8230,18 @@
       "options": [
         {
           "id": "a",
-          "text": "have"
+          "text": "haved"
         },
         {
           "id": "b",
-          "text": "had"
+          "text": "have"
         },
         {
           "id": "c",
-          "text": "haved"
+          "text": "had"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Have → had. Have a good time — хорошо провести время."
     },
     {
@@ -4308,14 +8260,14 @@
         },
         {
           "id": "b",
-          "text": "was"
+          "text": "were"
         },
         {
           "id": "c",
-          "text": "were"
+          "text": "was"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "Born используется с to be: I was born, you were born. Where were you born?"
     },
     {
@@ -4330,18 +8282,18 @@
       "options": [
         {
           "id": "a",
-          "text": "send"
+          "text": "sent"
         },
         {
           "id": "b",
-          "text": "sent"
+          "text": "send"
         },
         {
           "id": "c",
           "text": "sended"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Send → sent. Ago (тому назад) — маркер Past Simple."
     },
     {
@@ -4356,18 +8308,18 @@
       "options": [
         {
           "id": "a",
-          "text": "started / finished"
+          "text": "start / finish"
         },
         {
           "id": "b",
-          "text": "start / finish"
+          "text": "started / finished"
         },
         {
           "id": "c",
           "text": "starts / finished"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Оба действия в прошлом, оба правильные глаголы: started, finished."
     },
     {
@@ -4382,18 +8334,18 @@
       "options": [
         {
           "id": "a",
-          "text": "didn't do"
-        },
-        {
-          "id": "b",
           "text": "didn't did"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "don't did"
+        },
+        {
+          "id": "c",
+          "text": "didn't do"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Didn't + начальная форма: didn't do."
     },
     {
@@ -4408,18 +8360,18 @@
       "options": [
         {
           "id": "a",
-          "text": "meet"
+          "text": "met"
         },
         {
           "id": "b",
-          "text": "met"
+          "text": "meet"
         },
         {
           "id": "c",
           "text": "meeted"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Meet → met. Last year → Past Simple."
     },
     {
@@ -4438,14 +8390,14 @@
         },
         {
           "id": "b",
-          "text": "were"
+          "text": "are"
         },
         {
           "id": "c",
-          "text": "are"
+          "text": "were"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "They → were. Last summer → прошедшее время."
     },
     {
@@ -4464,11 +8416,11 @@
         },
         {
           "id": "b",
-          "text": "do"
+          "text": "were"
         },
         {
           "id": "c",
-          "text": "were"
+          "text": "do"
         }
       ],
       "correctOptionId": "a",
@@ -4486,18 +8438,18 @@
       "options": [
         {
           "id": "a",
-          "text": "was"
-        },
-        {
-          "id": "b",
           "text": "were"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "did"
+        },
+        {
+          "id": "c",
+          "text": "was"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "She → was tired."
     },
     {
@@ -4516,14 +8468,14 @@
         },
         {
           "id": "b",
-          "text": "taller"
+          "text": "more tall"
         },
         {
           "id": "c",
-          "text": "more tall"
+          "text": "taller"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Короткие прилагательные: + -er: tall → taller. Не «more tall»."
     },
     {
@@ -4538,18 +8490,18 @@
       "options": [
         {
           "id": "a",
-          "text": "good"
+          "text": "best"
         },
         {
           "id": "b",
-          "text": "better"
+          "text": "good"
         },
         {
           "id": "c",
-          "text": "best"
+          "text": "better"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "a",
       "explanation": "Good → better → the best. Превосходная степень — с the."
     },
     {
@@ -4564,18 +8516,18 @@
       "options": [
         {
           "id": "a",
-          "text": "big"
-        },
-        {
-          "id": "b",
           "text": "bigger"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "more big"
+        },
+        {
+          "id": "c",
+          "text": "big"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Big → bigger (удвоение согласной после краткой гласной: big–bigger, hot–hotter)."
     },
     {
@@ -4594,14 +8546,14 @@
         },
         {
           "id": "b",
-          "text": "more difficult"
+          "text": "most difficult"
         },
         {
           "id": "c",
-          "text": "most difficult"
+          "text": "more difficult"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Длинные прилагательные (2+ слога) — more + прилагательное: more difficult."
     },
     {
@@ -4620,14 +8572,14 @@
         },
         {
           "id": "b",
-          "text": "cleverer"
+          "text": "cleverest"
         },
         {
           "id": "c",
-          "text": "cleverest"
+          "text": "cleverer"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "После the — превосходная степень: the cleverest. Cleverer — сравнительная (умнее, чем)."
     },
     {
@@ -4642,18 +8594,18 @@
       "options": [
         {
           "id": "a",
-          "text": "hot"
-        },
-        {
-          "id": "b",
           "text": "hotter"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "more hot"
+        },
+        {
+          "id": "c",
+          "text": "hot"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Hot → hotter. Краткая гласная + согласная → удвоение."
     },
     {
@@ -4668,7 +8620,7 @@
       "options": [
         {
           "id": "a",
-          "text": "worse"
+          "text": "baddest"
         },
         {
           "id": "b",
@@ -4676,7 +8628,7 @@
         },
         {
           "id": "c",
-          "text": "baddest"
+          "text": "worse"
         }
       ],
       "correctOptionId": "b",
@@ -4694,18 +8646,18 @@
       "options": [
         {
           "id": "a",
-          "text": "easier"
-        },
-        {
-          "id": "b",
           "text": "more easy"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "easyer"
+        },
+        {
+          "id": "c",
+          "text": "easier"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Easy → easier (y → i). Не «more easy»."
     },
     {
@@ -4720,18 +8672,18 @@
       "options": [
         {
           "id": "a",
-          "text": "fast"
-        },
-        {
-          "id": "b",
           "text": "faster"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "fastest"
+        },
+        {
+          "id": "c",
+          "text": "fast"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "As … as — такой же, как: as fast as. Прилагательное в обычной форме."
     },
     {
@@ -4772,11 +8724,11 @@
       "options": [
         {
           "id": "a",
-          "text": "expensivest"
+          "text": "more expensive"
         },
         {
           "id": "b",
-          "text": "more expensive"
+          "text": "expensivest"
         },
         {
           "id": "c",
@@ -4802,11 +8754,11 @@
         },
         {
           "id": "b",
-          "text": "fewer"
+          "text": "little"
         },
         {
           "id": "c",
-          "text": "little"
+          "text": "fewer"
         }
       ],
       "correctOptionId": "a",
@@ -4824,18 +8776,18 @@
       "options": [
         {
           "id": "a",
-          "text": "far"
+          "text": "further"
         },
         {
           "id": "b",
-          "text": "further"
+          "text": "far"
         },
         {
           "id": "c",
           "text": "more far"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Far → further/farther → the furthest. Особый случай."
     },
     {
@@ -4850,18 +8802,18 @@
       "options": [
         {
           "id": "a",
-          "text": "some"
+          "text": "a"
         },
         {
           "id": "b",
-          "text": "any"
+          "text": "some"
         },
         {
           "id": "c",
-          "text": "a"
+          "text": "any"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "В вопросах и отрицаниях — any: Is there any milk? Some — в утверждениях и вежливых предложениях."
     },
     {
@@ -4902,18 +8854,18 @@
       "options": [
         {
           "id": "a",
-          "text": "much"
-        },
-        {
-          "id": "b",
           "text": "many"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "a lot"
+        },
+        {
+          "id": "c",
+          "text": "much"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Money — неисчисляемое → how much. Many — для исчисляемых: how many books."
     },
     {
@@ -4928,18 +8880,18 @@
       "options": [
         {
           "id": "a",
-          "text": "much"
+          "text": "many"
         },
         {
           "id": "b",
-          "text": "many"
+          "text": "much"
         },
         {
           "id": "c",
           "text": "a lot"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "People — исчисляемое (множественное) → how many."
     },
     {
@@ -4958,14 +8910,14 @@
         },
         {
           "id": "b",
-          "text": "any"
+          "text": "many"
         },
         {
           "id": "c",
-          "text": "many"
+          "text": "any"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Отрицание → any: there isn't any sugar."
     },
     {
@@ -5006,18 +8958,18 @@
       "options": [
         {
           "id": "a",
-          "text": "many"
+          "text": "much"
         },
         {
           "id": "b",
-          "text": "much"
+          "text": "many"
         },
         {
           "id": "c",
           "text": "a lot"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Time — неисчисляемое, отрицание → much: I don't have much time."
     },
     {
@@ -5036,14 +8988,14 @@
         },
         {
           "id": "b",
-          "text": "some"
+          "text": "an"
         },
         {
           "id": "c",
-          "text": "an"
+          "text": "some"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Bread — неисчисляемое, артикль a нельзя. Some bread или a piece of bread."
     },
     {
@@ -5058,7 +9010,7 @@
       "options": [
         {
           "id": "a",
-          "text": "an"
+          "text": "a few"
         },
         {
           "id": "b",
@@ -5066,7 +9018,7 @@
         },
         {
           "id": "c",
-          "text": "a few"
+          "text": "an"
         }
       ],
       "correctOptionId": "b",
@@ -5084,18 +9036,18 @@
       "options": [
         {
           "id": "a",
-          "text": "a little"
+          "text": "a few"
         },
         {
           "id": "b",
-          "text": "a few"
+          "text": "a little"
         },
         {
           "id": "c",
           "text": "much"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Apples — исчисляемое → a few (несколько). A little — для неисчисляемых: a little water."
     },
     {
@@ -5110,18 +9062,18 @@
       "options": [
         {
           "id": "a",
-          "text": "a few"
-        },
-        {
-          "id": "b",
           "text": "a little"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "many"
+        },
+        {
+          "id": "c",
+          "text": "a few"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "English (язык) — неисчисляемое → a little English (немного)."
     },
     {
@@ -5136,18 +9088,18 @@
       "options": [
         {
           "id": "a",
-          "text": "many"
+          "text": "a lot"
         },
         {
           "id": "b",
-          "text": "a lot"
+          "text": "many"
         },
         {
           "id": "c",
           "text": "much"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "A lot of — «много» для любых существительных: a lot of friends, a lot of time."
     },
     {
@@ -5162,7 +9114,7 @@
       "options": [
         {
           "id": "a",
-          "text": "is"
+          "text": "am"
         },
         {
           "id": "b",
@@ -5170,10 +9122,10 @@
         },
         {
           "id": "c",
-          "text": "am"
+          "text": "is"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Hair (волосы) в английском — неисчисляемое, единственное число: her hair is long."
     },
     {
@@ -5188,18 +9140,18 @@
       "options": [
         {
           "id": "a",
-          "text": "is"
-        },
-        {
-          "id": "b",
           "text": "are"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "were"
+        },
+        {
+          "id": "c",
+          "text": "is"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "News — несмотря на -s, единственное число: The news is good."
     },
     {
@@ -5214,18 +9166,18 @@
       "options": [
         {
           "id": "a",
-          "text": "tomato"
+          "text": "tomatos"
         },
         {
           "id": "b",
-          "text": "tomatoes"
+          "text": "tomato"
         },
         {
           "id": "c",
-          "text": "tomatos"
+          "text": "tomatoes"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Tomato → tomatoes, potato → potatoes (после -o добавляется -es)."
     },
     {
@@ -5240,18 +9192,18 @@
       "options": [
         {
           "id": "a",
-          "text": "an"
+          "text": "some"
         },
         {
           "id": "b",
-          "text": "some"
+          "text": "an"
         },
         {
           "id": "c",
           "text": "a"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Advice — неисчисляемое: some advice, a piece of advice. Не «an advice», «advices»."
     },
     {
@@ -5266,7 +9218,7 @@
       "options": [
         {
           "id": "a",
-          "text": "will"
+          "text": "going"
         },
         {
           "id": "b",
@@ -5274,10 +9226,10 @@
         },
         {
           "id": "c",
-          "text": "going"
+          "text": "will"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Will + начальная форма: I will call (I'll call)."
     },
     {
@@ -5296,14 +9248,14 @@
         },
         {
           "id": "b",
-          "text": "is going to"
+          "text": "goes to"
         },
         {
           "id": "c",
-          "text": "goes to"
+          "text": "is going to"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Есть очевидный признак (тучи) → be going to: It is going to rain."
     },
     {
@@ -5318,18 +9270,18 @@
       "options": [
         {
           "id": "a",
-          "text": "pass"
+          "text": "is pass"
         },
         {
           "id": "b",
-          "text": "will pass"
+          "text": "pass"
         },
         {
           "id": "c",
-          "text": "is pass"
+          "text": "will pass"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Мнение, предсказание (I think) → will: I think she will pass."
     },
     {
@@ -5344,7 +9296,7 @@
       "options": [
         {
           "id": "a",
-          "text": "are going to"
+          "text": "going to"
         },
         {
           "id": "b",
@@ -5352,10 +9304,10 @@
         },
         {
           "id": "c",
-          "text": "going to"
+          "text": "are going to"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Планы → be going to. Глагол to be обязателен: we are going to visit."
     },
     {
@@ -5396,18 +9348,18 @@
       "options": [
         {
           "id": "a",
-          "text": "won't"
+          "text": "doesn't"
         },
         {
           "id": "b",
-          "text": "doesn't"
+          "text": "won't"
         },
         {
           "id": "c",
           "text": "isn't"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Отрицание будущего: will not = won't."
     },
     {
@@ -5422,18 +9374,18 @@
       "options": [
         {
           "id": "a",
-          "text": "are"
+          "text": "will"
         },
         {
           "id": "b",
-          "text": "will"
+          "text": "are"
         },
         {
           "id": "c",
           "text": "do"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Be going to: глагол to be обязателен — What are you going to do?"
     },
     {
@@ -5474,18 +9426,18 @@
       "options": [
         {
           "id": "a",
-          "text": "will"
+          "text": "am going"
         },
         {
           "id": "b",
-          "text": "am going"
+          "text": "will"
         },
         {
           "id": "c",
           "text": "going to"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Факт о будущем → will: I will be 30."
     },
     {
@@ -5504,11 +9456,11 @@
         },
         {
           "id": "b",
-          "text": "am going to"
+          "text": "go to"
         },
         {
           "id": "c",
-          "text": "go to"
+          "text": "am going to"
         }
       ],
       "correctOptionId": "a",
@@ -5530,11 +9482,11 @@
         },
         {
           "id": "b",
-          "text": "did / be"
+          "text": "was / been"
         },
         {
           "id": "c",
-          "text": "was / been"
+          "text": "did / be"
         }
       ],
       "correctOptionId": "a",
@@ -5552,7 +9504,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Did / eat"
+          "text": "Have / ate"
         },
         {
           "id": "b",
@@ -5560,7 +9512,7 @@
         },
         {
           "id": "c",
-          "text": "Have / ate"
+          "text": "Did / eat"
         }
       ],
       "correctOptionId": "b",
@@ -5582,11 +9534,11 @@
         },
         {
           "id": "b",
-          "text": "have / came"
+          "text": "did / come"
         },
         {
           "id": "c",
-          "text": "did / come"
+          "text": "have / came"
         }
       ],
       "correctOptionId": "a",
@@ -5608,14 +9560,14 @@
         },
         {
           "id": "b",
-          "text": "lived"
+          "text": "have lived"
         },
         {
           "id": "c",
-          "text": "have lived"
+          "text": "lived"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "Since (с какого-то момента) → Present Perfect: We have lived here since 2010 — и живём до сих пор."
     },
     {
@@ -5656,18 +9608,18 @@
       "options": [
         {
           "id": "a",
-          "text": "didn't finish"
+          "text": "not finished"
         },
         {
           "id": "b",
-          "text": "haven't finished"
+          "text": "didn't finish"
         },
         {
           "id": "c",
-          "text": "not finished"
+          "text": "haven't finished"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Yet (ещё) в отрицаниях → Present Perfect: I haven't finished yet."
     },
     {
@@ -5682,18 +9634,18 @@
       "options": [
         {
           "id": "a",
-          "text": "has worked"
+          "text": "worked"
         },
         {
           "id": "b",
-          "text": "works"
+          "text": "has worked"
         },
         {
           "id": "c",
-          "text": "worked"
+          "text": "works"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "For + период до сих пор → Present Perfect: He has worked there for five years."
     },
     {
@@ -5708,18 +9660,18 @@
       "options": [
         {
           "id": "a",
-          "text": "Did / found"
+          "text": "Have / find"
         },
         {
           "id": "b",
-          "text": "Have / found"
+          "text": "Did / found"
         },
         {
           "id": "c",
-          "text": "Have / find"
+          "text": "Have / found"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Результат сейчас (нашёл ли?) → Have you found…? Третья форма: find → found → found."
     },
     {
@@ -5734,11 +9686,11 @@
       "options": [
         {
           "id": "a",
-          "text": "see"
+          "text": "saw"
         },
         {
           "id": "b",
-          "text": "saw"
+          "text": "see"
         },
         {
           "id": "c",
@@ -5786,18 +9738,18 @@
       "options": [
         {
           "id": "a",
-          "text": "have got"
+          "text": "has got"
         },
         {
           "id": "b",
-          "text": "got"
+          "text": "have got"
         },
         {
           "id": "c",
-          "text": "has got"
+          "text": "got"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Last year → Past Simple: They got married."
     },
     {
@@ -5812,18 +9764,18 @@
       "options": [
         {
           "id": "a",
-          "text": "lose"
+          "text": "losed"
         },
         {
           "id": "b",
-          "text": "lost"
+          "text": "lose"
         },
         {
           "id": "c",
-          "text": "losed"
+          "text": "lost"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Потерял и сейчас не могу найти (результат) → have lost."
     },
     {
@@ -5842,11 +9794,11 @@
         },
         {
           "id": "b",
-          "text": "never is"
+          "text": "is never be"
         },
         {
           "id": "c",
-          "text": "is never be"
+          "text": "never is"
         }
       ],
       "correctOptionId": "a",
@@ -5890,18 +9842,18 @@
       "options": [
         {
           "id": "a",
-          "text": "careful"
+          "text": "carefully"
         },
         {
           "id": "b",
-          "text": "carefully"
+          "text": "careful"
         },
         {
           "id": "c",
           "text": "carefuly"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Характеризуем действие (как водит?) → наречие: carefully. Careful — прилагательное (a careful driver)."
     },
     {
@@ -5916,18 +9868,18 @@
       "options": [
         {
           "id": "a",
-          "text": "good"
+          "text": "goodly"
         },
         {
           "id": "b",
-          "text": "well"
+          "text": "good"
         },
         {
           "id": "c",
-          "text": "goodly"
+          "text": "well"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Good — прилагательное, well — наречие: She speaks English well."
     },
     {
@@ -5942,18 +9894,18 @@
       "options": [
         {
           "id": "a",
-          "text": "How often"
+          "text": "How much"
         },
         {
           "id": "b",
-          "text": "How long"
+          "text": "How often"
         },
         {
           "id": "c",
-          "text": "How much"
+          "text": "How long"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "How often — как часто. How long — как долго."
     },
     {
@@ -5968,18 +9920,18 @@
       "options": [
         {
           "id": "a",
-          "text": "What"
+          "text": "Where"
         },
         {
           "id": "b",
-          "text": "When"
+          "text": "What"
         },
         {
           "id": "c",
-          "text": "Where"
+          "text": "When"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "When — когда. Where — где, what — что."
     },
     {
@@ -5994,7 +9946,7 @@
       "options": [
         {
           "id": "a",
-          "text": "but"
+          "text": "so"
         },
         {
           "id": "b",
@@ -6002,10 +9954,10 @@
         },
         {
           "id": "c",
-          "text": "so"
+          "text": "but"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "But — противопоставление: люблю чай, но не люблю кофе."
     },
     {
@@ -6024,14 +9976,14 @@
         },
         {
           "id": "b",
-          "text": "because"
+          "text": "but"
         },
         {
           "id": "c",
-          "text": "but"
+          "text": "because"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Because — причина: остался дома, потому что шёл дождь."
     },
     {
@@ -6046,18 +9998,18 @@
       "options": [
         {
           "id": "a",
-          "text": "because"
+          "text": "but"
         },
         {
           "id": "b",
-          "text": "so"
+          "text": "because"
         },
         {
           "id": "c",
-          "text": "but"
+          "text": "so"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "So — следствие: было поздно, поэтому мы пошли домой."
     },
     {
@@ -6076,14 +10028,14 @@
         },
         {
           "id": "b",
-          "text": "—"
+          "text": "am not"
         },
         {
           "id": "c",
-          "text": "am not"
+          "text": "—"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Agree — глагол, to be не нужен: I agree / I don't agree. «I am agree» — одна из самых частых ошибок!"
     },
     {
@@ -6102,11 +10054,11 @@
         },
         {
           "id": "b",
-          "text": "much"
+          "text": "many"
         },
         {
           "id": "c",
-          "text": "many"
+          "text": "much"
         }
       ],
       "correctOptionId": "a",
@@ -6150,7 +10102,7 @@
       "options": [
         {
           "id": "a",
-          "text": "How"
+          "text": "Which"
         },
         {
           "id": "b",
@@ -6158,10 +10110,10 @@
         },
         {
           "id": "c",
-          "text": "Which"
+          "text": "How"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Восклицание с прилагательным: How expensive! С существительным: What an expensive bag!"
     },
     {
@@ -6176,18 +10128,18 @@
       "options": [
         {
           "id": "a",
-          "text": "learn"
+          "text": "learning"
         },
         {
           "id": "b",
-          "text": "to learn"
+          "text": "learn"
         },
         {
           "id": "c",
-          "text": "learning"
+          "text": "to learn"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Want + to + глагол: want to learn, want to go."
     },
     {
@@ -6202,7 +10154,7 @@
       "options": [
         {
           "id": "a",
-          "text": "read"
+          "text": "reading"
         },
         {
           "id": "b",
@@ -6210,10 +10162,10 @@
         },
         {
           "id": "c",
-          "text": "reading"
+          "text": "read"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "a",
       "explanation": "Enjoy, like, love, hate, finish + -ing: enjoy reading."
     },
     {
@@ -6254,18 +10206,18 @@
       "options": [
         {
           "id": "a",
-          "text": "book"
+          "text": "booking"
         },
         {
           "id": "b",
-          "text": "to book"
+          "text": "book"
         },
         {
           "id": "c",
-          "text": "booking"
+          "text": "to book"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Would like + to + глагол: I'd like to book a room."
     },
     {
@@ -6280,7 +10232,7 @@
       "options": [
         {
           "id": "a",
-          "text": "go"
+          "text": "going"
         },
         {
           "id": "b",
@@ -6288,10 +10240,10 @@
         },
         {
           "id": "c",
-          "text": "going"
+          "text": "go"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Let's + начальная форма без to: Let's go!"
     },
     {
@@ -6310,11 +10262,11 @@
         },
         {
           "id": "b",
-          "text": "well"
+          "text": "better"
         },
         {
           "id": "c",
-          "text": "better"
+          "text": "well"
         }
       ],
       "correctOptionId": "a",
@@ -6332,18 +10284,18 @@
       "options": [
         {
           "id": "a",
-          "text": "a little"
-        },
-        {
-          "id": "b",
           "text": "little"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "few"
+        },
+        {
+          "id": "c",
+          "text": "a little"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Little (без a) — «мало, почти нет» (негативный оттенок). A little — «немного, но есть»."
     },
     {
@@ -6362,11 +10314,11 @@
         },
         {
           "id": "b",
-          "text": "will rain"
+          "text": "rain"
         },
         {
           "id": "c",
-          "text": "rain"
+          "text": "will rain"
         }
       ],
       "correctOptionId": "a",
@@ -6388,14 +10340,14 @@
         },
         {
           "id": "b",
-          "text": "melts"
+          "text": "will melts"
         },
         {
           "id": "c",
-          "text": "will melts"
+          "text": "melts"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Общая истина (нулевой тип): if + Present, Present: If you heat ice, it melts."
     },
     {
@@ -6410,18 +10362,18 @@
       "options": [
         {
           "id": "a",
-          "text": "call"
-        },
-        {
-          "id": "b",
           "text": "will call"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "am call"
+        },
+        {
+          "id": "c",
+          "text": "call"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "В главной части — will: I will call you when I arrive. После when — Present Simple."
     },
     {
@@ -6436,18 +10388,18 @@
       "options": [
         {
           "id": "a",
-          "text": "who"
+          "text": "what"
         },
         {
           "id": "b",
-          "text": "which"
+          "text": "who"
         },
         {
           "id": "c",
-          "text": "what"
+          "text": "which"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "Who — для людей. Which — для предметов и животных. What в этой роли не используется."
     },
     {
@@ -6462,18 +10414,18 @@
       "options": [
         {
           "id": "a",
-          "text": "who"
+          "text": "which"
         },
         {
           "id": "b",
-          "text": "which"
+          "text": "who"
         },
         {
           "id": "c",
           "text": "what"
         }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Which/that — для предметов: the book which I bought."
     },
     {
@@ -6488,7 +10440,7 @@
       "options": [
         {
           "id": "a",
-          "text": "aren't you"
+          "text": "don't you"
         },
         {
           "id": "b",
@@ -6496,10 +10448,10 @@
         },
         {
           "id": "c",
-          "text": "don't you"
+          "text": "aren't you"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Разделительный вопрос: утверждение + отрицательный «хвостик»: You are…, aren't you?"
     },
     {
@@ -6518,11 +10470,11 @@
         },
         {
           "id": "b",
-          "text": "doesn't she"
+          "text": "is she"
         },
         {
           "id": "c",
-          "text": "is she"
+          "text": "doesn't she"
         }
       ],
       "correctOptionId": "a",
@@ -6540,7 +10492,7 @@
       "options": [
         {
           "id": "a",
-          "text": "live"
+          "text": "living"
         },
         {
           "id": "b",
@@ -6548,7 +10500,7 @@
         },
         {
           "id": "c",
-          "text": "living"
+          "text": "live"
         }
       ],
       "correctOptionId": "b",

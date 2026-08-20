@@ -2,563 +2,6609 @@
   "pool": [
     {
       "id": "pool-q-001",
-      "tags": ["greetings", "basics"],
+      "tags": [
+        "greetings",
+        "basics"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как на английском сказать 'Привет'?",
       "options": [
-        { "id": "a", "text": "Goodbye" },
-        { "id": "b", "text": "Hello" },
-        { "id": "c", "text": "Please" }
+        {
+          "id": "a",
+          "text": "Goodbye"
+        },
+        {
+          "id": "b",
+          "text": "Hello"
+        },
+        {
+          "id": "c",
+          "text": "Please"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Hello — это привет. Goodbye — до свидания, please — пожалуйста."
     },
     {
       "id": "pool-q-002",
-      "tags": ["greetings", "basics"],
+      "tags": [
+        "greetings",
+        "basics"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'спасибо':",
       "options": [
-        { "id": "a", "text": "sorry" },
-        { "id": "b", "text": "thanks" },
-        { "id": "c", "text": "hello" }
+        {
+          "id": "a",
+          "text": "sorry"
+        },
+        {
+          "id": "b",
+          "text": "thanks"
+        },
+        {
+          "id": "c",
+          "text": "hello"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Thanks — это спасибо. Sorry — извините, hello — привет."
     },
     {
       "id": "pool-q-003",
-      "tags": ["numbers"],
+      "tags": [
+        "numbers"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'пять'?",
       "options": [
-        { "id": "a", "text": "four" },
-        { "id": "b", "text": "six" },
-        { "id": "c", "text": "five" }
+        {
+          "id": "a",
+          "text": "four"
+        },
+        {
+          "id": "b",
+          "text": "six"
+        },
+        {
+          "id": "c",
+          "text": "five"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Five — это пять. Four — четыре, six — шесть."
     },
     {
       "id": "pool-q-004",
-      "tags": ["numbers"],
+      "tags": [
+        "numbers"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Сколько будет 7 + 5 по-английски?",
       "options": [
-        { "id": "a", "text": "eleven" },
-        { "id": "b", "text": "twelve" },
-        { "id": "c", "text": "thirteen" }
+        {
+          "id": "a",
+          "text": "eleven"
+        },
+        {
+          "id": "b",
+          "text": "twelve"
+        },
+        {
+          "id": "c",
+          "text": "thirteen"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "7 + 5 = 12, по-английски twelve. Eleven — 11, thirteen — 13."
     },
     {
       "id": "pool-q-005",
-      "tags": ["colors"],
+      "tags": [
+        "colors"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Какой цвет 'blue'?",
       "options": [
-        { "id": "a", "text": "красный" },
-        { "id": "b", "text": "синий" },
-        { "id": "c", "text": "зелёный" }
+        {
+          "id": "a",
+          "text": "красный"
+        },
+        {
+          "id": "b",
+          "text": "синий"
+        },
+        {
+          "id": "c",
+          "text": "зелёный"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Blue — это синий. Red — красный, green — зелёный."
     },
     {
       "id": "pool-q-006",
-      "tags": ["colors"],
+      "tags": [
+        "colors"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'жёлтый':",
       "options": [
-        { "id": "a", "text": "yellow" },
-        { "id": "b", "text": "orange" },
-        { "id": "c", "text": "pink" }
+        {
+          "id": "a",
+          "text": "yellow"
+        },
+        {
+          "id": "b",
+          "text": "orange"
+        },
+        {
+          "id": "c",
+          "text": "pink"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Yellow — это жёлтый. Orange — оранжевый, pink — розовый."
     },
     {
       "id": "pool-q-007",
-      "tags": ["family"],
+      "tags": [
+        "family"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'мама'?",
       "options": [
-        { "id": "a", "text": "mother" },
-        { "id": "b", "text": "sister" },
-        { "id": "c", "text": "daughter" }
+        {
+          "id": "a",
+          "text": "mother"
+        },
+        {
+          "id": "b",
+          "text": "sister"
+        },
+        {
+          "id": "c",
+          "text": "daughter"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Mother — это мама. Sister — сестра, daughter — дочь."
     },
     {
       "id": "pool-q-008",
-      "tags": ["family"],
+      "tags": [
+        "family"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'brother':",
       "options": [
-        { "id": "a", "text": "отец" },
-        { "id": "b", "text": "брат" },
-        { "id": "c", "text": "дедушка" }
+        {
+          "id": "a",
+          "text": "отец"
+        },
+        {
+          "id": "b",
+          "text": "брат"
+        },
+        {
+          "id": "c",
+          "text": "дедушка"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Brother — это брат. Father — отец, grandfather — дедушка."
     },
     {
       "id": "pool-q-009",
-      "tags": ["food"],
+      "tags": [
+        "food"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'хлеб'?",
       "options": [
-        { "id": "a", "text": "milk" },
-        { "id": "b", "text": "bread" },
-        { "id": "c", "text": "water" }
+        {
+          "id": "a",
+          "text": "milk"
+        },
+        {
+          "id": "b",
+          "text": "bread"
+        },
+        {
+          "id": "c",
+          "text": "water"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Bread — это хлеб. Milk — молоко, water — вода."
     },
     {
       "id": "pool-q-010",
-      "tags": ["food"],
+      "tags": [
+        "food"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'сок':",
       "options": [
-        { "id": "a", "text": "juice" },
-        { "id": "b", "text": "tea" },
-        { "id": "c", "text": "coffee" }
+        {
+          "id": "a",
+          "text": "juice"
+        },
+        {
+          "id": "b",
+          "text": "tea"
+        },
+        {
+          "id": "c",
+          "text": "coffee"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Juice — это сок. Tea — чай, coffee — кофе."
     },
     {
       "id": "pool-q-011",
-      "tags": ["time"],
+      "tags": [
+        "time"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'утро'?",
       "options": [
-        { "id": "a", "text": "evening" },
-        { "id": "b", "text": "night" },
-        { "id": "c", "text": "morning" }
+        {
+          "id": "a",
+          "text": "evening"
+        },
+        {
+          "id": "b",
+          "text": "night"
+        },
+        {
+          "id": "c",
+          "text": "morning"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Morning — это утро. Evening — вечер, night — ночь."
     },
     {
       "id": "pool-q-012",
-      "tags": ["time"],
+      "tags": [
+        "time"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Какой день недели 'Monday'?",
       "options": [
-        { "id": "a", "text": "вторник" },
-        { "id": "b", "text": "понедельник" },
-        { "id": "c", "text": "среда" }
+        {
+          "id": "a",
+          "text": "вторник"
+        },
+        {
+          "id": "b",
+          "text": "понедельник"
+        },
+        {
+          "id": "c",
+          "text": "среда"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Monday — это понедельник. Tuesday — вторник, Wednesday — среда."
     },
     {
       "id": "pool-q-013",
-      "tags": ["weather"],
+      "tags": [
+        "weather"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'солнце'?",
       "options": [
-        { "id": "a", "text": "sun" },
-        { "id": "b", "text": "rain" },
-        { "id": "c", "text": "snow" }
+        {
+          "id": "a",
+          "text": "sun"
+        },
+        {
+          "id": "b",
+          "text": "rain"
+        },
+        {
+          "id": "c",
+          "text": "snow"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Sun — это солнце. Rain — дождь, snow — снег."
     },
     {
       "id": "pool-q-014",
-      "tags": ["weather"],
+      "tags": [
+        "weather"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'cloudy':",
       "options": [
-        { "id": "a", "text": "ветрено" },
-        { "id": "b", "text": "облачно" },
-        { "id": "c", "text": "ясно" }
+        {
+          "id": "a",
+          "text": "ветрено"
+        },
+        {
+          "id": "b",
+          "text": "облачно"
+        },
+        {
+          "id": "c",
+          "text": "ясно"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Cloudy — это облачно. Windy — ветрено, sunny — ясно/солнечно."
     },
     {
       "id": "pool-q-015",
-      "tags": ["house"],
+      "tags": [
+        "house"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'дом'?",
       "options": [
-        { "id": "a", "text": "room" },
-        { "id": "b", "text": "house" },
-        { "id": "c", "text": "door" }
+        {
+          "id": "a",
+          "text": "room"
+        },
+        {
+          "id": "b",
+          "text": "house"
+        },
+        {
+          "id": "c",
+          "text": "door"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "House — это дом. Room — комната, door — дверь."
     },
     {
       "id": "pool-q-016",
-      "tags": ["house"],
+      "tags": [
+        "house"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'кухня':",
       "options": [
-        { "id": "a", "text": "kitchen" },
-        { "id": "b", "text": "bedroom" },
-        { "id": "c", "text": "bathroom" }
+        {
+          "id": "a",
+          "text": "kitchen"
+        },
+        {
+          "id": "b",
+          "text": "bedroom"
+        },
+        {
+          "id": "c",
+          "text": "bathroom"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Kitchen — это кухня. Bedroom — спальня, bathroom — ванная."
     },
     {
       "id": "pool-q-017",
-      "tags": ["body"],
+      "tags": [
+        "body"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'голова'?",
       "options": [
-        { "id": "a", "text": "hand" },
-        { "id": "b", "text": "head" },
-        { "id": "c", "text": "foot" }
+        {
+          "id": "a",
+          "text": "hand"
+        },
+        {
+          "id": "b",
+          "text": "head"
+        },
+        {
+          "id": "c",
+          "text": "foot"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Head — это голова. Hand — рука, foot — стопа."
     },
     {
       "id": "pool-q-018",
-      "tags": ["body"],
+      "tags": [
+        "body"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'глаз':",
       "options": [
-        { "id": "a", "text": "ear" },
-        { "id": "b", "text": "nose" },
-        { "id": "c", "text": "eye" }
+        {
+          "id": "a",
+          "text": "ear"
+        },
+        {
+          "id": "b",
+          "text": "nose"
+        },
+        {
+          "id": "c",
+          "text": "eye"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Eye — это глаз. Ear — ухо, nose — нос."
     },
     {
       "id": "pool-q-019",
-      "tags": ["clothes"],
+      "tags": [
+        "clothes"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'рубашка'?",
       "options": [
-        { "id": "a", "text": "shirt" },
-        { "id": "b", "text": "skirt" },
-        { "id": "c", "text": "shoe" }
+        {
+          "id": "a",
+          "text": "shirt"
+        },
+        {
+          "id": "b",
+          "text": "skirt"
+        },
+        {
+          "id": "c",
+          "text": "shoe"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Shirt — это рубашка. Skirt — юбка, shoe — туфля/ботинок."
     },
     {
       "id": "pool-q-020",
-      "tags": ["clothes"],
+      "tags": [
+        "clothes"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'пальто':",
       "options": [
-        { "id": "a", "text": "jacket" },
-        { "id": "b", "text": "coat" },
-        { "id": "c", "text": "hat" }
+        {
+          "id": "a",
+          "text": "jacket"
+        },
+        {
+          "id": "b",
+          "text": "coat"
+        },
+        {
+          "id": "c",
+          "text": "hat"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Coat — это пальто. Jacket — куртка, hat — шляпа/шапка."
     },
     {
       "id": "pool-q-021",
-      "tags": ["animals"],
+      "tags": [
+        "animals"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'собака'?",
       "options": [
-        { "id": "a", "text": "cat" },
-        { "id": "b", "text": "dog" },
-        { "id": "c", "text": "bird" }
+        {
+          "id": "a",
+          "text": "cat"
+        },
+        {
+          "id": "b",
+          "text": "dog"
+        },
+        {
+          "id": "c",
+          "text": "bird"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Dog — это собака. Cat — кошка, bird — птица."
     },
     {
       "id": "pool-q-022",
-      "tags": ["animals"],
+      "tags": [
+        "animals"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'лошадь':",
       "options": [
-        { "id": "a", "text": "cow" },
-        { "id": "b", "text": "horse" },
-        { "id": "c", "text": "sheep" }
+        {
+          "id": "a",
+          "text": "cow"
+        },
+        {
+          "id": "b",
+          "text": "horse"
+        },
+        {
+          "id": "c",
+          "text": "sheep"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Horse — это лошадь. Cow — корова, sheep — овца."
     },
     {
       "id": "pool-q-023",
-      "tags": ["travel"],
+      "tags": [
+        "travel"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'самолёт'?",
       "options": [
-        { "id": "a", "text": "train" },
-        { "id": "b", "text": "car" },
-        { "id": "c", "text": "plane" }
+        {
+          "id": "a",
+          "text": "train"
+        },
+        {
+          "id": "b",
+          "text": "car"
+        },
+        {
+          "id": "c",
+          "text": "plane"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Plane — это самолёт. Train — поезд, car — машина."
     },
     {
       "id": "pool-q-024",
-      "tags": ["travel"],
+      "tags": [
+        "travel"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'город':",
       "options": [
-        { "id": "a", "text": "village" },
-        { "id": "b", "text": "city" },
-        { "id": "c", "text": "street" }
+        {
+          "id": "a",
+          "text": "village"
+        },
+        {
+          "id": "b",
+          "text": "city"
+        },
+        {
+          "id": "c",
+          "text": "street"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "City — это город. Village — деревня, street — улица."
     },
     {
       "id": "pool-q-025",
-      "tags": ["verbs"],
+      "tags": [
+        "verbs"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'есть' (кушать)?",
       "options": [
-        { "id": "a", "text": "drink" },
-        { "id": "b", "text": "eat" },
-        { "id": "c", "text": "sleep" }
+        {
+          "id": "a",
+          "text": "drink"
+        },
+        {
+          "id": "b",
+          "text": "eat"
+        },
+        {
+          "id": "c",
+          "text": "sleep"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Eat — это есть/кушать. Drink — пить, sleep — спать."
     },
     {
       "id": "pool-q-026",
-      "tags": ["verbs"],
+      "tags": [
+        "verbs"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'читать':",
       "options": [
-        { "id": "a", "text": "write" },
-        { "id": "b", "text": "read" },
-        { "id": "c", "text": "speak" }
+        {
+          "id": "a",
+          "text": "write"
+        },
+        {
+          "id": "b",
+          "text": "read"
+        },
+        {
+          "id": "c",
+          "text": "speak"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Read — это читать. Write — писать, speak — говорить."
     },
     {
       "id": "pool-q-027",
-      "tags": ["adjectives"],
+      "tags": [
+        "adjectives"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'большой'?",
       "options": [
-        { "id": "a", "text": "small" },
-        { "id": "b", "text": "big" },
-        { "id": "c", "text": "old" }
+        {
+          "id": "a",
+          "text": "small"
+        },
+        {
+          "id": "b",
+          "text": "big"
+        },
+        {
+          "id": "c",
+          "text": "old"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Big — это большой. Small — маленький, old — старый."
     },
     {
       "id": "pool-q-028",
-      "tags": ["adjectives"],
+      "tags": [
+        "adjectives"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'красивый':",
       "options": [
-        { "id": "a", "text": "beautiful" },
-        { "id": "b", "text": "ugly" },
-        { "id": "c", "text": "angry" }
+        {
+          "id": "a",
+          "text": "beautiful"
+        },
+        {
+          "id": "b",
+          "text": "ugly"
+        },
+        {
+          "id": "c",
+          "text": "angry"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Beautiful — это красивый. Ugly — уродливый, angry — злой."
     },
     {
       "id": "pool-q-029",
-      "tags": ["prepositions"],
+      "tags": [
+        "prepositions"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Какой предлог переводится как 'в' или 'внутри'?",
       "options": [
-        { "id": "a", "text": "on" },
-        { "id": "b", "text": "in" },
-        { "id": "c", "text": "under" }
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "under"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "In — это в/внутри. On — на, under — под."
     },
     {
       "id": "pool-q-030",
-      "tags": ["prepositions"],
+      "tags": [
+        "prepositions"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод предлога 'на' (на столе):",
       "options": [
-        { "id": "a", "text": "under" },
-        { "id": "b", "text": "in" },
-        { "id": "c", "text": "on" }
+        {
+          "id": "a",
+          "text": "under"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "on"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "On — это на (на столе). Under — под, in — в."
     },
     {
       "id": "pool-q-031",
-      "tags": ["food", "restaurant"],
+      "tags": [
+        "food",
+        "restaurant"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'меню'?",
       "options": [
-        { "id": "a", "text": "menu" },
-        { "id": "b", "text": "bill" },
-        { "id": "c", "text": "plate" }
+        {
+          "id": "a",
+          "text": "menu"
+        },
+        {
+          "id": "b",
+          "text": "bill"
+        },
+        {
+          "id": "c",
+          "text": "plate"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Menu — это меню. Bill — счёт, plate — тарелка."
     },
     {
       "id": "pool-q-032",
-      "tags": ["family", "people"],
+      "tags": [
+        "family",
+        "people"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'ребёнок':",
       "options": [
-        { "id": "a", "text": "child" },
-        { "id": "b", "text": "parent" },
-        { "id": "c", "text": "friend" }
+        {
+          "id": "a",
+          "text": "child"
+        },
+        {
+          "id": "b",
+          "text": "parent"
+        },
+        {
+          "id": "c",
+          "text": "friend"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Child — это ребёнок. Parent — родитель, friend — друг."
     },
     {
       "id": "pool-q-033",
-      "tags": ["time", "calendar"],
+      "tags": [
+        "time",
+        "calendar"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'сегодня'?",
       "options": [
-        { "id": "a", "text": "tomorrow" },
-        { "id": "b", "text": "today" },
-        { "id": "c", "text": "yesterday" }
+        {
+          "id": "a",
+          "text": "tomorrow"
+        },
+        {
+          "id": "b",
+          "text": "today"
+        },
+        {
+          "id": "c",
+          "text": "yesterday"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Today — это сегодня. Tomorrow — завтра, yesterday — вчера."
     },
     {
       "id": "pool-q-034",
-      "tags": ["weather", "seasons"],
+      "tags": [
+        "weather",
+        "seasons"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'зима':",
       "options": [
-        { "id": "a", "text": "spring" },
-        { "id": "b", "text": "summer" },
-        { "id": "c", "text": "winter" }
+        {
+          "id": "a",
+          "text": "spring"
+        },
+        {
+          "id": "b",
+          "text": "summer"
+        },
+        {
+          "id": "c",
+          "text": "winter"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Winter — это зима. Spring — весна, summer — лето."
     },
     {
       "id": "pool-q-035",
-      "tags": ["house", "furniture"],
+      "tags": [
+        "house",
+        "furniture"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'стол'?",
       "options": [
-        { "id": "a", "text": "chair" },
-        { "id": "b", "text": "table" },
-        { "id": "c", "text": "window" }
+        {
+          "id": "a",
+          "text": "chair"
+        },
+        {
+          "id": "b",
+          "text": "table"
+        },
+        {
+          "id": "c",
+          "text": "window"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Table — это стол. Chair — стул, window — окно."
     },
     {
       "id": "pool-q-036",
-      "tags": ["travel", "directions"],
+      "tags": [
+        "travel",
+        "directions"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'вокзал':",
       "options": [
-        { "id": "a", "text": "station" },
-        { "id": "b", "text": "airport" },
-        { "id": "c", "text": "hotel" }
+        {
+          "id": "a",
+          "text": "station"
+        },
+        {
+          "id": "b",
+          "text": "airport"
+        },
+        {
+          "id": "c",
+          "text": "hotel"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Station — это вокзал/станция. Airport — аэропорт, hotel — отель."
     },
     {
       "id": "pool-q-037",
-      "tags": ["greetings", "politeness"],
+      "tags": [
+        "greetings",
+        "politeness"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'до свидания'?",
       "options": [
-        { "id": "a", "text": "hello" },
-        { "id": "b", "text": "goodbye" },
-        { "id": "c", "text": "good night" }
+        {
+          "id": "a",
+          "text": "hello"
+        },
+        {
+          "id": "b",
+          "text": "goodbye"
+        },
+        {
+          "id": "c",
+          "text": "good night"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Goodbye — это до свидания. Hello — привет, good night — спокойной ночи."
     },
     {
       "id": "pool-q-038",
-      "tags": ["food", "fruits"],
+      "tags": [
+        "food",
+        "fruits"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'апельсин':",
       "options": [
-        { "id": "a", "text": "apple" },
-        { "id": "b", "text": "banana" },
-        { "id": "c", "text": "orange" }
+        {
+          "id": "a",
+          "text": "apple"
+        },
+        {
+          "id": "b",
+          "text": "banana"
+        },
+        {
+          "id": "c",
+          "text": "orange"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Orange — это апельсин. Apple — яблоко, banana — банан."
     },
     {
       "id": "pool-q-039",
-      "tags": ["numbers", "money"],
+      "tags": [
+        "numbers",
+        "money"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Как по-английски 'сто'?",
       "options": [
-        { "id": "a", "text": "ten" },
-        { "id": "b", "text": "hundred" },
-        { "id": "c", "text": "thousand" }
+        {
+          "id": "a",
+          "text": "ten"
+        },
+        {
+          "id": "b",
+          "text": "hundred"
+        },
+        {
+          "id": "c",
+          "text": "thousand"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Hundred — это сто. Ten — десять, thousand — тысяча."
     },
     {
       "id": "pool-q-040",
-      "tags": ["body", "health"],
+      "tags": [
+        "body",
+        "health"
+      ],
       "level": 1,
       "difficulty": "easy",
       "question": "Выберите перевод слова 'рука':",
       "options": [
-        { "id": "a", "text": "arm" },
-        { "id": "b", "text": "leg" },
-        { "id": "c", "text": "back" }
+        {
+          "id": "a",
+          "text": "arm"
+        },
+        {
+          "id": "b",
+          "text": "leg"
+        },
+        {
+          "id": "c",
+          "text": "back"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Arm — это рука. Leg — нога, back — спина."
+    },
+    {
+      "id": "gr-001",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I ___ a teacher.",
+      "options": [
+        {
+          "id": "a",
+          "text": "am"
+        },
+        {
+          "id": "b",
+          "text": "is"
+        },
+        {
+          "id": "c",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "С местоимением I всегда используется am: I am (I'm). Is — для he/she/it, are — для you/we/they."
+    },
+    {
+      "id": "gr-002",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: She ___ from Moscow.",
+      "options": [
+        {
+          "id": "a",
+          "text": "am"
+        },
+        {
+          "id": "b",
+          "text": "is"
+        },
+        {
+          "id": "c",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "He, she, it → is. She is from Moscow."
+    },
+    {
+      "id": "gr-003",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: They ___ my friends.",
+      "options": [
+        {
+          "id": "a",
+          "text": "am"
+        },
+        {
+          "id": "b",
+          "text": "is"
+        },
+        {
+          "id": "c",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "They (они) → are. You, we, they всегда с are."
+    },
+    {
+      "id": "gr-004",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: ___ you tired?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am"
+        },
+        {
+          "id": "b",
+          "text": "Is"
+        },
+        {
+          "id": "c",
+          "text": "Are"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "В вопросе глагол to be ставится перед подлежащим: Are you tired? You → are."
+    },
+    {
+      "id": "gr-005",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: It ___ cold today.",
+      "options": [
+        {
+          "id": "a",
+          "text": "am"
+        },
+        {
+          "id": "b",
+          "text": "is"
+        },
+        {
+          "id": "c",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "It (погода, предметы) → is. It is cold today. — Сегодня холодно."
+    },
+    {
+      "id": "gr-006",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: We ___ not at home.",
+      "options": [
+        {
+          "id": "a",
+          "text": "am"
+        },
+        {
+          "id": "b",
+          "text": "is"
+        },
+        {
+          "id": "c",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "We → are. Отрицание: are not = aren't. We aren't at home."
+    },
+    {
+      "id": "gr-007",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: My name ___ Anna.",
+      "options": [
+        {
+          "id": "a",
+          "text": "am"
+        },
+        {
+          "id": "b",
+          "text": "is"
+        },
+        {
+          "id": "c",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "My name — это единственное число (оно), поэтому is: My name is Anna."
+    },
+    {
+      "id": "gr-008",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: ___ this your bag?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am"
+        },
+        {
+          "id": "b",
+          "text": "Is"
+        },
+        {
+          "id": "c",
+          "text": "Are"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "This (это) — единственное число → is. Is this your bag?"
+    },
+    {
+      "id": "gr-009",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ twenty years old.",
+      "options": [
+        {
+          "id": "a",
+          "text": "have"
+        },
+        {
+          "id": "b",
+          "text": "am"
+        },
+        {
+          "id": "c",
+          "text": "is"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "В английском возраст выражается глаголом to be, а не have: I am 20 years old. Буквально: «мне есть 20 лет», а не «я имею 20 лет»."
+    },
+    {
+      "id": "gr-010",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He ___ hungry.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is"
+        },
+        {
+          "id": "b",
+          "text": "has"
+        },
+        {
+          "id": "c",
+          "text": "have"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Состояния (hungry, thirsty, cold, hot) выражаются через to be: He is hungry. Не говорят «he has hungry»."
+    },
+    {
+      "id": "gr-011",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Where ___ the children?",
+      "options": [
+        {
+          "id": "a",
+          "text": "am"
+        },
+        {
+          "id": "b",
+          "text": "is"
+        },
+        {
+          "id": "c",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Children (дети) — множественное число → are. Where are the children?"
+    },
+    {
+      "id": "gr-012",
+      "tags": [
+        "grammar",
+        "to-be"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I ___ a doctor, I'm a nurse.",
+      "options": [
+        {
+          "id": "a",
+          "text": "am not"
+        },
+        {
+          "id": "b",
+          "text": "not"
+        },
+        {
+          "id": "c",
+          "text": "no"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Отрицание to be: am not. «I not a doctor» — типичная ошибка: глагол нельзя пропускать."
+    },
+    {
+      "id": "gr-013",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I have ___ dog.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Перед исчисляемым существительным в единственном числе, которое упоминается впервые, нужен артикль a. Dog начинается с согласного → a dog."
+    },
+    {
+      "id": "gr-014",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: She is ___ engineer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Engineer начинается с гласного звука → an. Профессии всегда с артиклем: She is an engineer."
+    },
+    {
+      "id": "gr-015",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: This is ___ apple.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apple начинается с гласного → an apple."
+    },
+    {
+      "id": "gr-016",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I have a cat. ___ cat is black.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "An"
+        },
+        {
+          "id": "c",
+          "text": "The"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Когда предмет уже упоминался, используем the: the cat (тот самый кот)."
+    },
+    {
+      "id": "gr-017",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ sun is very hot.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "An"
+        },
+        {
+          "id": "c",
+          "text": "The"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Единственные в своём роде предметы (sun, moon, sky, world) — с the: the sun."
+    },
+    {
+      "id": "gr-018",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I like ___ music.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Неисчисляемые существительные в общем значении (music, water, love) употребляются без артикля: I like music."
+    },
+    {
+      "id": "gr-019",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: We go to ___ school every day.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "School, work, bed, home в значении «место по назначению» — без артикля: go to school, go to work, go home."
+    },
+    {
+      "id": "gr-020",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: It's ___ hour by car.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hour произносится с гласного звука (h не читается) → an hour. Важен звук, а не буква!"
+    },
+    {
+      "id": "gr-021",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He is ___ university student.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "University произносится «ю» — согласный звук → a university. Сравните: an umbrella."
+    },
+    {
+      "id": "gr-022",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Paris is ___ capital of France.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Столица у страны одна, поэтому the capital of France."
+    },
+    {
+      "id": "gr-023",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I live in ___ Russia.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Названия большинства стран — без артикля: Russia, France, Italy. Исключения: the USA, the UK, the Netherlands."
+    },
+    {
+      "id": "gr-024",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She plays ___ piano.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Музыкальные инструменты — с the: play the piano, play the guitar. А виды спорта — без: play football."
+    },
+    {
+      "id": "gr-025",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I want ___ glass of water.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Glass (стакан) — исчисляемое, впервые → a glass of water. Water без артикля, а вот стакан — один, «какой-то»."
+    },
+    {
+      "id": "gr-026",
+      "tags": [
+        "grammar",
+        "articles"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: What ___ beautiful day!",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Восклицание What + a/an + прилагательное + сущ.: What a beautiful day! What an idea!"
+    },
+    {
+      "id": "gr-027",
+      "tags": [
+        "grammar",
+        "plurals"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: There are three ___ in the room.",
+      "options": [
+        {
+          "id": "a",
+          "text": "child"
+        },
+        {
+          "id": "b",
+          "text": "childs"
+        },
+        {
+          "id": "c",
+          "text": "children"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Child — неправильное существительное: child → children. «Childs» не существует."
+    },
+    {
+      "id": "gr-028",
+      "tags": [
+        "grammar",
+        "plurals"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I have two ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "foot"
+        },
+        {
+          "id": "b",
+          "text": "foots"
+        },
+        {
+          "id": "c",
+          "text": "feet"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Foot → feet (ноги, ступни). Запомните пары: foot–feet, tooth–teeth, man–men, woman–women."
+    },
+    {
+      "id": "gr-029",
+      "tags": [
+        "grammar",
+        "plurals"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: There are many ___ in the city.",
+      "options": [
+        {
+          "id": "a",
+          "text": "person"
+        },
+        {
+          "id": "b",
+          "text": "persons"
+        },
+        {
+          "id": "c",
+          "text": "people"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Person → people. People — это уже множественное число, «peoples» значит «народы»."
+    },
+    {
+      "id": "gr-030",
+      "tags": [
+        "grammar",
+        "plurals"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I need two ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "box"
+        },
+        {
+          "id": "b",
+          "text": "boxs"
+        },
+        {
+          "id": "c",
+          "text": "boxes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "После -s, -x, -ch, -sh прибавляется -es: box → boxes, bus → buses, watch → watches."
+    },
+    {
+      "id": "gr-031",
+      "tags": [
+        "grammar",
+        "plurals"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She has three ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "baby"
+        },
+        {
+          "id": "b",
+          "text": "babys"
+        },
+        {
+          "id": "c",
+          "text": "babies"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Согласная + y → -ies: baby → babies, city → cities. Но: boy → boys (гласная + y)."
+    },
+    {
+      "id": "gr-032",
+      "tags": [
+        "grammar",
+        "plurals"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He has two ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "knifes"
+        },
+        {
+          "id": "b",
+          "text": "knives"
+        },
+        {
+          "id": "c",
+          "text": "knife"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Слова на -f/-fe обычно меняют f на v: knife → knives, wife → wives, leaf → leaves."
+    },
+    {
+      "id": "gr-033",
+      "tags": [
+        "grammar",
+        "plurals"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: There are five ___ on the farm.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sheep"
+        },
+        {
+          "id": "b",
+          "text": "sheeps"
+        },
+        {
+          "id": "c",
+          "text": "sheepes"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Sheep не меняется во множественном числе: one sheep, five sheep. Так же: fish, deer."
+    },
+    {
+      "id": "gr-034",
+      "tags": [
+        "grammar",
+        "plurals"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: How many ___ are there?",
+      "options": [
+        {
+          "id": "a",
+          "text": "man"
+        },
+        {
+          "id": "b",
+          "text": "mans"
+        },
+        {
+          "id": "c",
+          "text": "men"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Man → men, woman → women. Произношение women — «уимин»."
+    },
+    {
+      "id": "gr-035",
+      "tags": [
+        "grammar",
+        "there-is"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: ___ a book on the table.",
+      "options": [
+        {
+          "id": "a",
+          "text": "There is"
+        },
+        {
+          "id": "b",
+          "text": "There are"
+        },
+        {
+          "id": "c",
+          "text": "It is"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Одна книга (единственное число) → There is. Конструкция «there is/are» означает «есть, находится»."
+    },
+    {
+      "id": "gr-036",
+      "tags": [
+        "grammar",
+        "there-is"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: ___ two cats in the garden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "There is"
+        },
+        {
+          "id": "b",
+          "text": "There are"
+        },
+        {
+          "id": "c",
+          "text": "It is"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Two cats — множественное число → There are."
+    },
+    {
+      "id": "gr-037",
+      "tags": [
+        "grammar",
+        "there-is"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ any milk in the fridge?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Is there"
+        },
+        {
+          "id": "b",
+          "text": "Are there"
+        },
+        {
+          "id": "c",
+          "text": "There is"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Milk — неисчисляемое, поэтому is. В вопросе порядок меняется: Is there…?"
+    },
+    {
+      "id": "gr-038",
+      "tags": [
+        "grammar",
+        "there-is"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ a lot of people at the party.",
+      "options": [
+        {
+          "id": "a",
+          "text": "There was"
+        },
+        {
+          "id": "b",
+          "text": "There were"
+        },
+        {
+          "id": "c",
+          "text": "There is"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "People — множественное число, прошедшее время → There were."
+    },
+    {
+      "id": "gr-039",
+      "tags": [
+        "grammar",
+        "there-is"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: There ___ no problem.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is"
+        },
+        {
+          "id": "b",
+          "text": "are"
+        },
+        {
+          "id": "c",
+          "text": "be"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A problem — единственное число → There is no problem."
+    },
+    {
+      "id": "gr-040",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: She ___ to work every day.",
+      "options": [
+        {
+          "id": "a",
+          "text": "go"
+        },
+        {
+          "id": "b",
+          "text": "goes"
+        },
+        {
+          "id": "c",
+          "text": "going"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "В Present Simple после he/she/it к глаголу добавляется -s/-es: she goes, he works, it rains."
+    },
+    {
+      "id": "gr-041",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I ___ coffee in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "text": "drink"
+        },
+        {
+          "id": "b",
+          "text": "drinks"
+        },
+        {
+          "id": "c",
+          "text": "drinking"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "С I/you/we/they глагол без окончания: I drink."
+    },
+    {
+      "id": "gr-042",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: He ___ English very well.",
+      "options": [
+        {
+          "id": "a",
+          "text": "speak"
+        },
+        {
+          "id": "b",
+          "text": "speaks"
+        },
+        {
+          "id": "c",
+          "text": "is speak"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "He → speaks. «Is speak» — ошибка: либо speaks, либо is speaking."
+    },
+    {
+      "id": "gr-043",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: ___ you like pizza?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Do"
+        },
+        {
+          "id": "b",
+          "text": "Does"
+        },
+        {
+          "id": "c",
+          "text": "Are"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Вопрос в Present Simple строится с do/does. You → Do you like…? «Are you like» — ошибка."
+    },
+    {
+      "id": "gr-044",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: ___ she live in London?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Do"
+        },
+        {
+          "id": "b",
+          "text": "Does"
+        },
+        {
+          "id": "c",
+          "text": "Is"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "She → Does. После does глагол без -s: Does she live (не lives)."
+    },
+    {
+      "id": "gr-045",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He ___ like fish.",
+      "options": [
+        {
+          "id": "a",
+          "text": "don't"
+        },
+        {
+          "id": "b",
+          "text": "doesn't"
+        },
+        {
+          "id": "c",
+          "text": "isn't"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Отрицание с he/she/it: doesn't + глагол без -s. He doesn't like fish."
+    },
+    {
+      "id": "gr-046",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: We ___ watch TV in the evening.",
+      "options": [
+        {
+          "id": "a",
+          "text": "don't"
+        },
+        {
+          "id": "b",
+          "text": "doesn't"
+        },
+        {
+          "id": "c",
+          "text": "not"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "We → don't. Просто «not» без вспомогательного глагола нельзя."
+    },
+    {
+      "id": "gr-047",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: My sister ___ a lot of books.",
+      "options": [
+        {
+          "id": "a",
+          "text": "read"
+        },
+        {
+          "id": "b",
+          "text": "reads"
+        },
+        {
+          "id": "c",
+          "text": "is read"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "My sister = she → reads."
+    },
+    {
+      "id": "gr-048",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Does he ___ football?",
+      "options": [
+        {
+          "id": "a",
+          "text": "play"
+        },
+        {
+          "id": "b",
+          "text": "plays"
+        },
+        {
+          "id": "c",
+          "text": "playing"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "После does глагол в начальной форме: Does he play? Окончание -s уже «ушло» в does."
+    },
+    {
+      "id": "gr-049",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She ___ her homework after school.",
+      "options": [
+        {
+          "id": "a",
+          "text": "do"
+        },
+        {
+          "id": "b",
+          "text": "does"
+        },
+        {
+          "id": "c",
+          "text": "is do"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Do (делать) с she → does. She does her homework."
+    },
+    {
+      "id": "gr-050",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Tom ___ TV every evening.",
+      "options": [
+        {
+          "id": "a",
+          "text": "watch"
+        },
+        {
+          "id": "b",
+          "text": "watchs"
+        },
+        {
+          "id": "c",
+          "text": "watches"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "После -ch добавляется -es: watch → watches, wash → washes, go → goes."
+    },
+    {
+      "id": "gr-051",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: What time ___ the shop open?",
+      "options": [
+        {
+          "id": "a",
+          "text": "do"
+        },
+        {
+          "id": "b",
+          "text": "does"
+        },
+        {
+          "id": "c",
+          "text": "is"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The shop = it → does. What time does the shop open?"
+    },
+    {
+      "id": "gr-052",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ understand this word.",
+      "options": [
+        {
+          "id": "a",
+          "text": "don't"
+        },
+        {
+          "id": "b",
+          "text": "doesn't"
+        },
+        {
+          "id": "c",
+          "text": "not"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "I → don't: I don't understand. Очень частая фраза!"
+    },
+    {
+      "id": "gr-053",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Where ___ you work?",
+      "options": [
+        {
+          "id": "a",
+          "text": "do"
+        },
+        {
+          "id": "b",
+          "text": "does"
+        },
+        {
+          "id": "c",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "You → do: Where do you work? — Где вы работаете?"
+    },
+    {
+      "id": "gr-054",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He ___ at 7 o'clock every day.",
+      "options": [
+        {
+          "id": "a",
+          "text": "get up"
+        },
+        {
+          "id": "b",
+          "text": "gets up"
+        },
+        {
+          "id": "c",
+          "text": "is get up"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "He → gets up. Фразовые глаголы тоже получают -s."
+    },
+    {
+      "id": "gr-055",
+      "tags": [
+        "grammar",
+        "present-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: My parents ___ in a small town.",
+      "options": [
+        {
+          "id": "a",
+          "text": "lives"
+        },
+        {
+          "id": "b",
+          "text": "live"
+        },
+        {
+          "id": "c",
+          "text": "living"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Parents — они (they) → live без -s."
+    },
+    {
+      "id": "gr-056",
+      "tags": [
+        "grammar",
+        "pronouns"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: This is my brother. ___ is a student.",
+      "options": [
+        {
+          "id": "a",
+          "text": "He"
+        },
+        {
+          "id": "b",
+          "text": "She"
+        },
+        {
+          "id": "c",
+          "text": "It"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Brother (брат) — мужчина → he."
+    },
+    {
+      "id": "gr-057",
+      "tags": [
+        "grammar",
+        "pronouns"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I like ___ car.",
+      "options": [
+        {
+          "id": "a",
+          "text": "you"
+        },
+        {
+          "id": "b",
+          "text": "your"
+        },
+        {
+          "id": "c",
+          "text": "yours"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Перед существительным нужно притяжательное местоимение: your car (твоя машина)."
+    },
+    {
+      "id": "gr-058",
+      "tags": [
+        "grammar",
+        "pronouns"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: Can you help ___?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I"
+        },
+        {
+          "id": "b",
+          "text": "me"
+        },
+        {
+          "id": "c",
+          "text": "my"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "После глагола — объектное местоимение: help me, call him, see them."
+    },
+    {
+      "id": "gr-059",
+      "tags": [
+        "grammar",
+        "pronouns"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: ___ is my friend Kate.",
+      "options": [
+        {
+          "id": "a",
+          "text": "She"
+        },
+        {
+          "id": "b",
+          "text": "Her"
+        },
+        {
+          "id": "c",
+          "text": "Hers"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Подлежащее → she. Her — «её» (her book) или объектное «ей/её» (I see her)."
+    },
+    {
+      "id": "gr-060",
+      "tags": [
+        "grammar",
+        "pronouns"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: This book is ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "my"
+        },
+        {
+          "id": "b",
+          "text": "mine"
+        },
+        {
+          "id": "c",
+          "text": "me"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Без существительного после — абсолютная форма: mine, yours, his, hers, ours, theirs. This book is mine."
+    },
+    {
+      "id": "gr-061",
+      "tags": [
+        "grammar",
+        "pronouns"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: The dog is eating ___ food.",
+      "options": [
+        {
+          "id": "a",
+          "text": "it"
+        },
+        {
+          "id": "b",
+          "text": "its"
+        },
+        {
+          "id": "c",
+          "text": "it's"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Its (без апострофа) — «его/её» для животных и предметов. It's = it is."
+    },
+    {
+      "id": "gr-062",
+      "tags": [
+        "grammar",
+        "pronouns"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: We love ___ children.",
+      "options": [
+        {
+          "id": "a",
+          "text": "us"
+        },
+        {
+          "id": "b",
+          "text": "we"
+        },
+        {
+          "id": "c",
+          "text": "our"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Притяжательное: our children (наши дети)."
+    },
+    {
+      "id": "gr-063",
+      "tags": [
+        "grammar",
+        "pronouns"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Give the book to ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "they"
+        },
+        {
+          "id": "b",
+          "text": "them"
+        },
+        {
+          "id": "c",
+          "text": "their"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "После предлога — объектное местоимение: to them, with him, for us."
+    },
+    {
+      "id": "gr-064",
+      "tags": [
+        "grammar",
+        "pronouns"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ car is this? — It's Peter's.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Who"
+        },
+        {
+          "id": "b",
+          "text": "Whose"
+        },
+        {
+          "id": "c",
+          "text": "Who's"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Whose = чей. Who's = who is. Whose car is this? — Чья это машина?"
+    },
+    {
+      "id": "gr-065",
+      "tags": [
+        "grammar",
+        "pronouns"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I hurt ___ yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "me"
+        },
+        {
+          "id": "b",
+          "text": "myself"
+        },
+        {
+          "id": "c",
+          "text": "my"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Возвратное местоимение: I hurt myself (я ушибся), he cut himself."
+    },
+    {
+      "id": "gr-066",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: The book is ___ the table.",
+      "options": [
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "On — на поверхности: on the table, on the wall, on the floor."
+    },
+    {
+      "id": "gr-067",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: The keys are ___ my bag.",
+      "options": [
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "In — внутри: in my bag, in the box, in the room."
+    },
+    {
+      "id": "gr-068",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I'll meet you ___ the bus stop.",
+      "options": [
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "At — у конкретной точки: at the bus stop, at the door, at the station."
+    },
+    {
+      "id": "gr-069",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: See you ___ Monday!",
+      "options": [
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Дни недели — on: on Monday, on Friday, on my birthday."
+    },
+    {
+      "id": "gr-070",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: The lesson starts ___ 9 o'clock.",
+      "options": [
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Точное время — at: at 9 o'clock, at noon, at night, at the weekend."
+    },
+    {
+      "id": "gr-071",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: My birthday is ___ May.",
+      "options": [
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Месяцы, годы, времена года — in: in May, in 2020, in winter."
+    },
+    {
+      "id": "gr-072",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I usually get up early ___ the morning.",
+      "options": [
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "In the morning, in the afternoon, in the evening. Но: at night."
+    },
+    {
+      "id": "gr-073",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She lives ___ Berlin.",
+      "options": [
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Города и страны — in: in Berlin, in Germany."
+    },
+    {
+      "id": "gr-074",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I'm going ___ home now.",
+      "options": [
+        {
+          "id": "a",
+          "text": "to"
+        },
+        {
+          "id": "b",
+          "text": "at"
+        },
+        {
+          "id": "c",
+          "text": "—"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Home — без предлога to: go home, come home. «Go to home» — частая ошибка!"
+    },
+    {
+      "id": "gr-075",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: We are going ___ the cinema tonight.",
+      "options": [
+        {
+          "id": "a",
+          "text": "to"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Движение «куда» — to: go to the cinema, go to school, go to Moscow."
+    },
+    {
+      "id": "gr-076",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Listen ___ me, please.",
+      "options": [
+        {
+          "id": "a",
+          "text": "—"
+        },
+        {
+          "id": "b",
+          "text": "to"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Listen to (слушать кого-то) — предлог обязателен. Но: hear me (без предлога)."
+    },
+    {
+      "id": "gr-077",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Look ___ this picture!",
+      "options": [
+        {
+          "id": "a",
+          "text": "at"
+        },
+        {
+          "id": "b",
+          "text": "on"
+        },
+        {
+          "id": "c",
+          "text": "to"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Look at (смотреть на). Не «look on»."
+    },
+    {
+      "id": "gr-078",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: It depends ___ the weather.",
+      "options": [
+        {
+          "id": "a",
+          "text": "from"
+        },
+        {
+          "id": "b",
+          "text": "of"
+        },
+        {
+          "id": "c",
+          "text": "on"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Depend on — зависеть от. Русское «от» (from) здесь ошибка: it depends on you."
+    },
+    {
+      "id": "gr-079",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I'm interested ___ history.",
+      "options": [
+        {
+          "id": "a",
+          "text": "in"
+        },
+        {
+          "id": "b",
+          "text": "at"
+        },
+        {
+          "id": "c",
+          "text": "on"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Interested in — интересоваться чем-то."
+    },
+    {
+      "id": "gr-080",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She is good ___ maths.",
+      "options": [
+        {
+          "id": "a",
+          "text": "in"
+        },
+        {
+          "id": "b",
+          "text": "at"
+        },
+        {
+          "id": "c",
+          "text": "on"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Good at / bad at — хорош/плох в чём-то. Не «good in»."
+    },
+    {
+      "id": "gr-081",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I'm waiting ___ the bus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "—"
+        },
+        {
+          "id": "b",
+          "text": "for"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Wait for — ждать кого-то/чего-то. Предлог нельзя опускать."
+    },
+    {
+      "id": "gr-082",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He's married ___ a doctor.",
+      "options": [
+        {
+          "id": "a",
+          "text": "with"
+        },
+        {
+          "id": "b",
+          "text": "to"
+        },
+        {
+          "id": "c",
+          "text": "on"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Married to — женат на / замужем за. Не «married with»."
+    },
+    {
+      "id": "gr-083",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I'm afraid ___ dogs.",
+      "options": [
+        {
+          "id": "a",
+          "text": "of"
+        },
+        {
+          "id": "b",
+          "text": "from"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Afraid of — бояться. «Afraid from» — ошибка под влиянием русского «от»."
+    },
+    {
+      "id": "gr-084",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: We arrived ___ the airport late.",
+      "options": [
+        {
+          "id": "a",
+          "text": "to"
+        },
+        {
+          "id": "b",
+          "text": "at"
+        },
+        {
+          "id": "c",
+          "text": "in"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Arrive at (место) / arrive in (город, страна). Никогда «arrive to»."
+    },
+    {
+      "id": "gr-085",
+      "tags": [
+        "grammar",
+        "prepositions"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: The cat is ___ the sofa.",
+      "options": [
+        {
+          "id": "a",
+          "text": "under"
+        },
+        {
+          "id": "b",
+          "text": "between"
+        },
+        {
+          "id": "c",
+          "text": "among"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Under — под. Between — между (двумя), among — среди (многих)."
+    },
+    {
+      "id": "gr-086",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I ___ swim very well.",
+      "options": [
+        {
+          "id": "a",
+          "text": "can"
+        },
+        {
+          "id": "b",
+          "text": "can to"
+        },
+        {
+          "id": "c",
+          "text": "cans"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "После can глагол без to и без -s: I can swim, she can swim."
+    },
+    {
+      "id": "gr-087",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: ___ you speak French?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Can"
+        },
+        {
+          "id": "b",
+          "text": "Do can"
+        },
+        {
+          "id": "c",
+          "text": "Are"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Вопрос с can: Can you…? Вспомогательный do не нужен."
+    },
+    {
+      "id": "gr-088",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: She ___ drive a car.",
+      "options": [
+        {
+          "id": "a",
+          "text": "can't"
+        },
+        {
+          "id": "b",
+          "text": "don't can"
+        },
+        {
+          "id": "c",
+          "text": "doesn't can"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Отрицание: can't / cannot. «Don't can» — грубая ошибка."
+    },
+    {
+      "id": "gr-089",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He ___ play the guitar.",
+      "options": [
+        {
+          "id": "a",
+          "text": "can"
+        },
+        {
+          "id": "b",
+          "text": "cans"
+        },
+        {
+          "id": "c",
+          "text": "can plays"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Can не меняется по лицам: he can, she can. Глагол после него — в начальной форме."
+    },
+    {
+      "id": "gr-090",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ I open the window?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Can"
+        },
+        {
+          "id": "b",
+          "text": "Do"
+        },
+        {
+          "id": "c",
+          "text": "Am"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Просьба/разрешение: Can I…? (Могу я…?) Более вежливо: Could I…? / May I…?"
+    },
+    {
+      "id": "gr-091",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: You ___ smoke here. It's forbidden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "mustn't"
+        },
+        {
+          "id": "b",
+          "text": "don't have to"
+        },
+        {
+          "id": "c",
+          "text": "can"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mustn't = нельзя, запрещено. Don't have to = не обязательно (но можно)."
+    },
+    {
+      "id": "gr-092",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: You ___ wear a uniform. It's optional.",
+      "options": [
+        {
+          "id": "a",
+          "text": "mustn't"
+        },
+        {
+          "id": "b",
+          "text": "don't have to"
+        },
+        {
+          "id": "c",
+          "text": "can't"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Don't have to = не нужно, не обязан. Optional — по желанию."
+    },
+    {
+      "id": "gr-093",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ go to the doctor. I feel ill.",
+      "options": [
+        {
+          "id": "a",
+          "text": "should"
+        },
+        {
+          "id": "b",
+          "text": "can"
+        },
+        {
+          "id": "c",
+          "text": "would"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Should — совет, «следует»: I should go to the doctor."
+    },
+    {
+      "id": "gr-094",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: You ___ be quiet in the library.",
+      "options": [
+        {
+          "id": "a",
+          "text": "must"
+        },
+        {
+          "id": "b",
+          "text": "can"
+        },
+        {
+          "id": "c",
+          "text": "may"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Must — обязанность, правило: You must be quiet."
+    },
+    {
+      "id": "gr-095",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ you like some tea?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Would"
+        },
+        {
+          "id": "b",
+          "text": "Do"
+        },
+        {
+          "id": "c",
+          "text": "Will"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Would you like…? — вежливое предложение («не хотите ли»). Do you like tea? — вообще любите ли чай."
+    },
+    {
+      "id": "gr-096",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ like a coffee, please.",
+      "options": [
+        {
+          "id": "a",
+          "text": "would"
+        },
+        {
+          "id": "b",
+          "text": "want"
+        },
+        {
+          "id": "c",
+          "text": "will"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "I would like (I'd like) — вежливая форма «я хотел бы». Просто I want звучит грубее."
+    },
+    {
+      "id": "gr-097",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She ___ to learn English.",
+      "options": [
+        {
+          "id": "a",
+          "text": "have"
+        },
+        {
+          "id": "b",
+          "text": "has"
+        },
+        {
+          "id": "c",
+          "text": "is"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Have to (быть вынужденным): she has to, I have to. «She have» — ошибка."
+    },
+    {
+      "id": "gr-098",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: This is ___ book.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anna"
+        },
+        {
+          "id": "b",
+          "text": "Anna's"
+        },
+        {
+          "id": "c",
+          "text": "Annas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Принадлежность: апостроф + s → Anna's book (книга Анны)."
+    },
+    {
+      "id": "gr-099",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: These are my ___ toys.",
+      "options": [
+        {
+          "id": "a",
+          "text": "childrens"
+        },
+        {
+          "id": "b",
+          "text": "children's"
+        },
+        {
+          "id": "c",
+          "text": "childrens'"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Children уже множественное число, поэтому добавляем 's: children's toys."
+    },
+    {
+      "id": "gr-100",
+      "tags": [
+        "grammar",
+        "modals"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ got two brothers.",
+      "options": [
+        {
+          "id": "a",
+          "text": "have"
+        },
+        {
+          "id": "b",
+          "text": "has"
+        },
+        {
+          "id": "c",
+          "text": "am"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Have got = have (иметь). I have got / I've got. He has got."
+    },
+    {
+      "id": "gr-101",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: Look! It ___ .",
+      "options": [
+        {
+          "id": "a",
+          "text": "rains"
+        },
+        {
+          "id": "b",
+          "text": "is raining"
+        },
+        {
+          "id": "c",
+          "text": "raining"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Действие происходит прямо сейчас (Look!) → Present Continuous: is raining."
+    },
+    {
+      "id": "gr-102",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 1,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I ___ a book now.",
+      "options": [
+        {
+          "id": "a",
+          "text": "read"
+        },
+        {
+          "id": "b",
+          "text": "am reading"
+        },
+        {
+          "id": "c",
+          "text": "reading"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Now → am reading. Одно слово «reading» без am — ошибка."
+    },
+    {
+      "id": "gr-103",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She ___ TV at the moment.",
+      "options": [
+        {
+          "id": "a",
+          "text": "watches"
+        },
+        {
+          "id": "b",
+          "text": "is watching"
+        },
+        {
+          "id": "c",
+          "text": "watch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "At the moment → Present Continuous: is watching."
+    },
+    {
+      "id": "gr-104",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: What ___ you doing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "do"
+        },
+        {
+          "id": "b",
+          "text": "are"
+        },
+        {
+          "id": "c",
+          "text": "is"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Вопрос Present Continuous: What are you doing? — Что ты делаешь (сейчас)?"
+    },
+    {
+      "id": "gr-105",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: They ___ football every Sunday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "play"
+        },
+        {
+          "id": "b",
+          "text": "are playing"
+        },
+        {
+          "id": "c",
+          "text": "plays"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Every Sunday — регулярно → Present Simple: play."
+    },
+    {
+      "id": "gr-106",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ to music right now.",
+      "options": [
+        {
+          "id": "a",
+          "text": "listen"
+        },
+        {
+          "id": "b",
+          "text": "am listening"
+        },
+        {
+          "id": "c",
+          "text": "listening"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Right now → am listening."
+    },
+    {
+      "id": "gr-107",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He usually ___ tea, but today he ___ coffee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "drinks / is drinking"
+        },
+        {
+          "id": "b",
+          "text": "is drinking / drinks"
+        },
+        {
+          "id": "c",
+          "text": "drink / drinks"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Usually → Present Simple (drinks); today (сейчас) → Present Continuous (is drinking)."
+    },
+    {
+      "id": "gr-108",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ you. Please, repeat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "don't understand"
+        },
+        {
+          "id": "b",
+          "text": "am not understanding"
+        },
+        {
+          "id": "c",
+          "text": "not understand"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Understand, know, like, want, need — глаголы состояния, они не используются в Continuous."
+    },
+    {
+      "id": "gr-109",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She ___ a lot of friends.",
+      "options": [
+        {
+          "id": "a",
+          "text": "has"
+        },
+        {
+          "id": "b",
+          "text": "is having"
+        },
+        {
+          "id": "c",
+          "text": "have"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Have в значении «иметь» — не в Continuous. She has a lot of friends."
+    },
+    {
+      "id": "gr-110",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: We ___ to Spain next week.",
+      "options": [
+        {
+          "id": "a",
+          "text": "go"
+        },
+        {
+          "id": "b",
+          "text": "are going"
+        },
+        {
+          "id": "c",
+          "text": "goes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Запланированное будущее → Present Continuous: We are going to Spain next week."
+    },
+    {
+      "id": "gr-111",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Why ___ crying?",
+      "options": [
+        {
+          "id": "a",
+          "text": "she is"
+        },
+        {
+          "id": "b",
+          "text": "is she"
+        },
+        {
+          "id": "c",
+          "text": "does she"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "В вопросе is перед подлежащим: Why is she crying?"
+    },
+    {
+      "id": "gr-112",
+      "tags": [
+        "grammar",
+        "present-continuous"
+      ],
+      "level": 1,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: The children ___ in the garden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is playing"
+        },
+        {
+          "id": "b",
+          "text": "are playing"
+        },
+        {
+          "id": "c",
+          "text": "plays"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Children — множественное число → are playing."
+    },
+    {
+      "id": "gr-113",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I ___ to the cinema yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "go"
+        },
+        {
+          "id": "b",
+          "text": "went"
+        },
+        {
+          "id": "c",
+          "text": "goed"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Go — неправильный глагол: go → went → gone. «Goed» не существует."
+    },
+    {
+      "id": "gr-114",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: She ___ TV last night.",
+      "options": [
+        {
+          "id": "a",
+          "text": "watch"
+        },
+        {
+          "id": "b",
+          "text": "watched"
+        },
+        {
+          "id": "c",
+          "text": "watchs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Правильный глагол: watch → watched. Last night → Past Simple."
+    },
+    {
+      "id": "gr-115",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: ___ you see him yesterday?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Did"
+        },
+        {
+          "id": "b",
+          "text": "Do"
+        },
+        {
+          "id": "c",
+          "text": "Were"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Вопрос в Past Simple — с did: Did you see…? После did глагол в начальной форме (не saw)."
+    },
+    {
+      "id": "gr-116",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: We ___ go to school on Sunday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "didn't"
+        },
+        {
+          "id": "b",
+          "text": "don't"
+        },
+        {
+          "id": "c",
+          "text": "weren't"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Отрицание в прошедшем: didn't + начальная форма: We didn't go."
+    },
+    {
+      "id": "gr-117",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He ___ a new car last week.",
+      "options": [
+        {
+          "id": "a",
+          "text": "buy"
+        },
+        {
+          "id": "b",
+          "text": "bought"
+        },
+        {
+          "id": "c",
+          "text": "buyed"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Buy → bought. Неправильный глагол."
+    },
+    {
+      "id": "gr-118",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ at home yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "was"
+        },
+        {
+          "id": "b",
+          "text": "were"
+        },
+        {
+          "id": "c",
+          "text": "did"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "To be в прошедшем: I/he/she/it → was, you/we/they → were."
+    },
+    {
+      "id": "gr-119",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: They ___ very happy.",
+      "options": [
+        {
+          "id": "a",
+          "text": "was"
+        },
+        {
+          "id": "b",
+          "text": "were"
+        },
+        {
+          "id": "c",
+          "text": "did"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "They → were."
+    },
+    {
+      "id": "gr-120",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ you at work yesterday?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was"
+        },
+        {
+          "id": "b",
+          "text": "Were"
+        },
+        {
+          "id": "c",
+          "text": "Did"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "You → were: Were you at work? С глаголом to be did не нужен."
+    },
+    {
+      "id": "gr-121",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She didn't ___ the answer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "know"
+        },
+        {
+          "id": "b",
+          "text": "knew"
+        },
+        {
+          "id": "c",
+          "text": "known"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "После didn't — начальная форма: didn't know. «Didn't knew» — частая ошибка."
+    },
+    {
+      "id": "gr-122",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Did he ___ you?",
+      "options": [
+        {
+          "id": "a",
+          "text": "call"
+        },
+        {
+          "id": "b",
+          "text": "called"
+        },
+        {
+          "id": "c",
+          "text": "calls"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "После did — начальная форма: Did he call you?"
+    },
+    {
+      "id": "gr-123",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ my keys this morning.",
+      "options": [
+        {
+          "id": "a",
+          "text": "lose"
+        },
+        {
+          "id": "b",
+          "text": "lost"
+        },
+        {
+          "id": "c",
+          "text": "losed"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lose → lost (потерял). Не путать с loose (свободный)."
+    },
+    {
+      "id": "gr-124",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: We ___ a great time at the party.",
+      "options": [
+        {
+          "id": "a",
+          "text": "have"
+        },
+        {
+          "id": "b",
+          "text": "had"
+        },
+        {
+          "id": "c",
+          "text": "haved"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Have → had. Have a good time — хорошо провести время."
+    },
+    {
+      "id": "gr-125",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: When ___ you born?",
+      "options": [
+        {
+          "id": "a",
+          "text": "did"
+        },
+        {
+          "id": "b",
+          "text": "was"
+        },
+        {
+          "id": "c",
+          "text": "were"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Born используется с to be: I was born, you were born. Where were you born?"
+    },
+    {
+      "id": "gr-126",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She ___ me an email two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "text": "send"
+        },
+        {
+          "id": "b",
+          "text": "sent"
+        },
+        {
+          "id": "c",
+          "text": "sended"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Send → sent. Ago (тому назад) — маркер Past Simple."
+    },
+    {
+      "id": "gr-127",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: The film ___ at 8 and ___ at 10.",
+      "options": [
+        {
+          "id": "a",
+          "text": "started / finished"
+        },
+        {
+          "id": "b",
+          "text": "start / finish"
+        },
+        {
+          "id": "c",
+          "text": "starts / finished"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Оба действия в прошлом, оба правильные глаголы: started, finished."
+    },
+    {
+      "id": "gr-128",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He ___ his homework, so the teacher was angry.",
+      "options": [
+        {
+          "id": "a",
+          "text": "didn't do"
+        },
+        {
+          "id": "b",
+          "text": "didn't did"
+        },
+        {
+          "id": "c",
+          "text": "don't did"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Didn't + начальная форма: didn't do."
+    },
+    {
+      "id": "gr-129",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ him last year.",
+      "options": [
+        {
+          "id": "a",
+          "text": "meet"
+        },
+        {
+          "id": "b",
+          "text": "met"
+        },
+        {
+          "id": "c",
+          "text": "meeted"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Meet → met. Last year → Past Simple."
+    },
+    {
+      "id": "gr-130",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: They ___ in Italy last summer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "was"
+        },
+        {
+          "id": "b",
+          "text": "were"
+        },
+        {
+          "id": "c",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "They → were. Last summer → прошедшее время."
+    },
+    {
+      "id": "gr-131",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: What ___ you do at the weekend?",
+      "options": [
+        {
+          "id": "a",
+          "text": "did"
+        },
+        {
+          "id": "b",
+          "text": "do"
+        },
+        {
+          "id": "c",
+          "text": "were"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "What did you do? — Что ты делал? Did + do (начальная форма)."
+    },
+    {
+      "id": "gr-132",
+      "tags": [
+        "grammar",
+        "past-simple"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She ___ very tired after the trip.",
+      "options": [
+        {
+          "id": "a",
+          "text": "was"
+        },
+        {
+          "id": "b",
+          "text": "were"
+        },
+        {
+          "id": "c",
+          "text": "did"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "She → was tired."
+    },
+    {
+      "id": "gr-133",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: My brother is ___ than me.",
+      "options": [
+        {
+          "id": "a",
+          "text": "tall"
+        },
+        {
+          "id": "b",
+          "text": "taller"
+        },
+        {
+          "id": "c",
+          "text": "more tall"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Короткие прилагательные: + -er: tall → taller. Не «more tall»."
+    },
+    {
+      "id": "gr-134",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: This is the ___ book I have ever read.",
+      "options": [
+        {
+          "id": "a",
+          "text": "good"
+        },
+        {
+          "id": "b",
+          "text": "better"
+        },
+        {
+          "id": "c",
+          "text": "best"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Good → better → the best. Превосходная степень — с the."
+    },
+    {
+      "id": "gr-135",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Moscow is ___ than St Petersburg.",
+      "options": [
+        {
+          "id": "a",
+          "text": "big"
+        },
+        {
+          "id": "b",
+          "text": "bigger"
+        },
+        {
+          "id": "c",
+          "text": "more big"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Big → bigger (удвоение согласной после краткой гласной: big–bigger, hot–hotter)."
+    },
+    {
+      "id": "gr-136",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: This exercise is ___ than that one.",
+      "options": [
+        {
+          "id": "a",
+          "text": "difficulter"
+        },
+        {
+          "id": "b",
+          "text": "more difficult"
+        },
+        {
+          "id": "c",
+          "text": "most difficult"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Длинные прилагательные (2+ слога) — more + прилагательное: more difficult."
+    },
+    {
+      "id": "gr-137",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She is the ___ student in the class.",
+      "options": [
+        {
+          "id": "a",
+          "text": "clever"
+        },
+        {
+          "id": "b",
+          "text": "cleverer"
+        },
+        {
+          "id": "c",
+          "text": "cleverest"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "После the — превосходная степень: the cleverest. Cleverer — сравнительная (умнее, чем)."
+    },
+    {
+      "id": "gr-138",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Today is ___ than yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hot"
+        },
+        {
+          "id": "b",
+          "text": "hotter"
+        },
+        {
+          "id": "c",
+          "text": "more hot"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hot → hotter. Краткая гласная + согласная → удвоение."
+    },
+    {
+      "id": "gr-139",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: This is the ___ day of my life.",
+      "options": [
+        {
+          "id": "a",
+          "text": "worse"
+        },
+        {
+          "id": "b",
+          "text": "worst"
+        },
+        {
+          "id": "c",
+          "text": "baddest"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bad → worse → the worst. «Baddest» не существует."
+    },
+    {
+      "id": "gr-140",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: English is ___ than Chinese.",
+      "options": [
+        {
+          "id": "a",
+          "text": "easier"
+        },
+        {
+          "id": "b",
+          "text": "more easy"
+        },
+        {
+          "id": "c",
+          "text": "easyer"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Easy → easier (y → i). Не «more easy»."
+    },
+    {
+      "id": "gr-141",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: My car is as ___ as yours.",
+      "options": [
+        {
+          "id": "a",
+          "text": "fast"
+        },
+        {
+          "id": "b",
+          "text": "faster"
+        },
+        {
+          "id": "c",
+          "text": "fastest"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "As … as — такой же, как: as fast as. Прилагательное в обычной форме."
+    },
+    {
+      "id": "gr-142",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He runs ___ than me.",
+      "options": [
+        {
+          "id": "a",
+          "text": "fast"
+        },
+        {
+          "id": "b",
+          "text": "faster"
+        },
+        {
+          "id": "c",
+          "text": "more fast"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Faster than — быстрее, чем."
+    },
+    {
+      "id": "gr-143",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: This is the ___ restaurant in town.",
+      "options": [
+        {
+          "id": "a",
+          "text": "expensivest"
+        },
+        {
+          "id": "b",
+          "text": "more expensive"
+        },
+        {
+          "id": "c",
+          "text": "most expensive"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Длинное прилагательное: the most expensive."
+    },
+    {
+      "id": "gr-144",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I have ___ money than you.",
+      "options": [
+        {
+          "id": "a",
+          "text": "less"
+        },
+        {
+          "id": "b",
+          "text": "fewer"
+        },
+        {
+          "id": "c",
+          "text": "little"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Money — неисчисляемое → less. Fewer — для исчисляемых (fewer books)."
+    },
+    {
+      "id": "gr-145",
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: It's ___ than I thought.",
+      "options": [
+        {
+          "id": "a",
+          "text": "far"
+        },
+        {
+          "id": "b",
+          "text": "further"
+        },
+        {
+          "id": "c",
+          "text": "more far"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Far → further/farther → the furthest. Особый случай."
+    },
+    {
+      "id": "gr-146",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: Is there ___ milk in the fridge?",
+      "options": [
+        {
+          "id": "a",
+          "text": "some"
+        },
+        {
+          "id": "b",
+          "text": "any"
+        },
+        {
+          "id": "c",
+          "text": "a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "В вопросах и отрицаниях — any: Is there any milk? Some — в утверждениях и вежливых предложениях."
+    },
+    {
+      "id": "gr-147",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I have ___ friends in London.",
+      "options": [
+        {
+          "id": "a",
+          "text": "some"
+        },
+        {
+          "id": "b",
+          "text": "any"
+        },
+        {
+          "id": "c",
+          "text": "a"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Утверждение → some: I have some friends."
+    },
+    {
+      "id": "gr-148",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: How ___ money do you have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "much"
+        },
+        {
+          "id": "b",
+          "text": "many"
+        },
+        {
+          "id": "c",
+          "text": "a lot"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Money — неисчисляемое → how much. Many — для исчисляемых: how many books."
+    },
+    {
+      "id": "gr-149",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: How ___ people were at the party?",
+      "options": [
+        {
+          "id": "a",
+          "text": "much"
+        },
+        {
+          "id": "b",
+          "text": "many"
+        },
+        {
+          "id": "c",
+          "text": "a lot"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "People — исчисляемое (множественное) → how many."
+    },
+    {
+      "id": "gr-150",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: There isn't ___ sugar left.",
+      "options": [
+        {
+          "id": "a",
+          "text": "some"
+        },
+        {
+          "id": "b",
+          "text": "any"
+        },
+        {
+          "id": "c",
+          "text": "many"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Отрицание → any: there isn't any sugar."
+    },
+    {
+      "id": "gr-151",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Would you like ___ coffee?",
+      "options": [
+        {
+          "id": "a",
+          "text": "some"
+        },
+        {
+          "id": "b",
+          "text": "any"
+        },
+        {
+          "id": "c",
+          "text": "a"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Вежливое предложение — с some: Would you like some coffee?"
+    },
+    {
+      "id": "gr-152",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I don't have ___ time.",
+      "options": [
+        {
+          "id": "a",
+          "text": "many"
+        },
+        {
+          "id": "b",
+          "text": "much"
+        },
+        {
+          "id": "c",
+          "text": "a lot"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Time — неисчисляемое, отрицание → much: I don't have much time."
+    },
+    {
+      "id": "gr-153",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Can I have ___ bread, please?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "some"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bread — неисчисляемое, артикль a нельзя. Some bread или a piece of bread."
+    },
+    {
+      "id": "gr-154",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Give me ___ information, please.",
+      "options": [
+        {
+          "id": "a",
+          "text": "an"
+        },
+        {
+          "id": "b",
+          "text": "some"
+        },
+        {
+          "id": "c",
+          "text": "a few"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Information — неисчисляемое (всегда ед. число!): some information, a piece of information. Не «an information»."
+    },
+    {
+      "id": "gr-155",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: There are ___ apples in the basket.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a little"
+        },
+        {
+          "id": "b",
+          "text": "a few"
+        },
+        {
+          "id": "c",
+          "text": "much"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apples — исчисляемое → a few (несколько). A little — для неисчисляемых: a little water."
+    },
+    {
+      "id": "gr-156",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I speak ___ English.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a few"
+        },
+        {
+          "id": "b",
+          "text": "a little"
+        },
+        {
+          "id": "c",
+          "text": "many"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "English (язык) — неисчисляемое → a little English (немного)."
+    },
+    {
+      "id": "gr-157",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She has ___ of friends.",
+      "options": [
+        {
+          "id": "a",
+          "text": "many"
+        },
+        {
+          "id": "b",
+          "text": "a lot"
+        },
+        {
+          "id": "c",
+          "text": "much"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A lot of — «много» для любых существительных: a lot of friends, a lot of time."
+    },
+    {
+      "id": "gr-158",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Her hair ___ very long.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is"
+        },
+        {
+          "id": "b",
+          "text": "are"
+        },
+        {
+          "id": "c",
+          "text": "am"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Hair (волосы) в английском — неисчисляемое, единственное число: her hair is long."
+    },
+    {
+      "id": "gr-159",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: The news ___ good.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is"
+        },
+        {
+          "id": "b",
+          "text": "are"
+        },
+        {
+          "id": "c",
+          "text": "were"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "News — несмотря на -s, единственное число: The news is good."
+    },
+    {
+      "id": "gr-160",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I need some ___ for the salad.",
+      "options": [
+        {
+          "id": "a",
+          "text": "tomato"
+        },
+        {
+          "id": "b",
+          "text": "tomatoes"
+        },
+        {
+          "id": "c",
+          "text": "tomatos"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tomato → tomatoes, potato → potatoes (после -o добавляется -es)."
+    },
+    {
+      "id": "gr-161",
+      "tags": [
+        "grammar",
+        "quantifiers"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Can you give me ___ advice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an"
+        },
+        {
+          "id": "b",
+          "text": "some"
+        },
+        {
+          "id": "c",
+          "text": "a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Advice — неисчисляемое: some advice, a piece of advice. Не «an advice», «advices»."
+    },
+    {
+      "id": "gr-162",
+      "tags": [
+        "grammar",
+        "future"
+      ],
+      "level": 2,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: I ___ call you tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "text": "will"
+        },
+        {
+          "id": "b",
+          "text": "am"
+        },
+        {
+          "id": "c",
+          "text": "going"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Will + начальная форма: I will call (I'll call)."
+    },
+    {
+      "id": "gr-163",
+      "tags": [
+        "grammar",
+        "future"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Look at the clouds! It ___ rain.",
+      "options": [
+        {
+          "id": "a",
+          "text": "will"
+        },
+        {
+          "id": "b",
+          "text": "is going to"
+        },
+        {
+          "id": "c",
+          "text": "goes to"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Есть очевидный признак (тучи) → be going to: It is going to rain."
+    },
+    {
+      "id": "gr-164",
+      "tags": [
+        "grammar",
+        "future"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I think she ___ the exam.",
+      "options": [
+        {
+          "id": "a",
+          "text": "pass"
+        },
+        {
+          "id": "b",
+          "text": "will pass"
+        },
+        {
+          "id": "c",
+          "text": "is pass"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Мнение, предсказание (I think) → will: I think she will pass."
+    },
+    {
+      "id": "gr-165",
+      "tags": [
+        "grammar",
+        "future"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: We ___ visit our grandmother next weekend.",
+      "options": [
+        {
+          "id": "a",
+          "text": "are going to"
+        },
+        {
+          "id": "b",
+          "text": "will to"
+        },
+        {
+          "id": "c",
+          "text": "going to"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Планы → be going to. Глагол to be обязателен: we are going to visit."
+    },
+    {
+      "id": "gr-166",
+      "tags": [
+        "grammar",
+        "future"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ you help me, please?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Will"
+        },
+        {
+          "id": "b",
+          "text": "Do"
+        },
+        {
+          "id": "c",
+          "text": "Are"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Просьба → Will you help me? (Could you — ещё вежливее.)"
+    },
+    {
+      "id": "gr-167",
+      "tags": [
+        "grammar",
+        "future"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He ___ come to the party. He is ill.",
+      "options": [
+        {
+          "id": "a",
+          "text": "won't"
+        },
+        {
+          "id": "b",
+          "text": "doesn't"
+        },
+        {
+          "id": "c",
+          "text": "isn't"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Отрицание будущего: will not = won't."
+    },
+    {
+      "id": "gr-168",
+      "tags": [
+        "grammar",
+        "future"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: What ___ you going to do tonight?",
+      "options": [
+        {
+          "id": "a",
+          "text": "are"
+        },
+        {
+          "id": "b",
+          "text": "will"
+        },
+        {
+          "id": "c",
+          "text": "do"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Be going to: глагол to be обязателен — What are you going to do?"
+    },
+    {
+      "id": "gr-169",
+      "tags": [
+        "grammar",
+        "future"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: The train ___ at 6:30 tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "text": "leaves"
+        },
+        {
+          "id": "b",
+          "text": "will leaving"
+        },
+        {
+          "id": "c",
+          "text": "is leave"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Расписание → Present Simple: The train leaves at 6:30."
+    },
+    {
+      "id": "gr-170",
+      "tags": [
+        "grammar",
+        "future"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ be 30 next year.",
+      "options": [
+        {
+          "id": "a",
+          "text": "will"
+        },
+        {
+          "id": "b",
+          "text": "am going"
+        },
+        {
+          "id": "c",
+          "text": "going to"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Факт о будущем → will: I will be 30."
+    },
+    {
+      "id": "gr-171",
+      "tags": [
+        "grammar",
+        "future"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Wait, I ___ help you with the bags.",
+      "options": [
+        {
+          "id": "a",
+          "text": "will"
+        },
+        {
+          "id": "b",
+          "text": "am going to"
+        },
+        {
+          "id": "c",
+          "text": "go to"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Спонтанное решение в момент речи → will: I'll help you."
+    },
+    {
+      "id": "gr-172",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ never ___ to Japan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "have / been"
+        },
+        {
+          "id": "b",
+          "text": "did / be"
+        },
+        {
+          "id": "c",
+          "text": "was / been"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Опыт жизни (никогда, когда-либо) → Present Perfect: I have never been to Japan."
+    },
+    {
+      "id": "gr-173",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ you ever ___ sushi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Did / eat"
+        },
+        {
+          "id": "b",
+          "text": "Have / eaten"
+        },
+        {
+          "id": "c",
+          "text": "Have / ate"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ever → Present Perfect: Have you ever eaten…? Третья форма: eat → ate → eaten."
+    },
+    {
+      "id": "gr-174",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She ___ just ___ home.",
+      "options": [
+        {
+          "id": "a",
+          "text": "has / come"
+        },
+        {
+          "id": "b",
+          "text": "have / came"
+        },
+        {
+          "id": "c",
+          "text": "did / come"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Just (только что) → Present Perfect: She has just come home."
+    },
+    {
+      "id": "gr-175",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: We ___ here since 2010.",
+      "options": [
+        {
+          "id": "a",
+          "text": "live"
+        },
+        {
+          "id": "b",
+          "text": "lived"
+        },
+        {
+          "id": "c",
+          "text": "have lived"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Since (с какого-то момента) → Present Perfect: We have lived here since 2010 — и живём до сих пор."
+    },
+    {
+      "id": "gr-176",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ him yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "have seen"
+        },
+        {
+          "id": "b",
+          "text": "saw"
+        },
+        {
+          "id": "c",
+          "text": "seen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yesterday — конкретное время в прошлом → Past Simple: I saw him. Present Perfect с yesterday не используется!"
+    },
+    {
+      "id": "gr-177",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ my homework yet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "didn't finish"
+        },
+        {
+          "id": "b",
+          "text": "haven't finished"
+        },
+        {
+          "id": "c",
+          "text": "not finished"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yet (ещё) в отрицаниях → Present Perfect: I haven't finished yet."
+    },
+    {
+      "id": "gr-178",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He ___ in London for five years.",
+      "options": [
+        {
+          "id": "a",
+          "text": "has worked"
+        },
+        {
+          "id": "b",
+          "text": "works"
+        },
+        {
+          "id": "c",
+          "text": "worked"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "For + период до сих пор → Present Perfect: He has worked there for five years."
+    },
+    {
+      "id": "gr-179",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ you ___ your keys?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Did / found"
+        },
+        {
+          "id": "b",
+          "text": "Have / found"
+        },
+        {
+          "id": "c",
+          "text": "Have / find"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Результат сейчас (нашёл ли?) → Have you found…? Третья форма: find → found → found."
+    },
+    {
+      "id": "gr-180",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I've ___ this film three times.",
+      "options": [
+        {
+          "id": "a",
+          "text": "see"
+        },
+        {
+          "id": "b",
+          "text": "saw"
+        },
+        {
+          "id": "c",
+          "text": "seen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "После have/has — третья форма (Participle II): see → saw → seen."
+    },
+    {
+      "id": "gr-181",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She has ___ her homework already.",
+      "options": [
+        {
+          "id": "a",
+          "text": "do"
+        },
+        {
+          "id": "b",
+          "text": "did"
+        },
+        {
+          "id": "c",
+          "text": "done"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Do → did → done. После has — done."
+    },
+    {
+      "id": "gr-182",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: They ___ married last year.",
+      "options": [
+        {
+          "id": "a",
+          "text": "have got"
+        },
+        {
+          "id": "b",
+          "text": "got"
+        },
+        {
+          "id": "c",
+          "text": "has got"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Last year → Past Simple: They got married."
+    },
+    {
+      "id": "gr-183",
+      "tags": [
+        "grammar",
+        "present-perfect"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I have ___ my phone. I can't find it.",
+      "options": [
+        {
+          "id": "a",
+          "text": "lose"
+        },
+        {
+          "id": "b",
+          "text": "lost"
+        },
+        {
+          "id": "c",
+          "text": "losed"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Потерял и сейчас не могу найти (результат) → have lost."
+    },
+    {
+      "id": "gr-184",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "easy",
+      "question": "Выберите правильный вариант: She ___ late.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is never"
+        },
+        {
+          "id": "b",
+          "text": "never is"
+        },
+        {
+          "id": "c",
+          "text": "is never be"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Наречия частоты (always, never, often) стоят ПОСЛЕ to be: She is never late."
+    },
+    {
+      "id": "gr-185",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ coffee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "drink often"
+        },
+        {
+          "id": "b",
+          "text": "often drink"
+        },
+        {
+          "id": "c",
+          "text": "am often drink"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Наречия частоты стоят ПЕРЕД обычным глаголом: I often drink coffee."
+    },
+    {
+      "id": "gr-186",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He drives very ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "careful"
+        },
+        {
+          "id": "b",
+          "text": "carefully"
+        },
+        {
+          "id": "c",
+          "text": "carefuly"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Характеризуем действие (как водит?) → наречие: carefully. Careful — прилагательное (a careful driver)."
+    },
+    {
+      "id": "gr-187",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She speaks English ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "good"
+        },
+        {
+          "id": "b",
+          "text": "well"
+        },
+        {
+          "id": "c",
+          "text": "goodly"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Good — прилагательное, well — наречие: She speaks English well."
+    },
+    {
+      "id": "gr-188",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ do you go to the gym? — Twice a week.",
+      "options": [
+        {
+          "id": "a",
+          "text": "How often"
+        },
+        {
+          "id": "b",
+          "text": "How long"
+        },
+        {
+          "id": "c",
+          "text": "How much"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "How often — как часто. How long — как долго."
+    },
+    {
+      "id": "gr-189",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ is your birthday? — In June.",
+      "options": [
+        {
+          "id": "a",
+          "text": "What"
+        },
+        {
+          "id": "b",
+          "text": "When"
+        },
+        {
+          "id": "c",
+          "text": "Where"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "When — когда. Where — где, what — что."
+    },
+    {
+      "id": "gr-190",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I like tea, ___ I don't like coffee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "but"
+        },
+        {
+          "id": "b",
+          "text": "because"
+        },
+        {
+          "id": "c",
+          "text": "so"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "But — противопоставление: люблю чай, но не люблю кофе."
+    },
+    {
+      "id": "gr-191",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I stayed at home ___ it was raining.",
+      "options": [
+        {
+          "id": "a",
+          "text": "so"
+        },
+        {
+          "id": "b",
+          "text": "because"
+        },
+        {
+          "id": "c",
+          "text": "but"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Because — причина: остался дома, потому что шёл дождь."
+    },
+    {
+      "id": "gr-192",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: It was late, ___ we went home.",
+      "options": [
+        {
+          "id": "a",
+          "text": "because"
+        },
+        {
+          "id": "b",
+          "text": "so"
+        },
+        {
+          "id": "c",
+          "text": "but"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "So — следствие: было поздно, поэтому мы пошли домой."
+    },
+    {
+      "id": "gr-193",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ agree with you.",
+      "options": [
+        {
+          "id": "a",
+          "text": "am"
+        },
+        {
+          "id": "b",
+          "text": "—"
+        },
+        {
+          "id": "c",
+          "text": "am not"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Agree — глагол, to be не нужен: I agree / I don't agree. «I am agree» — одна из самых частых ошибок!"
+    },
+    {
+      "id": "gr-194",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: He works ___ hard.",
+      "options": [
+        {
+          "id": "a",
+          "text": "very"
+        },
+        {
+          "id": "b",
+          "text": "much"
+        },
+        {
+          "id": "c",
+          "text": "many"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Very + прилагательное/наречие: very hard, very good. Much — с глаголом или сравнением."
+    },
+    {
+      "id": "gr-195",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She is ___ intelligent girl.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a very"
+        },
+        {
+          "id": "b",
+          "text": "very"
+        },
+        {
+          "id": "c",
+          "text": "the very"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Артикль ставится перед всей группой: a very intelligent girl."
+    },
+    {
+      "id": "gr-196",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: ___ expensive this bag is!",
+      "options": [
+        {
+          "id": "a",
+          "text": "How"
+        },
+        {
+          "id": "b",
+          "text": "What"
+        },
+        {
+          "id": "c",
+          "text": "Which"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Восклицание с прилагательным: How expensive! С существительным: What an expensive bag!"
+    },
+    {
+      "id": "gr-197",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I want ___ a new language.",
+      "options": [
+        {
+          "id": "a",
+          "text": "learn"
+        },
+        {
+          "id": "b",
+          "text": "to learn"
+        },
+        {
+          "id": "c",
+          "text": "learning"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Want + to + глагол: want to learn, want to go."
+    },
+    {
+      "id": "gr-198",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I enjoy ___ books.",
+      "options": [
+        {
+          "id": "a",
+          "text": "read"
+        },
+        {
+          "id": "b",
+          "text": "to read"
+        },
+        {
+          "id": "c",
+          "text": "reading"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Enjoy, like, love, hate, finish + -ing: enjoy reading."
+    },
+    {
+      "id": "gr-199",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Stop ___, please!",
+      "options": [
+        {
+          "id": "a",
+          "text": "talk"
+        },
+        {
+          "id": "b",
+          "text": "to talk"
+        },
+        {
+          "id": "c",
+          "text": "talking"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Stop + -ing = перестать делать: stop talking. (Stop to talk — остановиться, чтобы поговорить.)"
+    },
+    {
+      "id": "gr-200",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I'd like ___ a room for two nights.",
+      "options": [
+        {
+          "id": "a",
+          "text": "book"
+        },
+        {
+          "id": "b",
+          "text": "to book"
+        },
+        {
+          "id": "c",
+          "text": "booking"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Would like + to + глагол: I'd like to book a room."
+    },
+    {
+      "id": "gr-201",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Let's ___ to the park.",
+      "options": [
+        {
+          "id": "a",
+          "text": "go"
+        },
+        {
+          "id": "b",
+          "text": "to go"
+        },
+        {
+          "id": "c",
+          "text": "going"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Let's + начальная форма без to: Let's go!"
+    },
+    {
+      "id": "gr-202",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She is ___ at cooking.",
+      "options": [
+        {
+          "id": "a",
+          "text": "good"
+        },
+        {
+          "id": "b",
+          "text": "well"
+        },
+        {
+          "id": "c",
+          "text": "better"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "To be good at — хорошо уметь: She is good at cooking."
+    },
+    {
+      "id": "gr-203",
+      "tags": [
+        "grammar",
+        "word-order"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I've got ___ money left. Let's go home.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a little"
+        },
+        {
+          "id": "b",
+          "text": "little"
+        },
+        {
+          "id": "c",
+          "text": "few"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Little (без a) — «мало, почти нет» (негативный оттенок). A little — «немного, но есть»."
+    },
+    {
+      "id": "gr-204",
+      "tags": [
+        "grammar",
+        "conditionals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: If it ___ tomorrow, we will stay at home.",
+      "options": [
+        {
+          "id": "a",
+          "text": "rains"
+        },
+        {
+          "id": "b",
+          "text": "will rain"
+        },
+        {
+          "id": "c",
+          "text": "rain"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "В условии после if — Present Simple, даже если речь о будущем: If it rains, we will stay."
+    },
+    {
+      "id": "gr-205",
+      "tags": [
+        "grammar",
+        "conditionals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: If you heat ice, it ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "melt"
+        },
+        {
+          "id": "b",
+          "text": "melts"
+        },
+        {
+          "id": "c",
+          "text": "will melts"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Общая истина (нулевой тип): if + Present, Present: If you heat ice, it melts."
+    },
+    {
+      "id": "gr-206",
+      "tags": [
+        "grammar",
+        "conditionals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I ___ you when I arrive.",
+      "options": [
+        {
+          "id": "a",
+          "text": "call"
+        },
+        {
+          "id": "b",
+          "text": "will call"
+        },
+        {
+          "id": "c",
+          "text": "am call"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "В главной части — will: I will call you when I arrive. После when — Present Simple."
+    },
+    {
+      "id": "gr-207",
+      "tags": [
+        "grammar",
+        "conditionals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: This is the man ___ lives next door.",
+      "options": [
+        {
+          "id": "a",
+          "text": "who"
+        },
+        {
+          "id": "b",
+          "text": "which"
+        },
+        {
+          "id": "c",
+          "text": "what"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Who — для людей. Which — для предметов и животных. What в этой роли не используется."
+    },
+    {
+      "id": "gr-208",
+      "tags": [
+        "grammar",
+        "conditionals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: The book ___ I bought is very interesting.",
+      "options": [
+        {
+          "id": "a",
+          "text": "who"
+        },
+        {
+          "id": "b",
+          "text": "which"
+        },
+        {
+          "id": "c",
+          "text": "what"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Which/that — для предметов: the book which I bought."
+    },
+    {
+      "id": "gr-209",
+      "tags": [
+        "grammar",
+        "conditionals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: You are Russian, ___?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aren't you"
+        },
+        {
+          "id": "b",
+          "text": "are you"
+        },
+        {
+          "id": "c",
+          "text": "don't you"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Разделительный вопрос: утверждение + отрицательный «хвостик»: You are…, aren't you?"
+    },
+    {
+      "id": "gr-210",
+      "tags": [
+        "grammar",
+        "conditionals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: She doesn't like fish, ___?",
+      "options": [
+        {
+          "id": "a",
+          "text": "does she"
+        },
+        {
+          "id": "b",
+          "text": "doesn't she"
+        },
+        {
+          "id": "c",
+          "text": "is she"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Отрицание + положительный «хвостик»: She doesn't…, does she?"
+    },
+    {
+      "id": "gr-211",
+      "tags": [
+        "grammar",
+        "conditionals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: I used ___ in a village.",
+      "options": [
+        {
+          "id": "a",
+          "text": "live"
+        },
+        {
+          "id": "b",
+          "text": "to live"
+        },
+        {
+          "id": "c",
+          "text": "living"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Used to + глагол — раньше (а теперь нет): I used to live in a village."
+    },
+    {
+      "id": "gr-212",
+      "tags": [
+        "grammar",
+        "conditionals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: There is ___ in the room. It's empty.",
+      "options": [
+        {
+          "id": "a",
+          "text": "somebody"
+        },
+        {
+          "id": "b",
+          "text": "anybody"
+        },
+        {
+          "id": "c",
+          "text": "nobody"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nobody = никто. В утвердительном предложении: There is nobody (глагол без отрицания!)."
+    },
+    {
+      "id": "gr-213",
+      "tags": [
+        "grammar",
+        "conditionals"
+      ],
+      "level": 2,
+      "difficulty": "medium",
+      "question": "Выберите правильный вариант: Do you know ___ about it?",
+      "options": [
+        {
+          "id": "a",
+          "text": "something"
+        },
+        {
+          "id": "b",
+          "text": "anything"
+        },
+        {
+          "id": "c",
+          "text": "nothing"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "В вопросе — anything: Do you know anything about it?"
     }
   ]
 }

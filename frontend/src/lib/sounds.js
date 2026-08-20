@@ -1,15 +1,30 @@
 const STORAGE_KEY = 'engQuest_soundEnabled';
 
-let audioCtx = null;
+// Sound effects are pre-rendered audio files (see frontend/public/sounds/).
+// Playing via <audio> elements instead of the Web Audio API matters on iOS:
+// HTMLMediaElement playback is heard even when the Ring/Silent switch is on,
+// whereas AudioContext output is muted by the switch.
+const SOUND_FILES = {
+  correct: '/sounds/correct.wav',
+  wrong: '/sounds/wrong.wav',
+  levelUp: '/sounds/levelup.wav',
+  badge: '/sounds/badge.wav',
+  complete: '/sounds/complete.wav',
+};
+
+const elements = {};
+let unlocked = false;
 let unlockListenersAdded = false;
 
-function getContext() {
-  if (!audioCtx) {
-    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContextClass) return null;
-    audioCtx = new AudioContextClass();
+function getElement(name) {
+  if (typeof window === 'undefined' || typeof Audio === 'undefined') return null;
+  if (!elements[name]) {
+    const el = new Audio(SOUND_FILES[name]);
+    el.preload = 'auto';
+    el.setAttribute('playsinline', '');
+    elements[name] = el;
   }
-  return audioCtx;
+  return elements[name];
 }
 
 function isEnabled() {
@@ -17,127 +32,86 @@ function isEnabled() {
   return stored !== 'false';
 }
 
-async function resumeContext() {
-  const ctx = getContext();
-  if (!ctx) return false;
-  if (ctx.state === 'suspended') {
-    try {
-      await ctx.resume();
-    } catch {
-      return false;
+// iOS Safari only lets an <audio> element play if play() was first called
+// inside a user gesture. Warm every element up once, muted, during a gesture.
+export function unlockAudio() {
+  if (unlocked) return;
+  let allOk = true;
+  Object.keys(SOUND_FILES).forEach((name) => {
+    const el = getElement(name);
+    if (!el) return;
+    el.muted = true;
+    const attempt = el.play();
+    if (attempt && typeof attempt.then === 'function') {
+      attempt
+        .then(() => {
+          el.pause();
+          el.currentTime = 0;
+          el.muted = false;
+        })
+        .catch(() => {
+          el.muted = false;
+          allOk = false;
+        });
+    } else {
+      el.pause();
+      el.currentTime = 0;
+      el.muted = false;
     }
-  }
-  return ctx.state === 'running';
+  });
+  unlocked = allOk;
 }
 
 export function setupGlobalAudioUnlock() {
   if (unlockListenersAdded) return;
   if (typeof window === 'undefined') return;
 
-  const events = ['touchstart', 'click', 'keydown'];
+  const events = ['touchend', 'click', 'keydown'];
   const unlock = () => {
     unlockAudio();
+    if (unlocked) {
+      events.forEach((event) => window.removeEventListener(event, unlock));
+    }
   };
 
   events.forEach((event) => {
-    window.addEventListener(event, unlock, { once: true, passive: true });
+    window.addEventListener(event, unlock, { passive: true });
   });
 
   unlockListenersAdded = true;
 }
 
-export function unlockAudio() {
-  resumeContext().catch(() => {});
-}
-
-function playTone({ frequency, duration, type = 'sine', gain = 0.12, when = 0 }) {
-  const ctx = getContext();
-  if (!ctx) return;
-
-  const osc = ctx.createOscillator();
-  const gainNode = ctx.createGain();
-
-  osc.type = type;
-  osc.frequency.setValueAtTime(frequency, ctx.currentTime + when);
-
-  gainNode.gain.setValueAtTime(0, ctx.currentTime + when);
-  gainNode.gain.linearRampToValueAtTime(gain, ctx.currentTime + when + 0.02);
-  gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + when + duration);
-
-  osc.connect(gainNode);
-  gainNode.connect(ctx.destination);
-
-  osc.start(ctx.currentTime + when);
-  osc.stop(ctx.currentTime + when + duration);
-}
-
-function playSlide({ from, to, duration, type = 'sine', gain = 0.12 }) {
-  const ctx = getContext();
-  if (!ctx) return;
-
-  const osc = ctx.createOscillator();
-  const gainNode = ctx.createGain();
-
-  osc.type = type;
-  osc.frequency.setValueAtTime(from, ctx.currentTime);
-  osc.frequency.exponentialRampToValueAtTime(to, ctx.currentTime + duration);
-
-  gainNode.gain.setValueAtTime(0, ctx.currentTime);
-  gainNode.gain.linearRampToValueAtTime(gain, ctx.currentTime + 0.02);
-  gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration);
-
-  osc.connect(gainNode);
-  gainNode.connect(ctx.destination);
-
-  osc.start();
-  osc.stop(ctx.currentTime + duration);
-}
-
-async function playIfEnabled(playFn) {
+function play(name) {
   if (!isEnabled()) return;
-  const ok = await resumeContext();
-  if (!ok) return;
-  playFn();
+  const el = getElement(name);
+  if (!el) return;
+  try {
+    el.currentTime = 0;
+  } catch {
+    // ignore: element not ready yet
+  }
+  const attempt = el.play();
+  if (attempt && typeof attempt.catch === 'function') {
+    attempt.catch(() => {});
+  }
 }
 
 export function playCorrect() {
-  playIfEnabled(() => {
-    playTone({ frequency: 523.25, duration: 0.12, gain: 0.1 });
-    playTone({ frequency: 783.99, duration: 0.18, gain: 0.1, when: 0.1 });
-  });
+  play('correct');
 }
 
 export function playWrong() {
-  playIfEnabled(() => {
-    playSlide({ from: 329.63, to: 261.63, duration: 0.25, type: 'triangle', gain: 0.08 });
-  });
+  play('wrong');
 }
 
 export function playLevelUp() {
-  playIfEnabled(() => {
-    const notes = [523.25, 659.25, 783.99, 1046.5];
-    notes.forEach((freq, i) => {
-      playTone({ frequency: freq, duration: 0.25, gain: 0.11, when: i * 0.1 });
-    });
-  });
+  play('levelUp');
 }
 
 export function playBadge() {
-  playIfEnabled(() => {
-    playTone({ frequency: 880, duration: 0.12, gain: 0.1 });
-    playTone({ frequency: 1174.66, duration: 0.2, gain: 0.1, when: 0.1 });
-  });
+  play('badge');
 }
 
 export function playComplete() {
-  playIfEnabled(() => {
-    const notes = [
-      { freq: 392, when: 0, duration: 0.3 },
-      { freq: 523.25, when: 0.12, duration: 0.35 },
-      { freq: 659.25, when: 0.24, duration: 0.5 },
-    ];
-    notes.forEach(({ freq, when, duration }) => {
-      playTone({ frequency: freq, duration, gain: 0.11, when });
-    });
-  });
+  play('complete');
 }

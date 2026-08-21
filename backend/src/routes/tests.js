@@ -74,6 +74,12 @@ router.get('/', (req, res) => {
   })));
 });
 
+function filterByDifficulty(questions, difficulty) {
+  if (difficulty === 'easy') return questions.filter((q) => q.level === 1);
+  if (difficulty === 'medium') return questions.filter((q) => q.level === 2);
+  return questions;
+}
+
 router.get('/general', async (req, res) => {
   const deviceId = getDeviceId(req);
   let questionStats = {};
@@ -86,8 +92,10 @@ router.get('/general', async (req, res) => {
     }
   }
 
-  const weights = pool.map((q) => calculateWeight(questionStats[q.id]));
-  const selected = weightedRandomSample(pool, weights, GENERAL_QUESTION_COUNT);
+  let candidates = filterByDifficulty(pool, req.query.difficulty);
+  if (candidates.length < GENERAL_QUESTION_COUNT) candidates = pool;
+  const weights = candidates.map((q) => calculateWeight(questionStats[q.id]));
+  const selected = weightedRandomSample(candidates, weights, GENERAL_QUESTION_COUNT);
   const test = buildGeneralTest(selected);
   res.json(test);
 });

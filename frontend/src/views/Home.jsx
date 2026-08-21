@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { BookOpen, Trophy, User, Zap } from 'lucide-react';
 import { Card, Button } from '../components/ui';
@@ -5,9 +6,16 @@ import { useProgressContext } from '../contexts/ProgressContext';
 import { xpForNextLevel, badgeEmoji } from '../lib/gamification';
 import { unlockAudio } from '../lib/sounds';
 import { DailyStreakCard } from '../components/gamification/DailyStreakCard';
+import { DIFFICULTY_OPTIONS, getDifficulty, setDifficulty } from '../lib/difficulty';
 
 export function Home({ onStartGeneral, onProfile }) {
   const { progress, achievements } = useProgressContext();
+  const [difficulty, setDifficultyState] = useState(getDifficulty);
+
+  const chooseDifficulty = (value) => {
+    setDifficulty(value);
+    setDifficultyState(value);
+  };
 
   const nextLevelXp = xpForNextLevel(progress.level);
   const xpProgress = Math.min(100, Math.round((progress.xp / nextLevelXp) * 100));
@@ -65,6 +73,27 @@ export function Home({ onStartGeneral, onProfile }) {
           <p className="text-xs text-muted">тестов пройдено</p>
         </Card>
       </div>
+
+      <Card>
+        <p className="text-sm font-bold text-ink mb-2">Сложность вопросов</p>
+        <div className="grid grid-cols-3 gap-2">
+          {DIFFICULTY_OPTIONS.map((option) => (
+            <button
+              key={option.value}
+              type="button"
+              onClick={() => chooseDifficulty(option.value)}
+              className={`
+                py-2 px-1 rounded-2xl text-sm font-bold transition-all duration-150
+                ${difficulty === option.value
+                  ? 'bg-gradient-to-r from-pastel-coral to-pastel-peach text-white shadow-glow scale-105'
+                  : 'bg-pastel-lavender/40 text-ink hover:bg-pastel-lavender/70'}
+              `}
+            >
+              {option.emoji} {option.label}
+            </button>
+          ))}
+        </div>
+      </Card>
 
       <Button
         onClick={() => {

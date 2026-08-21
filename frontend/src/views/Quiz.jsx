@@ -20,6 +20,7 @@ import {
 } from '../lib/gamification';
 import { playCorrect, playWrong, playLevelUp, playBadge, playComplete } from '../lib/sounds';
 import { recordActivity } from '../lib/dailyStreak';
+import { getDifficulty } from '../lib/difficulty';
 
 export function Quiz({ testId, onFinish, onExit }) {
   const { progress, saveProgress, achievements, timerEnabled } = useProgressContext();
@@ -37,7 +38,9 @@ export function Quiz({ testId, onFinish, onExit }) {
   useEffect(() => {
     const load = async () => {
       try {
-        const data = await apiService.getTest(testId);
+        const data = testId === 'general'
+          ? await apiService.getGeneralTest(getDifficulty())
+          : await apiService.getTest(testId);
         setTest(data);
       } catch (err) {
         console.error('Failed to load test:', err);
@@ -199,7 +202,7 @@ export function Quiz({ testId, onFinish, onExit }) {
       playCorrect();
       setShowGreyhound(true);
       if (greyhoundTimeoutRef.current) clearTimeout(greyhoundTimeoutRef.current);
-      greyhoundTimeoutRef.current = setTimeout(() => setShowGreyhound(false), 1600);
+      greyhoundTimeoutRef.current = setTimeout(() => setShowGreyhound(false), 3000);
     } else {
       playWrong();
     }

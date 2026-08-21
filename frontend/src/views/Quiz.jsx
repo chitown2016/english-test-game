@@ -339,7 +339,13 @@ export function Quiz({ testId, onFinish, onExit }) {
         })}
       </AnimatePresence>
 
-      <ItalianGreyhound show={showGreyhound} />
+      <ItalianGreyhound
+        show={showGreyhound}
+        onDismiss={() => {
+          clearTimeout(greyhoundTimeoutRef.current);
+          setShowGreyhound(false);
+        }}
+      />
     </motion.div>
   );
 }

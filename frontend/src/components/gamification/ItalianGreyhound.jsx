@@ -12,7 +12,7 @@ function shuffle(arr) {
   return a;
 }
 
-export function ItalianGreyhound({ show }) {
+export function ItalianGreyhound({ show, onDismiss }) {
   const bagRef = useRef([]);
   const [photo, setPhoto] = useState(PHOTOS[0]);
 
@@ -78,8 +78,9 @@ export function ItalianGreyhound({ show }) {
               <img
                 src={photo}
                 alt="Iggy"
-                className="h-52 sm:h-64 w-auto object-contain drop-shadow-2xl"
+                className="h-52 sm:h-64 w-auto object-contain drop-shadow-2xl pointer-events-auto cursor-pointer select-none"
                 draggable={false}
+                onClick={onDismiss}
               />
             </motion.div>
 
